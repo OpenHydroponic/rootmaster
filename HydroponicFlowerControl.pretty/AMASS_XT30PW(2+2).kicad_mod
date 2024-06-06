@@ -1,0 +1,136 @@
+(footprint "AMASS_XT30PW(2+2)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "79793528-14e6-41f5-979d-9556a48a6576")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AMASS_XT30PW(2+2)"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fa293a4e-25c1-40a8-8b95-7318a1a97d5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "AMASS_XT30PW(2+2)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9083cd5c-9f86-4dbc-8343-cc486e76058e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb8a3dd4-a946-496b-9e92-2ca976714f9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a1f9ace-52a8-4963-b12a-1d7aeeb78181")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7.75 3)
+		(end 5.75 11.73)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8c21dbf2-fe95-463b-847a-30c15aebab6e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "90c00f68-cd0d-4bd4-9765-e2a9d1e47368")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5 0)
+		(size 3.8 3.8)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "351f7d4b-3764-4ec0-9879-84c7c125f3b0")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 3.8 3.8)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f3c30c93-68c7-45a1-b482-2d305ab0cb5b")
+	)
+	(pad "3" thru_hole circle
+		(at 3.85 1.23)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "24f7a32e-7823-46cd-86e7-324b052c0885")
+	)
+	(pad "4" thru_hole circle
+		(at 3.85 3.23)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d9cd9dd5-4c4f-492b-be9d-16c50f9cc6c1")
+	)
+	(model "${KIPRJMOD}/3d/XT30(2+2)PW-M 3D DRAWING.STEP.STEP"
+		(offset
+			(xyz -8.5 -11.75 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -90 0)
+		)
+	)
+)
