@@ -5,6 +5,7 @@
 	(uuid "867662d2-17ed-4815-a5b8-23ed391b923a")
 	(paper "A4")
 	(title_block
+		(title "MCU")
 		(rev "1")
 	)
 	(lib_symbols

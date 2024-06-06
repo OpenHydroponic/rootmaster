@@ -5,6 +5,7 @@
 	(uuid "5249c541-7542-4ecb-97c6-c6d098b22242")
 	(paper "A4")
 	(title_block
+		(title "EC")
 		(rev "1")
 	)
 	(lib_symbols

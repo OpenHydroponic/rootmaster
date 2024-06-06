@@ -5,6 +5,7 @@
 	(uuid "b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031")
 	(paper "A4")
 	(title_block
+		(title "RootMaster")
 		(rev "1")
 	)
 	(lib_symbols

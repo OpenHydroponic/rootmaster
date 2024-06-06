@@ -5,6 +5,7 @@
 	(uuid "f17a3e8c-c659-432d-82f3-0a96a67ef595")
 	(paper "A4")
 	(title_block
+		(title "pH")
 		(rev "1")
 	)
 	(lib_symbols

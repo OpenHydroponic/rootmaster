@@ -5,6 +5,7 @@
 	(uuid "5a4c7bef-a7be-4f2d-af68-8c935ff74c3d")
 	(paper "A4")
 	(title_block
+		(title "Flow control")
 		(rev "1")
 	)
 	(lib_symbols

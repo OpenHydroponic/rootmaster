@@ -5,6 +5,7 @@
 	(uuid "7b01b7ef-25f2-48f2-b8e8-cb14cdd6009d")
 	(paper "A4")
 	(title_block
+		(title "IO")
 		(rev "1")
 	)
 	(lib_symbols

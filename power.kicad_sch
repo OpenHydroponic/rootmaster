@@ -5,6 +5,7 @@
 	(uuid "74023807-2c5c-4cb3-bf2e-dffabb535daa")
 	(paper "A4")
 	(title_block
+		(title "Power")
 		(rev "1")
 	)
 	(lib_symbols

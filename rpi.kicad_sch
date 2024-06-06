@@ -5,6 +5,7 @@
 	(uuid "a81b22cf-c48b-4661-a323-6568ecad807f")
 	(paper "A4")
 	(title_block
+		(title "RaspberryPi")
 		(rev "1")
 	)
 	(lib_symbols
