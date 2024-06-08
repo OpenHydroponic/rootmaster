@@ -7601,7 +7601,7 @@
 		(at 151.13 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8837,7 +8837,7 @@
 		(at 38.1 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10783,7 +10783,7 @@
 		(at 85.09 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7f17a147-25e4-4b1b-a541-8c8db61e1660")
@@ -11907,7 +11907,7 @@
 		(at 39.37 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12767,7 +12767,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Temperature"
+		(property "Value" "Temp"
 			(at 195.58 105.4099 0)
 			(effects
 				(font
@@ -13368,7 +13368,7 @@
 		(at 57.15 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
