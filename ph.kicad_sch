@@ -2667,12 +2667,6 @@
 		(uuid "867aed21-cdfe-4ecc-90d9-1fa7dafb23a4")
 	)
 	(junction
-		(at 36.83 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88ec803f-5610-4128-ae2e-141d2d7c90de")
-	)
-	(junction
 		(at 87.63 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2897,16 +2891,6 @@
 			(type default)
 		)
 		(uuid "0795d1b4-328d-4483-b6f8-2b761dc74bf1")
-	)
-	(wire
-		(pts
-			(xy 36.83 127) (xy 40.64 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "081718b7-e133-4bdf-9cbf-8d996c2336b5")
 	)
 	(wire
 		(pts
@@ -3710,7 +3694,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 127) (xy 36.83 132.08)
+			(xy 36.83 124.46) (xy 36.83 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4290,16 +4274,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 124.46) (xy 36.83 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcc9730a-8194-4787-820b-66ebb18db86c")
-	)
-	(wire
-		(pts
 			(xy 87.63 109.22) (xy 87.63 111.76)
 		)
 		(stroke
@@ -4859,6 +4833,18 @@
 			(justify left bottom)
 		)
 		(uuid "f0be6557-307f-4f81-861f-c66fe7cdb1ce")
+	)
+	(hierarchical_label "DISABLE"
+		(shape input)
+		(at 40.64 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "298561ec-99e0-4361-9ffc-c1c78ab43113")
 	)
 	(hierarchical_label "SDA"
 		(shape input)

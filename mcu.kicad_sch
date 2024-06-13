@@ -3684,20 +3684,12 @@
 		(uuid "635900e1-2f31-4933-9cfb-93831be34e61")
 	)
 	(no_connect
-		(at 39.37 49.53)
-		(uuid "7399b426-73d7-498a-8bb0-8cd0ee629bea")
-	)
-	(no_connect
 		(at 39.37 62.23)
 		(uuid "7b19cfcd-16ec-4616-aa5d-419122202ac9")
 	)
 	(no_connect
 		(at 39.37 87.63)
 		(uuid "7b91d290-f08b-4fdd-80d4-5542a720049c")
-	)
-	(no_connect
-		(at 39.37 46.99)
-		(uuid "9eb552f0-123f-421c-8542-19ea3157ebbd")
 	)
 	(no_connect
 		(at 234.95 55.88)
@@ -5758,6 +5750,18 @@
 		)
 		(uuid "2c8aa455-640b-4322-8911-beffa5b35921")
 	)
+	(hierarchical_label "ec_disable"
+		(shape output)
+		(at 39.37 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d895c56-9d1b-42bf-8941-1ce0eff31240")
+	)
 	(hierarchical_label "I2C0_SDA"
 		(shape input)
 		(at 39.37 74.93 180)
@@ -5817,6 +5821,18 @@
 			(justify left)
 		)
 		(uuid "759f7e5f-b959-46bc-87ae-1f1094c6a519")
+	)
+	(hierarchical_label "pH_disable"
+		(shape output)
+		(at 39.37 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d247960-5998-4565-8542-507b718d6e53")
 	)
 	(hierarchical_label "Valve2"
 		(shape output)

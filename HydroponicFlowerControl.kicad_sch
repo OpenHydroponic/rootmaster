@@ -478,16 +478,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 154.94) (xy 58.42 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fd0661f-dcf6-4b75-a87f-3d39f19b64e9")
-	)
-	(wire
-		(pts
 			(xy 49.53 105.41) (xy 58.42 105.41)
 		)
 		(stroke
@@ -508,7 +498,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 140.97) (xy 58.42 140.97)
+			(xy 49.53 156.21) (xy 58.42 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3477d89d-8812-4c2f-94d4-e7be58e2f05d")
+	)
+	(wire
+		(pts
+			(xy 49.53 139.7) (xy 58.42 139.7)
 		)
 		(stroke
 			(width 0)
@@ -588,6 +588,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 142.24) (xy 58.42 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f15d6e-f6a4-4169-83e4-60f7132d92c0")
+	)
+	(wire
+		(pts
 			(xy 109.22 41.91) (xy 116.84 41.91)
 		)
 		(stroke
@@ -595,6 +605,16 @@
 			(type default)
 		)
 		(uuid "694ebbbc-113d-4340-a8b1-52d0b45e90f2")
+	)
+	(wire
+		(pts
+			(xy 49.53 153.67) (xy 58.42 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e936716-988a-4330-a07f-fcf381b72b61")
 	)
 	(wire
 		(pts
@@ -1221,7 +1241,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 58.42 140.97 180)
+			(at 58.42 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,6 +1259,16 @@
 				(justify left)
 			)
 			(uuid "d19ecf14-e00a-4894-aa21-0cfadbd5b1bb")
+		)
+		(pin "DISABLE" input
+			(at 58.42 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "812db64c-564d-49ab-9ec4-72f790a5c45d")
 		)
 		(instances
 			(project "HydroponicFlowerControl"
@@ -1455,7 +1485,7 @@
 			(uuid "3b6d325e-fffd-489d-acb3-baffc4582495")
 		)
 		(pin "SCL" input
-			(at 58.42 154.94 180)
+			(at 58.42 153.67 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,6 +1493,16 @@
 				(justify left)
 			)
 			(uuid "735ee73c-34c8-4815-ae61-c5653f763c2b")
+		)
+		(pin "DISABLE" input
+			(at 58.42 156.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33511957-66ad-421b-beb5-a2692fe13d14")
 		)
 		(instances
 			(project "HydroponicFlowerControl"
@@ -1669,7 +1709,7 @@
 			(uuid "12ef6c29-2f74-4acc-b78b-1e10ee5bf37d")
 		)
 		(pin "I2C0_SCL" input
-			(at 49.53 140.97 0)
+			(at 49.53 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1679,7 +1719,7 @@
 			(uuid "0cb66298-ed57-4ed3-9681-85ce19539547")
 		)
 		(pin "I2C1_SCL" input
-			(at 49.53 154.94 0)
+			(at 49.53 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,6 +1847,26 @@
 				(justify right)
 			)
 			(uuid "79ab3527-69a5-4add-8877-de981377bbf2")
+		)
+		(pin "pH_disable" output
+			(at 49.53 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "132fb57c-bdb9-4a19-a7c6-e217d82eb9f8")
+		)
+		(pin "ec_disable" output
+			(at 49.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4c77bad-5d41-476f-b21c-a86bcdaf3a5c")
 		)
 		(instances
 			(project "HydroponicFlowerControl"
