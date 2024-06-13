@@ -27157,7 +27157,7 @@
 		(path "/ed65d457-d819-4893-a974-b640bac4c870/9d2cbfa8-58b1-43ea-b3d1-4f061e8f42f7")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -7.75 3)
 			(end 5.75 11.73)
@@ -44263,7 +44263,7 @@
 			)
 		)
 		(property "Value" "Pump 1"
-			(at -4.064 2.147 0)
+			(at -4.064 1.27 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "18e3c242-e8e7-442c-91dc-733fffaaef33")
@@ -52302,7 +52302,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "JLCPCB Rotation Offset" "0"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56820,7 +56820,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "JLCPCB Rotation Offset" "0"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
