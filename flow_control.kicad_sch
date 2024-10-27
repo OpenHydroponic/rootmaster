@@ -6489,15 +6489,15 @@
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
 		(at 58.42 118.11 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1cc1cbf2-fe90-45e5-a301-4eb786e88cd1")
 		(property "Reference" "Q4"
-			(at 64.77 116.8399 0)
+			(at 64.77 119.3801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6506,7 +6506,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 64.77 119.3799 0)
+			(at 64.77 116.8401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6515,7 +6515,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 63.5 120.015 0)
+			(at 63.5 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,7 +6526,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 63.5 121.92 0)
+			(at 63.5 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8710,15 +8710,15 @@
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
 		(at 58.42 167.64 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7dc6165e-7915-4efa-91ba-e10c9e0ddff0")
 		(property "Reference" "Q2"
-			(at 64.77 166.3699 0)
+			(at 64.77 168.9101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8727,7 +8727,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 64.77 168.9099 0)
+			(at 64.77 166.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8736,7 +8736,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 63.5 169.545 0)
+			(at 63.5 165.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +8747,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 63.5 171.45 0)
+			(at 63.5 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8804,15 +8804,15 @@
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
 		(at 130.81 118.11 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7e21ff87-b53f-4725-ae67-9e031272f2ba")
 		(property "Reference" "Q9"
-			(at 137.16 116.8399 0)
+			(at 137.16 119.3801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8821,7 +8821,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 137.16 119.3799 0)
+			(at 137.16 116.8401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8830,7 +8830,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 135.89 120.015 0)
+			(at 135.89 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8841,7 +8841,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 135.89 121.92 0)
+			(at 135.89 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12579,6 +12579,7 @@
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
 		(at 58.42 68.58 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12586,7 +12587,7 @@
 		(dnp no)
 		(uuid "e45bbe3f-f01b-40f2-9da1-1732447edaab")
 		(property "Reference" "Q6"
-			(at 64.77 67.3099 0)
+			(at 64.77 69.8501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12595,7 +12596,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 63.246 70.104 0)
+			(at 63.246 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12604,7 +12605,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 63.5 70.485 0)
+			(at 63.5 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12615,7 +12616,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 63.5 72.39 0)
+			(at 63.5 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12851,15 +12852,15 @@
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
 		(at 130.81 167.64 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f13aa63e-3efd-4ab5-b03b-f9049738eeef")
 		(property "Reference" "Q10"
-			(at 137.16 166.3699 0)
+			(at 137.16 168.9101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12868,7 +12869,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 137.16 168.9099 0)
+			(at 137.16 166.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12877,7 +12878,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 135.89 169.545 0)
+			(at 135.89 165.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12888,7 +12889,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 135.89 171.45 0)
+			(at 135.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
