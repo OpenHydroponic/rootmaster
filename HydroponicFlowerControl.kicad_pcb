@@ -8658,7 +8658,7 @@
 				)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "12k"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "4925048b-953a-49f2-b9cf-cbc655631a43")
@@ -8721,7 +8721,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4211"
+		(property "LCSC" "C22790"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

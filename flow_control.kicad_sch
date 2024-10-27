@@ -5307,7 +5307,7 @@
 		)
 		(uuid "bd435a14-c6bc-4f97-9bee-b0d856ec5b82")
 	)
-	(text "I_{limit} = V_{ref}/(10 * R43)\n1A = 1V/(10*0.1)"
+	(text "I_{limit} = V_{ref}/(10 * R43)\n2.5A = 2.5V/(10*0.1)"
 		(exclude_from_sim no)
 		(at 229.362 160.782 0)
 		(effects
@@ -8572,7 +8572,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k"
+		(property "Value" "12k"
 			(at 201.422 151.13 0)
 			(effects
 				(font
@@ -8617,7 +8617,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4211"
+		(property "LCSC" "C22790"
 			(at 207.01 149.86 0)
 			(effects
 				(font
