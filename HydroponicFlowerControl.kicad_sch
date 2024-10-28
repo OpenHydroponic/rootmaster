@@ -558,7 +558,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 118.11) (xy 58.42 118.11)
+			(xy 49.53 115.57) (xy 58.42 115.57)
 		)
 		(stroke
 			(width 0)
@@ -618,7 +618,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 120.65) (xy 58.42 120.65)
+			(xy 49.53 118.11) (xy 58.42 118.11)
 		)
 		(stroke
 			(width 0)
@@ -665,16 +665,6 @@
 			(type default)
 		)
 		(uuid "931c5834-cd10-45f6-9933-84ccb994c8d7")
-	)
-	(wire
-		(pts
-			(xy 49.53 115.57) (xy 58.42 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a70717eb-41ea-4242-84b3-bd56e38ec537")
 	)
 	(wire
 		(pts
@@ -1397,7 +1387,7 @@
 			(uuid "2c0695ca-643c-4986-87ec-f135f975d53f")
 		)
 		(pin "Pump3" input
-			(at 58.42 120.65 180)
+			(at 58.42 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,7 +1397,7 @@
 			(uuid "e3e38c58-0090-440b-9bb0-31aab6423b0a")
 		)
 		(pin "Pump2" input
-			(at 58.42 118.11 180)
+			(at 58.42 115.57 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1406,7 @@
 			)
 			(uuid "07e23082-6a41-4765-a617-e92821fc699c")
 		)
-		(pin "Pump1_in1" input
+		(pin "Pump1" input
 			(at 58.42 113.03 180)
 			(effects
 				(font
@@ -1424,17 +1414,7 @@
 				)
 				(justify left)
 			)
-			(uuid "38fbc586-1277-498e-98d2-ccc0e083e309")
-		)
-		(pin "Pump2_in2" input
-			(at 58.42 115.57 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d1e528cf-e597-412d-a64b-d00b1f620b3d")
+			(uuid "15ac6605-44e0-4ae3-bf10-527e1a9f2a20")
 		)
 		(instances
 			(project "HydroponicFlowerControl"
@@ -1758,28 +1738,8 @@
 			)
 			(uuid "69159c8c-7cb0-4d25-9d51-66e4c5818b33")
 		)
-		(pin "Pump1_out1" output
-			(at 49.53 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2eba09c7-d972-48df-9d25-c638807a5e1f")
-		)
-		(pin "Pump1_out2" output
-			(at 49.53 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d0c48d5c-e4dc-4416-b03b-e0e38a47366a")
-		)
 		(pin "Pump2" output
-			(at 49.53 118.11 0)
+			(at 49.53 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +1749,7 @@
 			(uuid "74fb4f8f-bd3a-4029-9d66-30eb4f8de0c1")
 		)
 		(pin "Pump3" output
-			(at 49.53 120.65 0)
+			(at 49.53 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,6 +1827,16 @@
 				(justify right)
 			)
 			(uuid "c4c77bad-5d41-476f-b21c-a86bcdaf3a5c")
+		)
+		(pin "Pump1" output
+			(at 49.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9bb95ef0-f8a4-47ac-9cfd-d30963f3f897")
 		)
 		(instances
 			(project "HydroponicFlowerControl"
