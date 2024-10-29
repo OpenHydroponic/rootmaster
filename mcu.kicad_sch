@@ -3690,10 +3690,6 @@
 		(uuid "5b867455-ff09-416d-89f5-9e73cac80c21")
 	)
 	(no_connect
-		(at 39.37 77.47)
-		(uuid "5ca1d1ec-7e1c-46e5-b23b-404d8839fa9f")
-	)
-	(no_connect
 		(at 276.86 101.6)
 		(uuid "635900e1-2f31-4933-9cfb-93831be34e61")
 	)
@@ -4419,6 +4415,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 77.47) (xy 39.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9a92a9-c055-464e-9918-c11190584e31")
+	)
+	(wire
+		(pts
 			(xy 26.035 36.83) (xy 30.48 36.83)
 		)
 		(stroke
@@ -4426,6 +4432,16 @@
 			(type default)
 		)
 		(uuid "8047918c-a5c7-4c25-918b-c487c6aa222a")
+	)
+	(wire
+		(pts
+			(xy 24.13 80.01) (xy 24.13 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d68994-70bc-4a76-9582-f7c9f239d06a")
 	)
 	(wire
 		(pts
@@ -8698,6 +8714,72 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
 					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cfb8c0e-1894-4183-afaa-2b781e180128")
+		(property "Reference" "#PWR032"
+			(at 24.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b02a5b53-9bb2-44da-aa26-354dc34e8fc9")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
