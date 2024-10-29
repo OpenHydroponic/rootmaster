@@ -4944,7 +4944,7 @@
 				)
 			)
 		)
-		(property "Value" "3.24k"
+		(property "Value" "2k"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "61e3ebcc-419f-4bac-ad55-a72e4ef245b8")
@@ -4994,7 +4994,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22994"
+		(property "LCSC" "C22975"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5024,7 +5024,7 @@
 		(path "/673a8a36-5ad4-4c13-9f11-024cf0bef494/55ca234f-e327-4259-9f0e-27f1adfe4697")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -5413,7 +5413,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
-			(at -2.794 -3.556 360)
+			(at -2.794 -3.556 0)
 			(layer "F.SilkS")
 			(uuid "0930d86d-f19e-40a0-856d-d0e55a980653")
 			(effects
@@ -5424,7 +5424,7 @@
 			)
 		)
 		(property "Value" "AT24C256C"
-			(at 0 3.4 360)
+			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "381a0a47-db10-4d53-8575-d6b8be0d48ae")
 			(effects
@@ -5634,7 +5634,7 @@
 			(uuid "ab14c9d6-0233-45c2-9077-b979de5530a3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "411eee5c-74ff-4cf2-9800-764d2eb18752")
 			(effects
@@ -5743,7 +5743,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R76"
-			(at -2.54 0 360)
+			(at -2.54 0 0)
 			(layer "F.SilkS")
 			(uuid "68b135fd-6804-4827-a03a-96d9abf44431")
 			(effects
@@ -5754,7 +5754,7 @@
 			)
 		)
 		(property "Value" "3.9k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e737ccd6-cbb0-4eec-84f8-9b6178c82614")
 			(effects
@@ -5922,7 +5922,7 @@
 			(uuid "9f566e82-eebc-4bf4-9690-e5de30c2ad6a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "039c7054-88cb-4e7c-a1f0-3bef1069b279")
 			(effects
@@ -38812,7 +38812,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R47"
-			(at -2.54 0 360)
+			(at -2.54 0 0)
 			(layer "F.SilkS")
 			(uuid "9a527836-e0eb-4f8f-a5e5-df0b630363f5")
 			(effects
@@ -38823,7 +38823,7 @@
 			)
 		)
 		(property "Value" "3.9k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6f0b8b91-fd32-464f-94db-325a221f1f71")
 			(effects
@@ -38991,7 +38991,7 @@
 			(uuid "0bec75f4-67fe-4c45-9421-f2b7407a9f74")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "17a8e1b2-09e8-4c6f-9e25-2cf948b00bc3")
 			(effects
@@ -51986,7 +51986,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "6.2k"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "10feb7b8-b69e-4946-8a31-220eef6b42e0")
@@ -52049,7 +52049,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C4260"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

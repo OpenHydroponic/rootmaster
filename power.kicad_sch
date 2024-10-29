@@ -4323,7 +4323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "6.2k"
 			(at 90.17 172.7201 0)
 			(effects
 				(font
@@ -4368,7 +4368,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C4260"
 			(at 92.71 173.99 0)
 			(effects
 				(font
@@ -4748,7 +4748,7 @@
 		(at 92.71 181.61 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "55ca234f-e327-4259-9f0e-27f1adfe4697")
@@ -4761,7 +4761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.24k"
+		(property "Value" "2k"
 			(at 90.932 180.086 0)
 			(effects
 				(font
@@ -4797,7 +4797,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22994"
+		(property "LCSC" "C22975"
 			(at 92.71 181.61 0)
 			(effects
 				(font
