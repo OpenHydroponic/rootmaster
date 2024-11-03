@@ -7041,7 +7041,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 252.73 46.9835 0)
 			(effects
 				(font
@@ -7050,7 +7050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 250.19 45.72 0)
 			(effects
 				(font
@@ -7077,16 +7077,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
-			(at 250.19 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
+		(property "LCSC" "C15850"
 			(at 250.19 45.72 0)
 			(effects
 				(font
@@ -9657,7 +9648,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 261.62 44.4501 0)
 			(effects
 				(font
@@ -9702,7 +9693,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C25804"
 			(at 264.16 45.72 0)
 			(effects
 				(font
@@ -11652,15 +11643,6 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 99.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
 			(at 99.06 55.88 0)
 			(effects
 				(font
