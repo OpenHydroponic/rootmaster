@@ -2547,12 +2547,6 @@
 		(uuid "1e6edd25-0b59-4392-bb30-ac6d7ec9fd06")
 	)
 	(junction
-		(at 252.73 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e872a74-0d43-4500-958d-ebdd372ed386")
-	)
-	(junction
 		(at 93.98 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3224,16 +3218,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 45.72) (xy 252.73 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "392dba31-f36f-4f40-be75-8104c8302685")
-	)
-	(wire
-		(pts
 			(xy 99.06 119.38) (xy 99.06 116.84)
 		)
 		(stroke
@@ -3311,16 +3295,6 @@
 			(type default)
 		)
 		(uuid "4704d228-740d-41cb-a550-9d8be3d0428f")
-	)
-	(wire
-		(pts
-			(xy 257.81 45.72) (xy 260.35 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47c76e5b-4a0c-4d90-a990-5ec403a3cc0b")
 	)
 	(wire
 		(pts
@@ -3561,16 +3535,6 @@
 			(type default)
 		)
 		(uuid "655abde9-7ffd-46ed-be09-17caf23ea002")
-	)
-	(wire
-		(pts
-			(xy 260.35 45.72) (xy 260.35 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6561d860-de02-41b8-bb4d-e46425b8f771")
 	)
 	(wire
 		(pts
@@ -5511,93 +5475,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 255.27 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e1bba1d-ce2b-462e-90a1-10247d0a9796")
-		(property "Reference" "C36"
-			(at 258.064 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/0.1uF"
-			(at 265.684 42.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e8f02885-3bc0-466a-9385-a77f01700ae1")
-		)
-		(pin "1"
-			(uuid "f7929fae-ce92-4873-9de1-3037c506d016")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 17.78 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6727,71 +6604,6 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5VA")
-		(at 252.73 46.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "609288c4-5771-408b-99db-dc6f0c6332d5")
-		(property "Reference" "#PWR075"
-			(at 252.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V_isoPH"
-			(at 251.714 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5VA\""
-			(at 252.73 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f2e2b0f-5abe-480c-a142-efa6286bf5db")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
-					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -8230,6 +8042,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 252.73 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0a1c106-9b6e-45df-ad93-6935c8dc2b96")
+		(property "Reference" "#PWR061"
+			(at 252.73 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_iosPH"
+			(at 251.206 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 252.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17508978-7f3e-461e-9398-e860b5014ce6")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 87.63 106.68 0)
 		(unit 1)
@@ -8963,71 +8840,6 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 260.35 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c255e7a9-e9d9-42a9-9e57-aa117b8cefbc")
-		(property "Reference" "#PWR076"
-			(at 260.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_iosPH"
-			(at 264.668 51.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc22c2c6-8d86-4146-9a16-c0c77a0c9f09")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
