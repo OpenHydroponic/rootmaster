@@ -448,11 +448,24 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "270"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47ba90a8-f6e7-44d0-9439-cedccecabc15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
 		(path "/98c7b1ae-5b10-4cce-8f75-2d85473487c0/9ac36e19-55c8-4b10-9f59-0c22eb6895c4")
 		(sheetname "pH")
 		(sheetfile "ph.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start 0 1.61)
 			(end -1.5 1.61)
@@ -3643,7 +3656,7 @@
 		(path "/2418e7ae-ca6e-4e69-b6d2-7ffd3e4dd695/7f17a147-25e4-4b1b-a541-8c8db61e1660")
 		(sheetname "EC")
 		(sheetfile "ec.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -7260,7 +7273,7 @@
 		(path "/98c7b1ae-5b10-4cce-8f75-2d85473487c0/7dd82b86-da1d-4193-8346-bdf4cfb2d4fe")
 		(sheetname "pH")
 		(sheetfile "ph.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start 0 1.56)
 			(end 0.8 1.56)
@@ -7542,12 +7555,12 @@
 				)
 			)
 		)
-		(property "LCSC alt" ""
+		(property "LCSC" "C2685092"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e6be1444-8866-4547-9ef4-6676e1db4fed")
+			(uuid "97ab53d6-b8e7-4d6b-8188-9e81b580d13b")
 			(effects
 				(font
 					(size 1 1)
@@ -7555,12 +7568,12 @@
 				)
 			)
 		)
-		(property "LCSC" "C2685092"
+		(property "JLCPCB Rotation Offset" "90"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97ab53d6-b8e7-4d6b-8188-9e81b580d13b")
+			(uuid "1fe7fa22-5d4d-42c5-bff8-09ee04fc6428")
 			(effects
 				(font
 					(size 1 1)
@@ -14170,7 +14183,7 @@
 		(path "/673a8a36-5ad4-4c13-9f11-024cf0bef494/a614a29e-e2da-4909-b611-e72bdfb1ca9c")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -4.4375 -1.8475)
 			(end -3.65 -1.8475)
@@ -15121,7 +15134,7 @@
 		(path "/98c7b1ae-5b10-4cce-8f75-2d85473487c0/69aea5f6-c827-40a8-9ddc-b25892802e67")
 		(sheetname "pH")
 		(sheetfile "ph.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start 0 -1.56)
 			(end -0.8 -1.56)
@@ -15849,10 +15862,23 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "270"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53b8949b-80b0-41f3-813b-1948261ebd87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/98c7b1ae-5b10-4cce-8f75-2d85473487c0/acb47e88-c118-42c7-9f2b-968617ae3107")
 		(sheetname "pH")
 		(sheetfile "ph.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start 2.3 3.6)
 			(end -2.3 3.6)
@@ -19111,7 +19137,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "-90"
+		(property "JLCPCB Rotation Offset" "90"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28965,7 +28991,7 @@
 		(path "/98c7b1ae-5b10-4cce-8f75-2d85473487c0/7540df2f-cae1-4dd3-a46a-13e596d03987")
 		(sheetname "pH")
 		(sheetfile "ph.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start 0 1.56)
 			(end -0.8 1.56)
@@ -31432,10 +31458,23 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "199a7105-a9ae-4d7d-ad00-3716cfb7c572")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/673a8a36-5ad4-4c13-9f11-024cf0bef494/b9fcf035-9d20-4a2b-9cc9-bdd8153d2f3a")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -3.45 -2.7)
 			(end -2.05 -2.7)
@@ -36063,7 +36102,7 @@
 		(path "/2418e7ae-ca6e-4e69-b6d2-7ffd3e4dd695/4ca2ece1-70a4-4e25-835d-084d5137d298")
 		(sheetname "EC")
 		(sheetfile "ec.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start 0 -1.56)
 			(end 0.8 -1.56)
@@ -44763,7 +44802,7 @@
 		(path "/673a8a36-5ad4-4c13-9f11-024cf0bef494/a3cdc0ae-6485-4836-b76f-059f70ec9127")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -2.26 2.26)
 			(end 2.26 2.26)
@@ -46142,6 +46181,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e96b4c29-d628-4f1b-ac93-aa633f3a6fb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9a2b1e7-0075-411d-b2ac-250928b7ca68")
 			(effects
 				(font
 					(size 1 1)
@@ -47878,7 +47930,7 @@
 		(path "/9aca03da-9950-423c-b716-bf95878ee447/eb192236-1904-49af-b420-08cc43efa076")
 		(sheetname "RaspberryPi")
 		(sheetfile "rpi.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start 0 4.435)
 			(end -1.95 4.435)
@@ -49433,7 +49485,7 @@
 		(path "/98c7b1ae-5b10-4cce-8f75-2d85473487c0/1d08cf80-89d3-46b1-992f-5ca5fd6a9f7a")
 		(sheetname "pH")
 		(sheetfile "ph.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start 0 1.56)
 			(end -0.65 1.56)
@@ -51102,10 +51154,23 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "270"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6abc51f0-9677-4edf-9269-56b82a81cd3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/2418e7ae-ca6e-4e69-b6d2-7ffd3e4dd695/3716f613-a77d-44f8-be14-8326f55e4549")
 		(sheetname "EC")
 		(sheetfile "ec.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start 2.3 3.6)
 			(end -2.3 3.6)
@@ -65121,11 +65186,24 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "270"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "020b9d50-d89f-4ce9-9a1a-08009f5b4ccc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
 		(path "/2418e7ae-ca6e-4e69-b6d2-7ffd3e4dd695/1c208fcc-1edd-4e8a-94ef-38972000dfd7")
 		(sheetname "EC")
 		(sheetfile "ec.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start 0 -1.61)
 			(end -1.5 -1.61)
@@ -66523,7 +66601,7 @@
 		(path "/98c7b1ae-5b10-4cce-8f75-2d85473487c0/031404a4-1f1a-4c59-b152-237e129d9adb")
 		(sheetname "pH")
 		(sheetfile "ph.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)

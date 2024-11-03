@@ -4472,7 +4472,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC alt" ""
+		(property "JLCPCB Rotation Offset" "90"
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -5306,7 +5306,7 @@
 		(at 209.55 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

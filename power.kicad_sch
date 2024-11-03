@@ -5845,7 +5845,7 @@
 		(at 86.36 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5931,7 +5931,7 @@
 		(at 97.79 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6401,7 +6401,7 @@
 		(at 73.66 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b9fcf035-9d20-4a2b-9cc9-bdd8153d2f3a")
@@ -6530,6 +6530,15 @@
 			)
 		)
 		(property "LCSC alt" ""
+			(at 73.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "270"
 			(at 73.66 41.91 0)
 			(effects
 				(font
