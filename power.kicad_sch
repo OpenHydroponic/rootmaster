@@ -5757,7 +5757,7 @@
 		(at 29.21 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5780,7 +5780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 29.21 167.64 0)
 			(effects
 				(font
@@ -5807,16 +5807,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C72485"
-			(at 29.21 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
+		(property "LCSC" "C30110"
 			(at 29.21 167.64 0)
 			(effects
 				(font
