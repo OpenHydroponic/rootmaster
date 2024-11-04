@@ -7186,7 +7186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND_ISO"
+		(property "Value" "GNDA"
 			(at 80.01 138.1124 0)
 			(effects
 				(font
@@ -7196,7 +7196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 78.74 138.43 0)
 			(effects
 				(font
@@ -7223,7 +7223,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC alt" ""
+		(property "LCSC" ""
 			(at 83.82 138.43 0)
 			(effects
 				(font
@@ -9208,7 +9208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Small"
+		(property "Value" "EC"
 			(at 274.32 36.5124 0)
 			(effects
 				(font
