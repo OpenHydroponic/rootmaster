@@ -5252,7 +5252,7 @@
 		(at 143.51 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5273,7 +5273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal"
 			(at 144.78 36.576 0)
 			(effects
 				(font
@@ -5300,16 +5300,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C381115"
-			(at 143.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
+		(property "LCSC" "C431534"
 			(at 143.51 35.56 0)
 			(effects
 				(font
