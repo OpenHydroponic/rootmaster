@@ -54050,7 +54050,7 @@
 				)
 			)
 		)
-		(property "Value" "STM32G431CBTx"
+		(property "Value" "STM32G473CBTx"
 			(at 0 5.85 0)
 			(layer "F.Fab")
 			(uuid "b8f19275-130f-4148-bde7-68379a27f519")
@@ -54074,7 +54074,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g431cb.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g473cb.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54087,7 +54087,7 @@
 				)
 			)
 		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54100,25 +54100,12 @@
 				)
 			)
 		)
-		(property "LCSC" "C529355"
+		(property "LCSC" "C730111"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2e688df0-450e-4346-8a2a-a93204b313cb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fe2b0b67-72ef-4573-8c51-2b930e5e74b7")
 			(effects
 				(font
 					(size 1 1)
