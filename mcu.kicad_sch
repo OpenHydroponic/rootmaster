@@ -10137,6 +10137,7 @@
 		)
 		(pin "15"
 			(uuid "c4251d04-88c8-4a11-ba0d-499f83775f68")
+			(alternate "TIM3_CH2")
 		)
 		(pin "6"
 			(uuid "eca2a019-ae87-4b22-883e-5e1b9c2f3533")
@@ -10167,12 +10168,14 @@
 		)
 		(pin "44"
 			(uuid "3c2d20cc-db47-4af0-b52a-6766ffe77e4e")
+			(alternate "I2C1_SDA")
 		)
 		(pin "1"
 			(uuid "94573a08-27ce-41d3-a8cc-ce2877a94a75")
 		)
 		(pin "39"
 			(uuid "d63ddaff-811a-4e9a-b35e-b1995528bdf5")
+			(alternate "I2C1_SCL")
 		)
 		(pin "29"
 			(uuid "0f49d6db-4aca-41b9-89df-efd1584ec0d4")
@@ -10185,6 +10188,7 @@
 		)
 		(pin "25"
 			(uuid "86a74ea5-98ae-4b8a-bd86-01759ac23b0b")
+			(alternate "TIM2_CH4")
 		)
 		(pin "12"
 			(uuid "e7f93b7d-1de0-44df-bcfc-14b93b71a809")
@@ -10206,12 +10210,15 @@
 		)
 		(pin "38"
 			(uuid "7495b77d-7f8f-4edc-9e74-8e2bc1f8230a")
+			(alternate "SYS_JTCK-SWCLK")
 		)
 		(pin "37"
 			(uuid "90026639-d906-49c4-8cdd-e9b296e80639")
+			(alternate "SYS_JTMS-SWDIO")
 		)
 		(pin "33"
 			(uuid "23675104-8d55-4955-9bd9-e824e8423ffe")
+			(alternate "FDCAN1_RX")
 		)
 		(pin "36"
 			(uuid "53337faa-114b-4be5-871e-721b7ae93388")
@@ -10224,15 +10231,19 @@
 		)
 		(pin "34"
 			(uuid "28b38890-0596-4e44-864f-5f5e2888b7c5")
+			(alternate "FDCAN1_TX")
 		)
 		(pin "30"
 			(uuid "c429962a-f758-4675-9854-0ecb10f87945")
+			(alternate "I2C2_SDA")
 		)
 		(pin "17"
 			(uuid "7f8d8eb7-230c-4360-b0a9-a7a3130372bf")
+			(alternate "TIM3_CH4")
 		)
 		(pin "31"
 			(uuid "73ad4a2b-79bc-4ed2-959b-f06babebec56")
+			(alternate "I2C2_SCL")
 		)
 		(pin "9"
 			(uuid "10eb1c8b-7a1b-4862-ac75-b7d877b7a212")
