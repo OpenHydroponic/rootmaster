@@ -737,6 +737,26 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 72.39) (xy 121.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a37649b-95a1-4803-a98f-713edfb4bc06")
+	)
+	(wire
+		(pts
+			(xy 121.92 72.39) (xy 121.92 161.544)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25602502-ceab-4755-9b30-c4de1f991d3f")
+	)
+	(wire
+		(pts
 			(xy 49.53 113.03) (xy 58.42 113.03)
 		)
 		(stroke
@@ -897,6 +917,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 161.544) (xy 133.35 161.544)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80af087f-e003-4050-8f6b-fda03a7a3493")
+	)
+	(wire
+		(pts
 			(xy 104.14 48.26) (xy 104.14 50.8)
 		)
 		(stroke
@@ -924,6 +954,16 @@
 			(type default)
 		)
 		(uuid "931c5834-cd10-45f6-9933-84ccb994c8d7")
+	)
+	(wire
+		(pts
+			(xy 119.38 165.1) (xy 119.38 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959ad5c1-2fc9-4d31-a5c7-e3533fc954a2")
 	)
 	(wire
 		(pts
@@ -994,6 +1034,26 @@
 			(type default)
 		)
 		(uuid "eb85c97b-2734-4090-9bb6-7c86191ae33d")
+	)
+	(wire
+		(pts
+			(xy 119.38 74.93) (xy 49.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2995d0d-e9c1-4ad8-92cb-0aa2830983e8")
+	)
+	(wire
+		(pts
+			(xy 133.35 165.1) (xy 119.38 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f85d4e08-84d5-4db5-8ec9-a6dfcf8bec26")
 	)
 	(wire
 		(pts
@@ -1942,8 +2002,8 @@
 		)
 	)
 	(sheet
-		(at 131.445 156.845)
-		(size 30.48 26.035)
+		(at 133.35 155.956)
+		(size 31.369 25.908)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1954,7 +2014,7 @@
 		)
 		(uuid "673a8a36-5ad4-4c13-9f11-024cf0bef494")
 		(property "Sheetname" "Power"
-			(at 131.445 156.1334 0)
+			(at 133.35 155.2444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,13 +2023,33 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 131.445 183.4646 0)
+			(at 133.35 182.4486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "DP" bidirectional
+			(at 133.35 161.544 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "473fd9e4-ef54-408d-a530-5fe09d2f2624")
+		)
+		(pin "DM" bidirectional
+			(at 133.35 165.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6565dac4-f5b2-48d6-a01f-6c002f5b0b2f")
 		)
 		(instances
 			(project "HydroponicFlowerControl"
@@ -2510,6 +2590,26 @@
 				(justify right)
 			)
 			(uuid "9bb95ef0-f8a4-47ac-9cfd-d30963f3f897")
+		)
+		(pin "DP" bidirectional
+			(at 49.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "16d53943-e528-4cdb-a7a9-ffe956444750")
+		)
+		(pin "DM" bidirectional
+			(at 49.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9fc92169-31b4-4725-9241-5044b4ca2337")
 		)
 		(instances
 			(project "HydroponicFlowerControl"

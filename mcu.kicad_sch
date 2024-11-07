@@ -3761,10 +3761,6 @@
 		(uuid "fa4233a3-86f2-4c27-b834-225fb11e73c3")
 	)
 	(no_connect
-		(at 72.39 41.91)
-		(uuid "21ec68e9-3d58-4e3c-9e40-99919c09fac5")
-	)
-	(no_connect
 		(at 242.57 101.6)
 		(uuid "286c6ce8-72ee-47db-9553-e34819669a81")
 	)
@@ -3775,10 +3771,6 @@
 	(no_connect
 		(at 39.37 52.07)
 		(uuid "52a97d77-2aae-45e6-9e5f-4d492f9ee0a4")
-	)
-	(no_connect
-		(at 72.39 44.45)
-		(uuid "55069386-8ca2-4e3e-b497-0ff18d069e53")
 	)
 	(no_connect
 		(at 242.57 99.06)
@@ -5503,6 +5495,28 @@
 		)
 		(uuid "d5472f1a-6084-414c-bed3-f9e47d925d66")
 	)
+	(global_label "CAN_TXD"
+		(shape output)
+		(at 39.37 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "060324a7-0f47-475f-ad0f-750325c3fea7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.9352 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWDIO"
 		(shape input)
 		(at 276.86 96.52 0)
@@ -5635,31 +5649,9 @@
 			)
 		)
 	)
-	(global_label "CAN_RXD"
-		(shape input)
-		(at 72.39 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4806787c-d6bd-40fd-8190-fbfa8ffeb2e6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.1272 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_CAN"
 		(shape input)
-		(at 39.37 64.77 180)
+		(at 39.37 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5669,7 +5661,7 @@
 		)
 		(uuid "550df96b-f5ed-43ae-a5fe-d4bea2e24d4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.3604 64.77 0)
+			(at 28.3604 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +5695,7 @@
 	)
 	(global_label "LED_HB"
 		(shape input)
-		(at 39.37 67.31 180)
+		(at 39.37 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5713,7 +5705,7 @@
 		)
 		(uuid "5d6a681c-5c11-4c51-9bba-787f96ae7e46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.449 67.31 0)
+			(at 29.449 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5811,24 +5803,24 @@
 			)
 		)
 	)
-	(global_label "CAN_TXD"
-		(shape output)
-		(at 72.39 59.69 0)
+	(global_label "CAN_RXD"
+		(shape input)
+		(at 39.37 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "8c22a2dd-f901-42b6-bd84-30ad73a639ec")
+		(uuid "7f5ff07f-89ba-49c9-b171-adb1ccb40d01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.8248 59.69 0)
+			(at 28.6328 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5985,13 +5977,13 @@
 	)
 	(hierarchical_label "ec_disable"
 		(shape output)
-		(at 39.37 46.99 180)
+		(at 72.39 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2d895c56-9d1b-42bf-8941-1ce0eff31240")
 	)
@@ -6018,6 +6010,18 @@
 			(justify left)
 		)
 		(uuid "3caab237-fca7-4c6b-a8bd-81efed2d3af3")
+	)
+	(hierarchical_label "DM"
+		(shape bidirectional)
+		(at 72.39 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55cf76a1-2691-4bfb-a6cb-854fbf316d40")
 	)
 	(hierarchical_label "CAN_L"
 		(shape input)
@@ -6057,13 +6061,13 @@
 	)
 	(hierarchical_label "pH_disable"
 		(shape output)
-		(at 39.37 49.53 180)
+		(at 72.39 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8d247960-5998-4565-8542-507b718d6e53")
 	)
@@ -6090,6 +6094,18 @@
 			(justify right)
 		)
 		(uuid "bb97ab38-294a-471f-855a-6d3bf4e6988d")
+	)
+	(hierarchical_label "DP"
+		(shape bidirectional)
+		(at 72.39 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c12d67d5-3552-4d9a-ab3f-0d5596e21804")
 	)
 	(hierarchical_label "Valve1"
 		(shape output)
@@ -10119,9 +10135,11 @@
 		)
 		(pin "41"
 			(uuid "aedffa5b-6be4-4c49-a228-ce6be2469ff2")
+			(alternate "FDCAN3_TX")
 		)
 		(pin "40"
 			(uuid "1480fb36-edad-4d53-92cd-88597efd705a")
+			(alternate "FDCAN3_RX")
 		)
 		(pin "4"
 			(uuid "bcfd7e1d-6112-47c7-8813-bef7f5d9e1e4")
@@ -10218,7 +10236,7 @@
 		)
 		(pin "33"
 			(uuid "23675104-8d55-4955-9bd9-e824e8423ffe")
-			(alternate "FDCAN1_RX")
+			(alternate "USB_DM")
 		)
 		(pin "36"
 			(uuid "53337faa-114b-4be5-871e-721b7ae93388")
@@ -10231,7 +10249,7 @@
 		)
 		(pin "34"
 			(uuid "28b38890-0596-4e44-864f-5f5e2888b7c5")
-			(alternate "FDCAN1_TX")
+			(alternate "USB_DP")
 		)
 		(pin "30"
 			(uuid "c429962a-f758-4675-9854-0ecb10f87945")
