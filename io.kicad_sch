@@ -9,21 +9,21 @@
 		(rev "1")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
+			(property "Value" "Conn_01x03"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -49,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -76,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -100,7 +100,18 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
 					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
@@ -111,7 +122,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -129,7 +140,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -139,6 +150,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1031,6 +1060,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 34.29) (xy 256.54 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11747274-e029-47e1-8ec9-5957b92683b7")
+	)
+	(wire
+		(pts
 			(xy 247.65 99.06) (xy 247.65 102.87)
 		)
 		(stroke
@@ -1111,6 +1150,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 93.98) (xy 256.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5200c117-4777-4d0d-9df7-8c35f90074ea")
+	)
+	(wire
+		(pts
 			(xy 242.57 25.4) (xy 242.57 29.21)
 		)
 		(stroke
@@ -1158,6 +1207,16 @@
 			(type default)
 		)
 		(uuid "6ff4b01c-15cb-4516-bdb1-6727ba129852")
+	)
+	(wire
+		(pts
+			(xy 255.27 63.5) (xy 256.54 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c2080e1-677f-4ac7-8016-37fbce2f371c")
 	)
 	(wire
 		(pts
@@ -1281,6 +1340,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 25.4) (xy 255.27 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6586da1-d5c7-44df-b1ca-b481043cb4c7")
+	)
+	(wire
+		(pts
 			(xy 242.57 43.18) (xy 247.65 43.18)
 		)
 		(stroke
@@ -1291,6 +1360,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 85.09) (xy 255.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef6a61bf-602f-47bf-b414-9aeec9409b1b")
+	)
+	(wire
+		(pts
 			(xy 254 68.58) (xy 256.54 68.58)
 		)
 		(stroke
@@ -1298,6 +1377,16 @@
 			(type default)
 		)
 		(uuid "f14fc866-6fca-4d60-8805-33a67b5ec112")
+	)
+	(wire
+		(pts
+			(xy 255.27 54.61) (xy 255.27 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30411b3-4981-47a3-a730-9917411888b9")
 	)
 	(wire
 		(pts
@@ -1539,7 +1628,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Connector_Generic:Conn_01x03")
 		(at 261.62 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1549,7 +1638,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fe6fbf7-4197-4d88-97a0-1b8e0cbce049")
 		(property "Reference" "J15"
-			(at 264.16 67.3099 0)
+			(at 264.16 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,7 +1656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 261.62 66.04 0)
 			(effects
 				(font
@@ -1585,7 +1674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 261.62 66.04 0)
 			(effects
 				(font
@@ -1594,16 +1683,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC alt" ""
-			(at 261.62 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C173752"
+		(property "LCSC" "C157929"
 			(at 261.62 66.04 0)
 			(effects
 				(font
@@ -1617,6 +1697,9 @@
 		)
 		(pin "1"
 			(uuid "33f1b2c6-039d-4411-a2bf-468299d54edb")
+		)
+		(pin "3"
+			(uuid "f152a998-49a0-4413-9284-8b733d771287")
 		)
 		(instances
 			(project "HydroponicFlowerControl"
@@ -1935,7 +2018,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Connector_Generic:Conn_01x03")
 		(at 261.62 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1945,7 +2028,7 @@
 		(fields_autoplaced yes)
 		(uuid "54a535e5-8516-4112-b344-a1b21e81bd54")
 		(property "Reference" "J14"
-			(at 264.16 38.0999 0)
+			(at 264.16 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +2046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 261.62 36.83 0)
 			(effects
 				(font
@@ -1981,7 +2064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 261.62 36.83 0)
 			(effects
 				(font
@@ -1990,16 +2073,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C173752"
-			(at 261.62 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
+		(property "LCSC" "C157929"
 			(at 261.62 36.83 0)
 			(effects
 				(font
@@ -2013,6 +2087,9 @@
 		)
 		(pin "1"
 			(uuid "8adb10c5-ab4a-4709-978b-c48db09a486f")
+		)
+		(pin "3"
+			(uuid "b0f472eb-01cd-45c3-a746-7522ba72bcb0")
 		)
 		(instances
 			(project "HydroponicFlowerControl"
@@ -2105,6 +2182,71 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/db02ea94-c311-42b2-be33-1b082fcd52fb"
 					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 255.27 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "704b80bb-e5ac-46c8-8d48-87d0b0e972ec")
+		(property "Reference" "#PWR0113"
+			(at 255.27 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 250.444 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 255.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf7545a7-13f5-4dc5-8436-c609b2ae1f8b")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/db02ea94-c311-42b2-be33-1b082fcd52fb"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -2461,7 +2603,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Connector_Generic:Conn_01x03")
 		(at 261.62 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2471,7 +2613,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c31169d-728f-42bb-b1d9-12330cb8db2b")
 		(property "Reference" "J16"
-			(at 264.16 97.7899 0)
+			(at 264.16 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +2631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 261.62 96.52 0)
 			(effects
 				(font
@@ -2507,7 +2649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 261.62 96.52 0)
 			(effects
 				(font
@@ -2516,16 +2658,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC alt" ""
-			(at 261.62 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C173752"
+		(property "LCSC" "C157929"
 			(at 261.62 96.52 0)
 			(effects
 				(font
@@ -2539,6 +2672,9 @@
 		)
 		(pin "1"
 			(uuid "100cece7-09e0-49e9-bb0a-2d9ff3e03554")
+		)
+		(pin "3"
+			(uuid "8b02aba9-7dcb-40cb-a384-621b534b6a5d")
 		)
 		(instances
 			(project "HydroponicFlowerControl"
@@ -2610,6 +2746,71 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/db02ea94-c311-42b2-be33-1b082fcd52fb"
 					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 255.27 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b614e18-af38-4801-9fe7-b5642646e2d5")
+		(property "Reference" "#PWR0112"
+			(at 255.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 250.444 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 255.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4fabb03-908f-4a5b-a215-b3a4411b8008")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/db02ea94-c311-42b2-be33-1b082fcd52fb"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -2872,6 +3073,71 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/db02ea94-c311-42b2-be33-1b082fcd52fb"
 					(reference "L10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 255.27 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc9d6728-395c-44a2-94c3-14b11d93d393")
+		(property "Reference" "#PWR0111"
+			(at 255.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 250.444 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 255.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b20c6e95-7f96-4200-858b-b8b2cff2542a")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/db02ea94-c311-42b2-be33-1b082fcd52fb"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
