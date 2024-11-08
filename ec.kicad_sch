@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "EC")
-		(rev "1")
+		(rev "2")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM324"
