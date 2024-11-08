@@ -7852,7 +7852,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "922a3c76-4600-4ab8-898f-605918fe2f2d")
 		(property "Reference" "TP8"
 			(at 273.05 26.3524 0)
@@ -7863,7 +7862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+-2.035V"
+		(property "Value" "±2.035V"
 			(at 273.05 28.8924 0)
 			(effects
 				(font
@@ -9170,7 +9169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+-0.414V"
+		(property "Value" "±0.414V"
 			(at 168.91 68.2624 0)
 			(effects
 				(font
@@ -9255,7 +9254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 127 39.37 0)
 			(effects
 				(font
@@ -9274,15 +9273,6 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 121.92 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5199801"
 			(at 121.92 39.37 0)
 			(effects
 				(font
