@@ -12023,7 +12023,7 @@
 		(path "/db02ea94-c311-42b2-be33-1b082fcd52fb/8c31169d-728f-42bb-b1d9-12330cb8db2b")
 		(sheetname "IO")
 		(sheetfile "io.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.06 6.36)
 			(end 6.06 -1.46)
@@ -14907,7 +14907,7 @@
 				)
 			)
 		)
-		(property "LCSC alt" ""
+		(property "JLCPCB Rotation Offset" "180"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14915,8 +14915,8 @@
 			(uuid "e131b95a-64a1-43f3-b488-553924b1a304")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.65 0.65)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -23947,7 +23947,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 3.7 -90)
+			(at 0 3.7 90)
 			(layer "F.Fab")
 			(uuid "96d100fb-258d-4368-ae32-cced3e010f39")
 			(effects
@@ -24006,6 +24006,19 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f861bba5-dfaf-4ee7-b69b-12e27b4cadb6")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -24346,7 +24359,7 @@
 			(uuid "36a76897-f227-4c33-8a83-b35277a14cf9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "6ad63119-0939-4548-8afb-1786fc1fc347")
 			(effects
@@ -41378,7 +41391,7 @@
 		(path "/db02ea94-c311-42b2-be33-1b082fcd52fb/54a535e5-8516-4112-b344-a1b21e81bd54")
 		(sheetname "IO")
 		(sheetfile "io.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.06 6.36)
 			(end 6.06 -1.46)
@@ -47239,7 +47252,7 @@
 		(path "/ed65d457-d819-4893-a974-b640bac4c870/f9b62287-4df6-43b6-ab90-950485d03e26")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.09 -3.17)
 			(end -1.765 -3.17)
@@ -59368,7 +59381,7 @@
 		(path "/db02ea94-c311-42b2-be33-1b082fcd52fb/2fe6fbf7-4197-4d88-97a0-1b8e0cbce049")
 		(sheetname "IO")
 		(sheetfile "io.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.06 6.36)
 			(end 6.06 -1.46)
