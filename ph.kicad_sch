@@ -480,7 +480,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " ~"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4926,7 +4926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 151.13 41.91 0)
 			(effects
 				(font
@@ -4945,15 +4945,6 @@
 			)
 		)
 		(property "LCSC" "C2837587"
-			(at 151.13 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
 			(at 151.13 41.91 0)
 			(effects
 				(font

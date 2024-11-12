@@ -228,7 +228,7 @@
 				)
 			)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -236,21 +236,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -10.16 19.05 0)
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -271,7 +269,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -298,32 +296,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -14.986)
-					(end 9.144 -15.494)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -12.446)
-					(end 9.144 -12.954)
 					(stroke
 						(width 0)
 						(type default)
@@ -410,7 +386,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -611,7 +587,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -713,24 +689,6 @@
 						)
 					)
 					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -12.7 180)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -857,24 +815,6 @@
 						)
 					)
 					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3497,20 +3437,12 @@
 		(uuid "fa87041a-03b0-487d-bb4f-80cb7f849cb2")
 	)
 	(no_connect
-		(at 53.34 60.96)
-		(uuid "1eb5ff4a-5ba4-441b-b7d8-a2e15216ff51")
-	)
-	(no_connect
 		(at 151.13 35.56)
 		(uuid "21ba2fe7-c822-4e1e-ae12-c3613d541ff5")
 	)
 	(no_connect
 		(at 40.64 173.99)
 		(uuid "5867a4e8-ed06-446c-afd4-c378ae4de73b")
-	)
-	(no_connect
-		(at 53.34 63.5)
-		(uuid "756896e8-d2cb-46a4-93b4-95f73ffd1d50")
 	)
 	(no_connect
 		(at 73.66 46.99)
@@ -4551,7 +4483,7 @@
 		)
 		(uuid "ea0ebb13-e367-4c18-8173-1c2d305c99f8")
 	)
-	(hierarchical_label "DM"
+	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 74.93 83.82 0)
 		(fields_autoplaced yes)
@@ -4563,7 +4495,7 @@
 		)
 		(uuid "ba58e441-8a8a-4011-9ffe-fc560988a294")
 	)
-	(hierarchical_label "DP"
+	(hierarchical_label "USB_D+"
 		(shape bidirectional)
 		(at 49.53 83.82 180)
 		(fields_autoplaced yes)
@@ -6851,7 +6783,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0")
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
 		(at 38.1 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6861,7 +6793,7 @@
 		(fields_autoplaced yes)
 		(uuid "a77ea9ff-1ba2-4428-8734-5f002d1a256b")
 		(property "Reference" "J5"
-			(at 38.1 29.21 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6949,9 +6881,6 @@
 		(pin "A7"
 			(uuid "a2312f60-30bf-4b7a-9f03-85d43206f160")
 		)
-		(pin "A8"
-			(uuid "50b74478-2a15-421d-aa7d-3630b415c30e")
-		)
 		(pin "A9"
 			(uuid "a6e7f415-c04a-47ed-bfb1-11ca70e1bce7")
 		)
@@ -6972,9 +6901,6 @@
 		)
 		(pin "B7"
 			(uuid "0f0ed39b-a67b-43aa-bbac-e73b9607b9f9")
-		)
-		(pin "B8"
-			(uuid "4db1d6e2-859e-4114-8286-6c65b8aafa38")
 		)
 		(pin "B9"
 			(uuid "173f08d1-c947-48f3-b99c-0c55b404cc34")

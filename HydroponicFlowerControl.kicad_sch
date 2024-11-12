@@ -124,102 +124,6 @@
 				)
 			)
 		)
-		(symbol "PWR_FLAG_1"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG03"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_1_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -774,12 +678,6 @@
 		)
 	)
 	(junction
-		(at 109.22 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13407996-18f3-40a8-b4de-36c6d9f3d38c")
-	)
-	(junction
 		(at 109.22 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -849,7 +747,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 72.39) (xy 121.92 161.544)
+			(xy 121.92 72.39) (xy 121.92 161.29)
 		)
 		(stroke
 			(width 0)
@@ -979,16 +877,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 41.91) (xy 116.84 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "694ebbbc-113d-4340-a8b1-52d0b45e90f2")
-	)
-	(wire
-		(pts
 			(xy 49.53 153.67) (xy 58.42 153.67)
 		)
 		(stroke
@@ -1029,7 +917,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 161.544) (xy 133.35 161.544)
+			(xy 121.92 161.29) (xy 133.35 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1079,7 +967,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 41.91) (xy 109.22 41.91)
+			(xy 104.14 41.91) (xy 116.84 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1186,105 +1074,6 @@
 			(type default)
 		)
 		(uuid "f9994e52-82e9-4aff-8357-1bd78556a61c")
-	)
-	(text "X Tank low"
-		(exclude_from_sim no)
-		(at 156.21 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1847315d-adb4-4470-a28a-50c2a9d7c655")
-	)
-	(text "X Temp sensor"
-		(exclude_from_sim no)
-		(at 156.21 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "28e606b8-9a22-4491-ab44-30aa502ed661")
-	)
-	(text "X EC value"
-		(exclude_from_sim no)
-		(at 156.21 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d961043-cf76-4055-9b8b-28485f4e5729")
-	)
-	(text "(Drain pump)"
-		(exclude_from_sim no)
-		(at 156.21 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "315f5862-735f-46ae-b5b2-1b98e0fbc913")
-	)
-	(text "(Flow pump)"
-		(exclude_from_sim no)
-		(at 156.21 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31d20ddd-713b-4a5f-b1a4-7701ff9097a9")
-	)
-	(text "X Flow in"
-		(exclude_from_sim no)
-		(at 156.21 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33d2841a-f7cc-4bed-8512-0e87b873e998")
-	)
-	(text "X Main pump"
-		(exclude_from_sim no)
-		(at 156.21 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "53cb6734-cffb-4bc3-b8a4-0754dad4e7ed")
-	)
-	(text "Add testpoints"
-		(exclude_from_sim no)
-		(at 156.21 62.484 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98eaf297-eeb0-4911-ad24-8c22aa9e345c")
-	)
-	(text "X Nutrition pump"
-		(exclude_from_sim no)
-		(at 156.21 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a87db229-41eb-4985-b2de-ebfda3eec5ed")
 	)
 	(symbol
 		(lib_id "power:+12V")
@@ -1479,73 +1268,6 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031"
 					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "PWR_FLAG_1")
-		(lib_id "power:PWR_FLAG")
-		(at 109.22 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57096090-41c1-4602-a948-d02e324a67b7")
-		(property "Reference" "#FLG03"
-			(at 109.22 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 109.22 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 109.22 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b74fb9a-896b-4e51-81c2-2258e28dca94")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2191,8 +1913,8 @@
 		)
 	)
 	(sheet
-		(at 133.35 155.956)
-		(size 31.369 25.908)
+		(at 133.35 156.21)
+		(size 31.75 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2203,7 +1925,7 @@
 		)
 		(uuid "673a8a36-5ad4-4c13-9f11-024cf0bef494")
 		(property "Sheetname" "Power"
-			(at 133.35 155.2444 0)
+			(at 133.35 155.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +1934,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 133.35 182.4486 0)
+			(at 133.35 182.7026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,17 +1942,7 @@
 				(justify left top)
 			)
 		)
-		(pin "DP" bidirectional
-			(at 133.35 161.544 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "473fd9e4-ef54-408d-a530-5fe09d2f2624")
-		)
-		(pin "DM" bidirectional
+		(pin "USB_D-" bidirectional
 			(at 133.35 165.1 180)
 			(effects
 				(font
@@ -2238,7 +1950,17 @@
 				)
 				(justify left)
 			)
-			(uuid "6565dac4-f5b2-48d6-a01f-6c002f5b0b2f")
+			(uuid "550389fa-68d5-49c8-9efc-e360860c83af")
+		)
+		(pin "USB_D+" bidirectional
+			(at 133.35 161.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6fd777da-2045-4ed0-93ab-5957e9bd1d3f")
 		)
 		(instances
 			(project "HydroponicFlowerControl"
@@ -2700,56 +2422,6 @@
 			)
 			(uuid "04952fba-8999-48ac-844d-ad8be6fc5a28")
 		)
-		(pin "Temp" input
-			(at 49.53 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "95b9b03b-f62c-48ef-9e3e-593d730e776c")
-		)
-		(pin "Flow" input
-			(at 49.53 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7265074c-fa35-436c-b2b6-fc08c21c9a67")
-		)
-		(pin "D_in3" input
-			(at 49.53 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "18d30e1a-ee18-45d2-ba2b-8d013937b051")
-		)
-		(pin "D_in1" input
-			(at 49.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "397d6863-1b1b-459f-a2ac-7722c7b87e1d")
-		)
-		(pin "D_in2" input
-			(at 49.53 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "79ab3527-69a5-4add-8877-de981377bbf2")
-		)
 		(pin "pH_disable" output
 			(at 49.53 156.21 0)
 			(effects
@@ -2799,6 +2471,56 @@
 				(justify right)
 			)
 			(uuid "9fc92169-31b4-4725-9241-5044b4ca2337")
+		)
+		(pin "TEMP" input
+			(at 49.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f20bd6e7-2e73-4de5-96eb-9b8c214fe812")
+		)
+		(pin "FLOW" input
+			(at 49.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "25114db3-e994-4a55-a657-71c518eb92cb")
+		)
+		(pin "D_IN2" input
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ec64f76b-6cef-4845-b24e-edbfb4e8a6ad")
+		)
+		(pin "D_IN3" input
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9dd7a304-05d8-47e8-bdd4-8af139ed036c")
+		)
+		(pin "D_IN1" input
+			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9f694889-604a-4edf-813a-4a0d4d978e04")
 		)
 		(instances
 			(project "HydroponicFlowerControl"

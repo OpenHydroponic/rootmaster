@@ -2085,9 +2085,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2135,7 +2135,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2185,8 +2185,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2806,6 +2806,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 139.7) (xy 247.65 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cbd1407-141e-41bb-9c0f-26fd8ae9d37c")
+	)
+	(wire
+		(pts
 			(xy 161.29 143.51) (xy 173.99 143.51)
 		)
 		(stroke
@@ -2876,7 +2886,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 139.7) (xy 241.935 139.7)
+			(xy 240.03 139.7) (xy 241.3 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2903,16 +2913,6 @@
 			(type default)
 		)
 		(uuid "5782a016-68ea-42fd-9136-d287932bfa47")
-	)
-	(wire
-		(pts
-			(xy 247.015 139.7) (xy 247.65 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe22f9a-2335-4982-82ae-14799cbf3d30")
 	)
 	(wire
 		(pts
@@ -4269,7 +4269,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 244.475 139.7 270)
+		(at 243.84 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4277,7 +4277,7 @@
 		(dnp no)
 		(uuid "7e1757a6-5b85-44e2-9704-b3f94d84c9d7")
 		(property "Reference" "R67"
-			(at 244.475 137.16 90)
+			(at 243.84 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4285,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 244.475 142.24 90)
+			(at 243.84 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +4293,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 244.475 139.7 0)
+			(at 243.84 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 244.475 139.7 0)
+			(at 243.84 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +4311,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 244.475 139.7 0)
+			(at 243.84 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,7 +4320,7 @@
 			)
 		)
 		(property "LCSC" "C21189"
-			(at 245.7451 142.24 0)
+			(at 245.1101 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,7 +4329,7 @@
 			)
 		)
 		(property "LCSC alt" ""
-			(at 244.475 139.7 0)
+			(at 243.84 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
