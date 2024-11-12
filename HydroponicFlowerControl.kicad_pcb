@@ -2526,7 +2526,7 @@
 		(descr "JST XH series connector, S3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH horizontal")
 		(property "Reference" "J9"
-			(at 8.378 -2.086 0)
+			(at 7.616 -3.594 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "be36136d-0547-4fb9-8553-5c6770d8c225")
@@ -2538,7 +2538,7 @@
 			)
 		)
 		(property "Value" "Valve 3"
-			(at -3.85 2.794 0)
+			(at -3.85 2.094 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "bd52507e-dd50-4365-bcf8-1ed157943098")
@@ -5225,7 +5225,7 @@
 			)
 		)
 		(property "Value" "Pump 2"
-			(at -4.246 1.27 0)
+			(at -4.246 0.57 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "822e7ac6-e0f5-4a05-891c-daa87294fc55")
@@ -10733,7 +10733,7 @@
 			)
 		)
 		(property "Value" "Valve 1"
-			(at -3.794 2.794 0)
+			(at -3.794 2.094 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a298513d-d736-4a7a-b2df-b31a0d46da0f")
@@ -21612,7 +21612,7 @@
 			)
 		)
 		(property "Value" "Temperature"
-			(at 6.818 0.254 0)
+			(at 6.818 -0.546 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "61f64c71-e9a9-4ddb-9cf5-17aa343a2812")
@@ -26226,7 +26226,7 @@
 		(descr "JST XH series connector, S2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH horizontal")
 		(property "Reference" "J8"
-			(at 5.822 -1.911 0)
+			(at 5.08 -3.594 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6e20bb77-86fa-4d74-b363-d9e0f1d3ce8b")
@@ -26238,7 +26238,7 @@
 			)
 		)
 		(property "Value" "Valve 2"
-			(at -3.83 2.794 0)
+			(at -3.83 2.094 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fa028d1a-c65d-483d-b237-a87cf6018273")
@@ -28906,7 +28906,7 @@
 			)
 		)
 		(property "Value" "Pump 3"
-			(at -4.5 1.27 0)
+			(at -4.5 0.57 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "647032dd-be92-4bfe-83aa-b624801d13df")
@@ -31571,7 +31571,7 @@
 			)
 		)
 		(property "Value" "EC"
-			(at 6.638 7.366 0)
+			(at 6.638 6.566 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ccd62fdd-1999-4cb2-b094-fc1e2638150b")
@@ -43716,7 +43716,7 @@
 			)
 		)
 		(property "Value" "pH"
-			(at -8.6 -10.16 0)
+			(at -8.6 -12.099 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "46a9d9b1-bf30-4b7c-b125-74ec330e5f7c")
@@ -46259,7 +46259,7 @@
 			)
 		)
 		(property "Value" "Temp"
-			(at 6.477 7.112 0)
+			(at 6.477 6.312 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a33ec3ae-8208-42f5-b8d3-c494dfcca31d")
@@ -48370,7 +48370,7 @@
 			)
 		)
 		(property "Value" "Pump 1"
-			(at -4.064 1.27 0)
+			(at -4.064 0.57 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "18e3c242-e8e7-442c-91dc-733fffaaef33")
@@ -56944,7 +56944,7 @@
 			)
 		)
 		(property "Value" "Flow"
-			(at 8.89 4.572 0)
+			(at 8.89 3.772 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5a224937-0ee0-4247-8290-b45a642b4c5b")
