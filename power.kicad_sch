@@ -6826,7 +6826,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC alt" ""
+		(property "JLCPCB Rotation Offset" "180"
 			(at 97.79 172.72 0)
 			(effects
 				(font
