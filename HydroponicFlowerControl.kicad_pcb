@@ -44665,7 +44665,7 @@
 			(layers "F.Cu" "F.Mask")
 			(net 122 "SWCLK")
 			(pinfunction "SWDCLK/TCK")
-			(pintype "output")
+			(pintype "bidirectional")
 			(uuid "a1064c4c-aad4-4968-88eb-47e4c9e67319")
 		)
 		(pad "5" connect circle
@@ -55468,7 +55468,7 @@
 			(roundrect_rratio 0.25)
 			(net 196 "unconnected-(U8-PB0-Pad16)")
 			(pinfunction "PB0")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "56b130c6-87b1-496d-ad20-301fc36221b8")
 		)
 		(pad "17" smd roundrect
@@ -64274,7 +64274,7 @@
 			(size 3 2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 186 "unconnected-(J6-Pad3)")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "9c4e32cf-b23f-45c8-a536-164d8f5940f0")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_CLIFF_FC681465S_SMT_Horizontal.wrl"

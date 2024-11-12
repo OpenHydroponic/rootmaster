@@ -3708,16 +3708,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 -12.7) (xy 173.99 -15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85801f6d-9a3e-4f0c-bbd5-05930c24367e")
-	)
-	(wire
-		(pts
 			(xy 157.48 34.29) (xy 161.29 34.29)
 		)
 		(stroke
@@ -4833,6 +4823,72 @@
 			(justify right)
 		)
 		(uuid "d3bdb647-4bda-4d87-8681-bd7d66dbbf55")
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 62.23 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "015da41b-c43c-4a6c-a99b-c0fd429fcc07")
+		(property "Reference" "#PWR0115"
+			(at 62.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_iosPH"
+			(at 62.23 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 62.23 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e776afe-b186-4386-9b82-8fa632d7b9d7")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
@@ -8533,6 +8589,72 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
 					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 62.23 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af7fa595-d915-4f5b-89ed-ab7506685809")
+		(property "Reference" "#FLG08"
+			(at 62.23 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "142215f0-a3e7-42f5-b97f-252dcebfef45")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
