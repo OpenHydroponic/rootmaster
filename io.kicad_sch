@@ -905,6 +905,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1015,6 +1135,12 @@
 		(uuid "1dcded65-22b3-4141-9ed7-b88f77b0ba05")
 	)
 	(junction
+		(at 168.91 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93e2b6cd-a410-47bd-b09c-db68585ca3d1")
+	)
+	(junction
 		(at 247.65 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1025,6 +1151,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8e032a4-cd2b-4c22-9648-d22cd694d51d")
+	)
+	(junction
+		(at 177.8 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce702edf-6173-42ac-92da-3fc1c1f38085")
 	)
 	(junction
 		(at 247.65 72.39)
@@ -1080,6 +1212,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 30.48) (xy 168.91 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146e48a8-2991-4731-a721-485fc56b6f9d")
+	)
+	(wire
+		(pts
 			(xy 254 39.37) (xy 256.54 39.37)
 		)
 		(stroke
@@ -1100,6 +1242,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 34.29) (xy 177.8 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4118dc-5565-4686-b986-2d776d192fc8")
+	)
+	(wire
+		(pts
 			(xy 242.57 66.04) (xy 248.92 66.04)
 		)
 		(stroke
@@ -1107,6 +1259,26 @@
 			(type default)
 		)
 		(uuid "24b79a5e-8d15-4a4a-b08c-0201140b2f09")
+	)
+	(wire
+		(pts
+			(xy 177.8 29.21) (xy 177.8 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a48d9f-c0da-4afc-9d4a-08a2bbb851c7")
+	)
+	(wire
+		(pts
+			(xy 177.8 34.29) (xy 177.8 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a31082d-a379-4f38-9e28-988b2c590f08")
 	)
 	(wire
 		(pts
@@ -1150,6 +1322,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 29.21) (xy 177.8 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5154c059-aed7-497c-82fc-c4fce0038b7b")
+	)
+	(wire
+		(pts
 			(xy 255.27 93.98) (xy 256.54 93.98)
 		)
 		(stroke
@@ -1157,6 +1339,16 @@
 			(type default)
 		)
 		(uuid "5200c117-4777-4d0d-9df7-8c35f90074ea")
+	)
+	(wire
+		(pts
+			(xy 168.91 31.75) (xy 184.15 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c9af05-9993-4af1-ba65-584702923055")
 	)
 	(wire
 		(pts
@@ -1250,6 +1442,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 24.13) (xy 177.8 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9232c4b3-accc-4885-af16-38183cc1eb30")
+	)
+	(wire
+		(pts
 			(xy 248.92 39.37) (xy 247.65 39.37)
 		)
 		(stroke
@@ -1257,6 +1459,16 @@
 			(type default)
 		)
 		(uuid "93f02f08-5ea1-4adc-a7e1-60ee4f59a9cd")
+	)
+	(polyline
+		(pts
+			(xy 208.534 47.498) (xy 143.256 47.498)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948deb21-9ec2-4701-ae78-812795517ffb")
 	)
 	(wire
 		(pts
@@ -1267,6 +1479,16 @@
 			(type default)
 		)
 		(uuid "9f223bc1-958d-42f1-bdab-be95e58904c7")
+	)
+	(polyline
+		(pts
+			(xy 208.534 11.938) (xy 208.534 165.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67716a4-de42-467f-b537-623d14a67a77")
 	)
 	(wire
 		(pts
@@ -1310,6 +1532,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 25.4) (xy 168.91 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9cb54e7-4e9e-45dc-be3b-f67ce1579d4a")
+	)
+	(wire
+		(pts
 			(xy 254 66.04) (xy 256.54 66.04)
 		)
 		(stroke
@@ -1327,6 +1559,26 @@
 			(type default)
 		)
 		(uuid "bd45711b-c819-47e4-a01f-0681e7c6148d")
+	)
+	(polyline
+		(pts
+			(xy 143.256 11.938) (xy 143.256 47.498)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40ae3ab-d325-49ae-8773-aaba083122c4")
+	)
+	(wire
+		(pts
+			(xy 168.91 24.13) (xy 177.8 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0941be-8d48-4b44-962b-257a875f576e")
 	)
 	(wire
 		(pts
@@ -1347,6 +1599,16 @@
 			(type default)
 		)
 		(uuid "e6586da1-d5c7-44df-b1ca-b481043cb4c7")
+	)
+	(wire
+		(pts
+			(xy 160.02 31.75) (xy 168.91 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8107950-bc6d-46fd-8fd7-83b7ec86067a")
 	)
 	(wire
 		(pts
@@ -1438,6 +1700,16 @@
 		)
 		(uuid "3b8745ac-449e-41fe-b817-23c14247c02a")
 	)
+	(text "1-Wire"
+		(exclude_from_sim no)
+		(at 155.956 16.764 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "44813faf-7577-4406-b40b-97e2019f38b2")
+	)
 	(hierarchical_label "D_IN2"
 		(shape input)
 		(at 232.41 66.04 180)
@@ -1461,6 +1733,18 @@
 			(justify right)
 		)
 		(uuid "4618819a-96c5-46a8-b8eb-81069d86574e")
+	)
+	(hierarchical_label "1WIRE"
+		(shape bidirectional)
+		(at 160.02 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5addcbf3-585d-4b15-b2a7-5ac6a9409f80")
 	)
 	(hierarchical_label "D_IN3"
 		(shape input)
@@ -1865,6 +2149,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 168.91 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45558b91-de27-4144-bcb1-9df618514ab1")
+		(property "Reference" "R78"
+			(at 166.37 29.2101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 166.37 26.6701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 168.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 168.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b85e4c42-b45e-4ab1-b38c-477fbda15573")
+		)
+		(pin "1"
+			(uuid "19914150-5fbf-4c81-8ccc-917cefd1c384")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/db02ea94-c311-42b2-be33-1b082fcd52fb"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 242.57 40.64 0)
 		(unit 1)
@@ -2182,6 +2544,72 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/db02ea94-c311-42b2-be33-1b082fcd52fb"
 					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 177.8 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6df93b2f-3620-4d7e-9455-3cdadba4132b")
+		(property "Reference" "#PWR090"
+			(at 177.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 177.8 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 177.8 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c7cdf91-0955-43c7-9ebb-5eb43d1f109f")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/db02ea94-c311-42b2-be33-1b082fcd52fb"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -2898,6 +3326,146 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/db02ea94-c311-42b2-be33-1b082fcd52fb"
 					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 189.23 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad6fe65b-f986-4875-8a91-ceca790b5ea1")
+		(property "Reference" "J22"
+			(at 191.77 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1-Wire"
+			(at 191.77 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 189.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efd06bb9-95ea-4610-822f-4154c8edfd75")
+		)
+		(pin "1"
+			(uuid "854f68ae-f20b-43b7-9ec5-fa8cdabab9e4")
+		)
+		(pin "3"
+			(uuid "63f9db93-8d2e-42d6-99c8-45f5be1632d9")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/db02ea94-c311-42b2-be33-1b082fcd52fb"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc9cfb52-3c9d-4888-9e5d-144675f3064e")
+		(property "Reference" "#PWR091"
+			(at 177.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "113978b1-be8e-4a8b-aa50-773e9a076b96")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/db02ea94-c311-42b2-be33-1b082fcd52fb"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)

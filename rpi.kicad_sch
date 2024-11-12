@@ -2517,10 +2517,6 @@
 		(uuid "20371ffe-256e-4dfb-9bcc-bab33593aa1c")
 	)
 	(no_connect
-		(at 86.36 55.88)
-		(uuid "24a47eba-7cf8-44ce-a3a4-47f9558b6923")
-	)
-	(no_connect
 		(at 81.28 172.72)
 		(uuid "2a458543-5ff3-4e6d-bbfb-9580cfea0ebb")
 	)
@@ -3473,6 +3469,18 @@
 			(justify left)
 		)
 		(uuid "bbe06bb3-c6e3-4750-9595-e0ad9c243616")
+	)
+	(hierarchical_label "1WIRE"
+		(shape bidirectional)
+		(at 86.36 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cff95ea2-1869-4887-aa8c-245b61d678ee")
 	)
 	(hierarchical_label "CAN_L"
 		(shape input)
