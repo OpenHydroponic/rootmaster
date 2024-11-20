@@ -1,0 +1,74 @@
+name: Generate release assets
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  generate-files:
+    name: Export release files
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:8.0
+      options: --user root
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Plot schematics to PDF
+      run: |
+        kicad-cli sch export pdf --output RootMaster-${{ github.ref_name }}.pdf HydroponicFlowerControl.kicad_sch
+
+    - name: Export BOM
+      run: |
+        kicad-cli sch export bom HydroponicFlowerControl.kicad_sch \
+          -o RootMaster-BOM-${{ github.ref_name }}.csv \
+          --fields 'Reference,Footprint,${QUANTITY},Value,LCSC' \
+          --labels "Designator,Footprint,Quantity,Value,LCSC Part #" \
+          --group-by "LCSC,Value" \
+          --ref-range-delimiter ""
+
+    - name: Export step file
+      run: |
+        kicad-cli pcb export step \
+          --output RootMaster-${{ github.ref_name }}.step \
+          --no-dnp \
+          --include-tracks \
+          --include-zones \
+          HydroponicFlowerControl.kicad_pcb
+
+    - name: Archive schematics
+      uses: actions/upload-artifact@v4
+      with:
+          name: Schematics
+          path: RootMaster-${{ github.ref_name }}.pdf
+    - name: Archive BOM
+      uses: actions/upload-artifact@v4
+      with:
+          name: BOM
+          path: RootMaster-BOM-${{ github.ref_name }}.csv
+    - name: Archive step
+      uses: actions/upload-artifact@v4
+      with:
+          name: Step
+          path: RootMaster-${{ github.ref_name }}.step
+
+  publish-release:
+    name: Attach files to release
+    needs: generate-files
+    runs-on: ubuntu-latest
+    env:
+        GH_TOKEN: ${{ github.token }}
+        GH_REPO: ${{ github.repository }}
+    permissions:
+        contents: write
+    steps:
+    - uses: actions/download-artifact@v4
+    - run: find .
+    - name: Upload the artifact
+      run: |
+        gh release upload --clobber ${{github.ref_name}} \
+        Schematics/RootMaster-${{ github.ref_name }}.pdf \
+        BOM/RootMaster-BOM-${{ github.ref_name }}.csv \
+        Step/RootMaster-${{ github.ref_name }}.step
