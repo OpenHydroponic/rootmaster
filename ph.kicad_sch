@@ -1638,175 +1638,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_SwitchedCapacitor:TPS60400DBV"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 6.35 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPS60400DBV"
-				(at 7.62 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps60400.pdf"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unregulated 60-mA Charge Pump Voltage Inverter with Variable Switching Frequency 50 kHz - 250 kHz, SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "unregulated charge pump inverter variable switching frequency"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPS60400DBV_1_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_out line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "C_{FLY-}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "C_{FLY+}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -2043,102 +1874,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-		)
-		(symbol "power:-5VA"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "-5VA"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-5VA\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "-5VA_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "-5VA_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -2649,18 +2384,6 @@
 		(uuid "81fa542f-aa29-4543-80bf-798f26c8c426")
 	)
 	(junction
-		(at 38.1 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82120168-2298-4ac3-b810-570fbe6a7ef5")
-	)
-	(junction
-		(at 161.29 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "867aed21-cdfe-4ecc-90d9-1fa7dafb23a4")
-	)
-	(junction
 		(at 87.63 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2695,12 +2418,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6e0d150-b3f6-480b-bc80-66c85cfafef9")
-	)
-	(junction
-		(at 60.96 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adcb8564-621a-4900-8aeb-43a6af302762")
 	)
 	(junction
 		(at 83.82 101.6)
@@ -2755,12 +2472,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c39fcc14-29fb-4d19-8234-60f0e0e072ea")
-	)
-	(junction
-		(at 22.86 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c53ef056-de72-473d-beda-c3a4cb5a5654")
 	)
 	(junction
 		(at 105.41 137.16)
@@ -2878,26 +2589,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 43.18) (xy 60.96 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0795d1b4-328d-4483-b6f8-2b761dc74bf1")
-	)
-	(wire
-		(pts
-			(xy 22.86 33.02) (xy 22.86 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09d8853d-cc41-4b45-88c4-042f6ff6d356")
-	)
-	(wire
-		(pts
 			(xy 271.78 36.83) (xy 271.78 55.88)
 		)
 		(stroke
@@ -3008,16 +2699,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 53.34) (xy 168.91 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "183b5fc2-51db-412c-a341-334fb86e628a")
-	)
-	(wire
-		(pts
 			(xy 121.92 43.18) (xy 121.92 39.37)
 		)
 		(stroke
@@ -3108,16 +2789,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 53.34) (xy 168.91 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "289ea95f-c1bb-4190-8380-f34cc4777a65")
-	)
-	(wire
-		(pts
 			(xy 36.83 119.38) (xy 40.64 119.38)
 		)
 		(stroke
@@ -3185,16 +2856,6 @@
 			(type default)
 		)
 		(uuid "336411a5-5ab5-4150-8d50-d299aad057e0")
-	)
-	(wire
-		(pts
-			(xy 161.29 52.07) (xy 161.29 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33a11ba6-607a-4077-bafa-689b4cc2b4b8")
 	)
 	(wire
 		(pts
@@ -3328,7 +2989,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 53.34) (xy 161.29 54.61)
+			(xy 161.29 52.07) (xy 161.29 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3365,16 +3026,6 @@
 			(type default)
 		)
 		(uuid "511afe2c-e527-4c8f-8767-bb881b5a3391")
-	)
-	(wire
-		(pts
-			(xy 22.86 46.99) (xy 22.86 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "513d51c9-ec94-4031-b204-4eb181662552")
 	)
 	(wire
 		(pts
@@ -3458,16 +3109,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 38.1) (xy 60.96 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ecc0637-3a19-44b8-aa7c-473240e91126")
-	)
-	(wire
-		(pts
 			(xy 27.94 99.06) (xy 25.4 99.06)
 		)
 		(stroke
@@ -3515,16 +3156,6 @@
 			(type default)
 		)
 		(uuid "63523f6d-ca60-4aec-8645-8499146c8995")
-	)
-	(wire
-		(pts
-			(xy 22.86 38.1) (xy 27.94 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6433958b-9397-4c45-bd56-fbe1b99752fe")
 	)
 	(wire
 		(pts
@@ -3578,16 +3209,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 53.34) (xy 38.1 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ee46fe8-5d4d-4303-8940-3e78972e0a4d")
-	)
-	(wire
-		(pts
 			(xy 185.42 92.71) (xy 185.42 88.9)
 		)
 		(stroke
@@ -3605,16 +3226,6 @@
 			(type default)
 		)
 		(uuid "6fd78194-836f-4316-a389-2d2e8af58e58")
-	)
-	(wire
-		(pts
-			(xy 60.96 55.88) (xy 38.1 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "705fc947-ae5f-4890-8be3-3ca8e5471fe9")
 	)
 	(wire
 		(pts
@@ -3768,16 +3379,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 48.26) (xy 60.96 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d589f3a-3e18-40cb-b2ce-9a46799c8635")
-	)
-	(wire
-		(pts
 			(xy 245.11 62.23) (xy 255.27 62.23)
 		)
 		(stroke
@@ -3785,16 +3386,6 @@
 			(type default)
 		)
 		(uuid "8de5d973-cc2e-4f70-94dd-bc61420e8c91")
-	)
-	(wire
-		(pts
-			(xy 48.26 43.18) (xy 53.34 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f9e484f-bf9b-4ae4-a811-b8310ed67ed4")
 	)
 	(wire
 		(pts
@@ -4028,16 +3619,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 38.1) (xy 22.86 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9e31f6b-a72b-4f0e-bfb0-c17adc14d502")
-	)
-	(wire
-		(pts
 			(xy 113.03 137.16) (xy 105.41 137.16)
 		)
 		(stroke
@@ -4055,16 +3636,6 @@
 			(type default)
 		)
 		(uuid "ac765ab8-1d9a-4872-b368-1c3ac777ac30")
-	)
-	(wire
-		(pts
-			(xy 48.26 48.26) (xy 53.34 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acdd06b2-14af-44b1-a403-25eb0ee24480")
 	)
 	(wire
 		(pts
@@ -4398,16 +3969,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 55.88) (xy 38.1 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4b880cb-e151-45d4-837a-45c28fe4272e")
-	)
-	(wire
-		(pts
 			(xy 83.82 33.02) (xy 83.82 43.18)
 		)
 		(stroke
@@ -4415,16 +3976,6 @@
 			(type default)
 		)
 		(uuid "d67fd1ac-f82f-4c64-8169-7397ee33a396")
-	)
-	(wire
-		(pts
-			(xy 38.1 55.88) (xy 38.1 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6d4721d-d9d1-474c-b3c1-533112a367b1")
 	)
 	(wire
 		(pts
@@ -4568,16 +4119,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 33.02) (xy 60.96 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed25429a-ce82-46d3-af4f-a16b3e4ab6fc")
-	)
-	(wire
-		(pts
 			(xy 105.41 137.16) (xy 99.06 137.16)
 		)
 		(stroke
@@ -4615,17 +4156,6 @@
 			(type default)
 		)
 		(uuid "fc9a5148-8d52-4be4-b212-8ffb9a697969")
-	)
-	(text "Negative Voltage"
-		(exclude_from_sim no)
-		(at 16.764 16.764 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-			(justify left)
-		)
-		(uuid "008e0452-bfbd-4b4b-ad3e-8415ce1ebce4")
 	)
 	(text "ADC"
 		(exclude_from_sim no)
@@ -4823,6 +4353,72 @@
 			(justify right)
 		)
 		(uuid "d3bdb647-4bda-4d87-8681-bd7d66dbbf55")
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 161.29 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "004aaca4-c3e7-4db4-ab42-1936899551c8")
+		(property "Reference" "#PWR095"
+			(at 161.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_iosPH"
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 161.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95e6ae14-c9a9-43c2-97ed-587abc26dd2a")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDA")
@@ -5608,93 +5204,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 60.96 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2773aa29-d80e-4909-886c-3a83710f2c6c")
-		(property "Reference" "C24"
-			(at 62.484 43.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 61.976 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 60.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 60.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 60.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b4971bf4-2f23-4ff5-b5a3-c4300610cd60")
-		)
-		(pin "1"
-			(uuid "b73f5ba6-52e8-4d2f-b51d-d02c4551a0b6")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 160.02 119.38 0)
 		(unit 1)
@@ -5821,72 +5330,6 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 38.1 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c6ac3a0-9886-40c7-a494-b4c86bc7e0b0")
-		(property "Reference" "#PWR067"
-			(at 38.1 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_iosPH"
-			(at 38.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 38.1 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf9a6469-1042-49d0-bb9e-c6b831202dc3")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
-					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -6416,93 +5859,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 163.83 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f069d4c-c7f6-4890-972f-5258e61b02d6")
-		(property "Reference" "C19"
-			(at 166.624 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/0.1uF"
-			(at 174.244 49.784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 163.83 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 163.83 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 163.83 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 163.83 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c9a47b2e-f0e2-4406-a360-1fff34376920")
-		)
-		(pin "1"
-			(uuid "27c6d956-b1a4-46fe-aa3a-227b76d5cf9b")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 24.13 127 0)
 		(unit 1)
@@ -6658,93 +6014,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 53.34 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61cebf69-8625-434d-9cf3-8b280cec0946")
-		(property "Reference" "C23"
-			(at 54.864 43.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 54.356 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 53.34 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7acab7f9-7318-45fa-bb4d-69d32d046a79")
-		)
-		(pin "1"
-			(uuid "7bd39256-c448-4332-9ccf-d7e2bc7ac7f6")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 246.38 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6825,72 +6094,6 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5VA")
-		(at 161.29 54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6598d488-87ca-4754-95f0-8325bdba67e2")
-		(property "Reference" "#PWR074"
-			(at 161.29 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V_isoPH"
-			(at 161.29 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5VA\""
-			(at 161.29 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8142ea35-c152-4c2d-89b9-95a1e55949a0")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -6978,101 +6181,6 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_SwitchedCapacitor:TPS60400DBV")
-		(at 38.1 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69aea5f6-c827-40a8-9ddc-b25892802e67")
-		(property "Reference" "U11"
-			(at 38.1 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS60400DBV"
-			(at 38.1 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 38.1 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps60400.pdf"
-			(at 38.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unregulated 60-mA Charge Pump Voltage Inverter with Variable Switching Frequency 50 kHz - 250 kHz, SOT-23-5"
-			(at 38.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 38.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C9839"
-			(at 38.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "fad7c847-adfd-4422-af0c-af0881f0c9d7")
-		)
-		(pin "4"
-			(uuid "d771b007-1db7-422f-8236-72d52c9def6c")
-		)
-		(pin "3"
-			(uuid "d58fa0d5-66dd-498f-aff5-688842b1aa12")
-		)
-		(pin "1"
-			(uuid "59bb5233-71c3-42d0-9f73-228576abd52e")
-		)
-		(pin "2"
-			(uuid "069e29ae-d077-4e0a-aea3-29d686894c15")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
-					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -7168,72 +6276,6 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
 					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VA")
-		(at 22.86 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7be1b62d-3a18-4fc4-985a-b11cc020be18")
-		(property "Reference" "#PWR050"
-			(at 22.86 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_isoPH"
-			(at 22.86 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 22.86 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2341d2df-b066-4d72-a469-2f4be84769d1")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8306,93 +7348,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 22.86 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac260877-9c8f-4074-9fd1-0e668184a543")
-		(property "Reference" "C22"
-			(at 24.384 42.672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 23.876 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 22.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 22.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 22.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 22.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3521a2f3-64fe-4ffb-b96b-0a20817cf91a")
-		)
-		(pin "1"
-			(uuid "21e78040-edbf-4113-940c-7fd63ca18cc6")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HydroponicFlowerControl:ADM3260ARSZ-RL7")
 		(at 40.64 109.22 0)
 		(unit 1)
@@ -8733,72 +7688,6 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5VA")
-		(at 60.96 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b38d8198-5830-4d08-89b6-f44492873b03")
-		(property "Reference" "#PWR052"
-			(at 60.96 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V_isoPH"
-			(at 60.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5VA\""
-			(at 60.96 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f8898eb-ceee-4f32-aa11-32e15036b6e6")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -9554,72 +8443,6 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
 					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 168.91 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e976681a-ac2f-4b42-9cdc-dbba90630615")
-		(property "Reference" "#PWR046"
-			(at 168.91 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_iosPH"
-			(at 168.91 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 168.91 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97a9eb5f-9f5e-42a7-959b-5dfefb6f85d0")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/98c7b1ae-5b10-4cce-8f75-2d85473487c0"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
