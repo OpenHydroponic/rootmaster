@@ -4513,7 +4513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
+		(property "Footprint" "HydroponicFlowerControl:BNC_SMA"
 			(at 151.13 41.91 0)
 			(effects
 				(font
@@ -4540,7 +4540,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2837587"
+		(property "LCSC bnc" "C2837587"
+			(at 151.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC sma" "C496550"
 			(at 151.13 41.91 0)
 			(effects
 				(font
