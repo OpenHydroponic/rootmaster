@@ -11221,9 +11221,9 @@
 		(at 166.37 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2dae850-988a-46a9-b0d9-e5f2e9ccc72f")
 		(property "Reference" "R74"
@@ -11956,9 +11956,9 @@
 		(at 166.37 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f32c917d-09eb-4fb2-a02f-0a54fca7b866")
 		(property "Reference" "R75"
