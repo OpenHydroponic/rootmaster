@@ -2332,6 +2332,12 @@
 		)
 	)
 	(junction
+		(at 191.77 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0384a852-9b68-4b04-bbdf-3c64be3d095b")
+	)
+	(junction
 		(at 133.35 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3102,6 +3108,16 @@
 			(type default)
 		)
 		(uuid "3d14be19-ee8e-4f0f-b118-d5461f5f9d85")
+	)
+	(wire
+		(pts
+			(xy 191.77 77.47) (xy 196.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d684ef6-a173-4ecb-bce3-cc95b01ad313")
 	)
 	(wire
 		(pts
@@ -4345,6 +4361,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 77.47) (xy 191.77 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6b37d5-fe10-4f16-a74e-9e0f7a2399bd")
+	)
+	(wire
+		(pts
 			(xy 24.13 128.27) (xy 27.94 128.27)
 		)
 		(stroke
@@ -4545,6 +4571,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 77.47) (xy 191.77 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed436ecd-a7f8-4f19-9b7e-91a5425fbc4c")
+	)
+	(wire
+		(pts
 			(xy 115.57 44.45) (xy 115.57 43.18)
 		)
 		(stroke
@@ -4730,7 +4766,7 @@
 	)
 	(hierarchical_label "TEMP"
 		(shape output)
-		(at 201.93 77.47 180)
+		(at 187.96 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5323,6 +5359,72 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/7c7300e5-25d5-4b1e-a176-ffcbce070bf3"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11b95621-e8aa-40b0-bae9-96a534324d5b")
+		(property "Reference" "#PWR043"
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a23e441-43e7-423d-95ca-74e16826253a")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/7c7300e5-25d5-4b1e-a176-ffcbce070bf3"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8121,6 +8223,93 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 191.77 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87130bd5-30a0-40b2-ae10-cc9cb750db03")
+		(property "Reference" "R18"
+			(at 194.31 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k"
+			(at 194.31 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4216"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "22836faf-ec83-4f42-b666-817e091d1ee6")
+		)
+		(pin "1"
+			(uuid "4b9aac9c-c946-4e6d-820b-f39f123e869e")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/7c7300e5-25d5-4b1e-a176-ffcbce070bf3"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 43.18 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8201,6 +8390,84 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/7c7300e5-25d5-4b1e-a176-ffcbce070bf3"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 199.39 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88f43b59-f232-4f81-96f3-e8915971b71d")
+		(property "Reference" "R20"
+			(at 198.1199 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18k"
+			(at 200.6599 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25810"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d86e0bb2-aa95-41d6-a5ed-64bed60de9d4")
+		)
+		(pin "1"
+			(uuid "44a1fd50-de72-4d70-86cf-5bb39f43853c")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/7c7300e5-25d5-4b1e-a176-ffcbce070bf3"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -10574,15 +10841,6 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 247.65 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
 			(at 247.65 38.1 0)
 			(effects
 				(font
