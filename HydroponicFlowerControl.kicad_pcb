@@ -67268,6 +67268,17 @@
 		(layer "F.SilkS")
 		(uuid "68402d3f-6ecb-4d6b-9f8e-752bfc746962")
 	)
+	(gr_rect
+		(start 130.962 151.316)
+		(end 138.962 159.316)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "6b88e8b8-669d-48f2-af96-e613cd4528c1")
+	)
 	(gr_line
 		(start 93.814 78.835)
 		(end 58.393 78.835)
