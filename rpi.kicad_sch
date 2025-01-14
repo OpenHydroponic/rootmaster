@@ -4453,7 +4453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical_SMD"
+		(property "Footprint" "HydroponicFlowerControl:HDR-SMD_40P-P2.54-V-F-R2-C20-S7.1-EH"
 			(at 66.04 63.5 0)
 			(effects
 				(font
