@@ -2257,7 +2257,7 @@
 		(path "/7c7300e5-25d5-4b1e-a176-ffcbce070bf3/ff47f3d6-759a-442b-b05b-81e4438e6aec")
 		(sheetname "Flow control")
 		(sheetfile "flow_control.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 7.56 -2.41)
 			(end 6.14 -2.41)
@@ -4959,7 +4959,7 @@
 		(path "/7c7300e5-25d5-4b1e-a176-ffcbce070bf3/17add956-282d-4a8c-9467-e75528da11d3")
 		(sheetname "Flow control")
 		(sheetfile "flow_control.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 0.3 -2.6)
 			(end 0 -2)
@@ -7696,7 +7696,7 @@
 		(path "/7c7300e5-25d5-4b1e-a176-ffcbce070bf3/be056f95-94b4-496c-82c9-e1ac15774017")
 		(sheetname "Flow control")
 		(sheetfile "flow_control.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 5.06 -2.41)
 			(end 3.64 -2.41)
@@ -8929,7 +8929,7 @@
 		(path "/db02ea94-c311-42b2-be33-1b082fcd52fb/8c31169d-728f-42bb-b1d9-12330cb8db2b")
 		(sheetname "IO")
 		(sheetfile "io.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 6.06 6.36)
 			(end 6.06 -1.46)
@@ -9836,7 +9836,7 @@
 		(path "/98c7b1ae-5b10-4cce-8f75-2d85473487c0/fbb06a29-7064-461e-b5a0-28a78f0f5e13")
 		(sheetname "pH")
 		(sheetfile "ph.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 6.41)
@@ -17417,7 +17417,7 @@
 		(path "/7c7300e5-25d5-4b1e-a176-ffcbce070bf3/d321ab4f-a047-43d2-bda6-c072a65c538d")
 		(sheetname "Flow control")
 		(sheetfile "flow_control.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -2.56 9.31)
 			(end -2.56 -2.41)
@@ -21829,7 +21829,7 @@
 		(path "/7c7300e5-25d5-4b1e-a176-ffcbce070bf3/1ba4539c-9dca-4a7a-bd21-f1f14bead363")
 		(sheetname "Flow control")
 		(sheetfile "flow_control.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 5.06 -2.41)
 			(end 3.64 -2.41)
@@ -24270,7 +24270,7 @@
 		(path "/7c7300e5-25d5-4b1e-a176-ffcbce070bf3/19818169-477f-4479-ab7b-d983356114bb")
 		(sheetname "Flow control")
 		(sheetfile "flow_control.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 0.3 -2.6)
 			(end 0 -2)
@@ -25845,7 +25845,7 @@
 		(path "/ed65d457-d819-4893-a974-b640bac4c870/9d2cbfa8-58b1-43ea-b3d1-4f061e8f42f7")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_rect
 			(start -7.75 3)
 			(end 5.75 11.73)
@@ -26532,7 +26532,7 @@
 		(path "/2418e7ae-ca6e-4e69-b6d2-7ffd3e4dd695/2b91c2c7-0de1-480e-ba5f-cb63cbd02ef4")
 		(sheetname "EC")
 		(sheetfile "ec.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -2.56 9.31)
 			(end -2.56 -2.41)
@@ -33853,7 +33853,7 @@
 		(path "/98c7b1ae-5b10-4cce-8f75-2d85473487c0/8357f306-94fd-4ef8-9820-e292f2e34399")
 		(sheetname "pH")
 		(sheetfile "ph.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -1.33 1.27)
 			(end -1.33 6.41)
@@ -36789,7 +36789,7 @@
 		(path "/db02ea94-c311-42b2-be33-1b082fcd52fb/54a535e5-8516-4112-b344-a1b21e81bd54")
 		(sheetname "IO")
 		(sheetfile "io.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 6.06 6.36)
 			(end 6.06 -1.46)
@@ -41746,7 +41746,7 @@
 		(path "/2418e7ae-ca6e-4e69-b6d2-7ffd3e4dd695/d4602ca6-00f6-4527-a931-87e4d873f6d1")
 		(sheetname "EC")
 		(sheetfile "ec.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -2.56 9.31)
 			(end -2.56 -2.41)
@@ -43182,7 +43182,7 @@
 		(path "/ed65d457-d819-4893-a974-b640bac4c870/f9b62287-4df6-43b6-ab90-950485d03e26")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -3.09 -3.17)
 			(end -1.765 -3.17)
@@ -43869,7 +43869,7 @@
 		(path "/7c7300e5-25d5-4b1e-a176-ffcbce070bf3/fb6ab422-7d28-4f85-8921-6bfe85fcc7ce")
 		(sheetname "Flow control")
 		(sheetfile "flow_control.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 0.3 -2.6)
 			(end 0 -2)
@@ -52175,7 +52175,7 @@
 		(path "/7c7300e5-25d5-4b1e-a176-ffcbce070bf3/f0ee0f37-be11-4e2b-9e98-e698f278b74d")
 		(sheetname "Flow control")
 		(sheetfile "flow_control.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start -2.56 9.31)
 			(end -2.56 -2.41)
@@ -55082,7 +55082,7 @@
 		(path "/db02ea94-c311-42b2-be33-1b082fcd52fb/2fe6fbf7-4197-4d88-97a0-1b8e0cbce049")
 		(sheetname "IO")
 		(sheetfile "io.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(fp_line
 			(start 6.06 6.36)
 			(end 6.06 -1.46)
@@ -65095,7 +65095,7 @@
 		(path "/9aca03da-9950-423c-b716-bf95878ee447/2884c667-902b-4dbe-a431-1f49cad59c8b")
 		(sheetname "RaspberryPi")
 		(sheetfile "rpi.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.95)
@@ -65458,7 +65458,7 @@
 		(path "/9aca03da-9950-423c-b716-bf95878ee447/b05bb87c-69c2-475e-9ca0-ce534a1ef905")
 		(sheetname "RaspberryPi")
 		(sheetfile "rpi.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.95)
