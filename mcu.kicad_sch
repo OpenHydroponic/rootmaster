@@ -987,6 +987,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -4259,6 +4361,12 @@
 		(uuid "288c9c54-3e41-405c-897d-a2adcee3892c")
 	)
 	(junction
+		(at 30.48 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f7df39f-faac-4730-9657-800f0ea0239f")
+	)
+	(junction
 		(at 36.83 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4367,6 +4475,12 @@
 		(uuid "bab055b3-fc60-4bec-b53f-8c46c3205a88")
 	)
 	(junction
+		(at 260.35 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c38da6cb-86ed-43c3-bbd9-dd10acd2cdda")
+	)
+	(junction
 		(at 54.61 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4377,6 +4491,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddc2bed4-4cbf-429a-93f2-07334b532b72")
+	)
+	(junction
+		(at 269.24 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6f2eaf1-8394-44ed-ade4-9bd371d1541b")
 	)
 	(junction
 		(at 20.32 40.64)
@@ -4528,6 +4648,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 38.1) (xy 260.35 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0707d9-e170-404b-9192-ea4e778447f6")
+	)
+	(wire
+		(pts
 			(xy 245.11 96.52) (xy 251.46 96.52)
 		)
 		(stroke
@@ -4565,6 +4695,16 @@
 			(type default)
 		)
 		(uuid "12ccb223-5be4-47e8-bd8d-40da16b99f6a")
+	)
+	(wire
+		(pts
+			(xy 251.46 38.1) (xy 260.35 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1346b6e6-d296-40c8-83ea-eece860939ef")
 	)
 	(wire
 		(pts
@@ -4828,6 +4968,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 34.29) (xy 39.37 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa6b01b-3934-416e-b2db-e5bd9e21318f")
+	)
+	(wire
+		(pts
 			(xy 30.48 36.83) (xy 30.48 38.1)
 		)
 		(stroke
@@ -4898,7 +5048,17 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 26.67) (xy 260.35 45.72)
+			(xy 273.05 38.1) (xy 269.24 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e557ce4-1977-42c9-98d7-6e08dda5dd4d")
+	)
+	(wire
+		(pts
+			(xy 260.35 26.67) (xy 260.35 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5238,7 +5398,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 34.29) (xy 39.37 34.29)
+			(xy 27.94 34.29) (xy 30.48 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5948,6 +6108,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 38.1) (xy 269.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc082e43-37d9-491b-b990-f3a93010c67e")
+	)
+	(wire
+		(pts
 			(xy 54.61 121.92) (xy 54.61 119.38)
 		)
 		(stroke
@@ -6035,6 +6205,16 @@
 			(type default)
 		)
 		(uuid "ea515a0c-0667-4755-8575-69c5fd354dda")
+	)
+	(wire
+		(pts
+			(xy 30.48 29.21) (xy 30.48 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc2537d-97c7-41e2-aa8e-2d5f1a262eac")
 	)
 	(wire
 		(pts
@@ -6198,7 +6378,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 29.21) (xy 269.24 55.88)
+			(xy 269.24 29.21) (xy 269.24 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7322,6 +7502,74 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
 					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11f0749d-a26c-4fdb-a4b6-efa603866e88")
+		(property "Reference" "TP18"
+			(at 33.02 25.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Reset"
+			(at 33.02 27.1779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 35.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "219a5127-7d60-4845-b8de-d3c7a116ebf4")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -10384,6 +10632,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 273.05 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af7a7bc0-07b2-4b4d-9262-b820170dd0e0")
+		(property "Reference" "TP8"
+			(at 275.59 33.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CANL"
+			(at 275.59 36.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 278.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 273.05 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66f69267-b7a1-4994-a1b5-af1c81e929d3")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 123.19 39.37 0)
 		(unit 1)
@@ -10887,6 +11202,73 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
 					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 251.46 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc54f899-c4a9-4f3f-a4ff-6f2f8d9ef75a")
+		(property "Reference" "TP7"
+			(at 254 33.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CANH"
+			(at 254 36.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 256.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2b887e4-684d-4955-b072-232d51c1e752")
+		)
+		(instances
+			(project ""
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
