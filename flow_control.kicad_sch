@@ -6020,7 +6020,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C493111"
+		(property "LCSC" "C157931"
 			(at 76.2 127 0)
 			(effects
 				(font
@@ -10303,7 +10303,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C493111"
+		(property "LCSC" "C157931"
 			(at 76.2 176.53 0)
 			(effects
 				(font
@@ -10928,7 +10928,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC alt" ""
+		(property "LCSC" "C157931"
 			(at 267.97 80.01 0)
 			(effects
 				(font
@@ -10937,7 +10937,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C493111"
+		(property "LCSC alt" "C493111"
 			(at 267.97 80.01 0)
 			(effects
 				(font
