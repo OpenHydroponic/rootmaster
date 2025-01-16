@@ -4097,6 +4097,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 165.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "978744eb-2942-46fc-a33a-b193cab0bebe")
 		)
@@ -5121,6 +5130,15 @@
 			)
 		)
 		(property "LCSC" "C541850"
+			(at 152.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
 			(at 152.4 43.18 0)
 			(effects
 				(font
