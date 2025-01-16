@@ -4927,7 +4927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:Texas_DRT-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-723"
 			(at 44.45 91.44 0)
 			(effects
 				(font
@@ -4936,7 +4936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411121100_TECH-PUBLIC-TPD2EUSB30DRTR-TP_C2844720.pdf"
 			(at 63.5 83.82 0)
 			(effects
 				(font
