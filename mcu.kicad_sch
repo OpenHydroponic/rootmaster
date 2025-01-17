@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MCU")
-		(rev "2")
+		(rev "3")
 	)
 	(lib_symbols
 		(symbol "Conn_ARM_JTAG_SWD_10_1"

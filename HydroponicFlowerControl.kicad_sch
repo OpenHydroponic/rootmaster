@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RootMaster")
-		(rev "2")
+		(rev "3")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
