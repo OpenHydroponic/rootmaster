@@ -67589,6 +67589,19 @@
 		(layer "Edge.Cuts")
 		(uuid "f9bce22f-b839-47a8-b489-390707a049bc")
 	)
+	(gr_text "Designed by\nMicke Prag"
+		(at 150.456 160.714 0)
+		(layer "B.SilkS")
+		(uuid "59a2befb-dfeb-4afc-9568-6ca827d715d9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Rev: ${REVISION}"
 		(at 131.787 162.492 0)
 		(layer "F.SilkS")
