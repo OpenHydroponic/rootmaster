@@ -53374,6 +53374,7 @@
 			)
 		)
 		(model "${KIPRJMOD}/3d/Raspberry Pi Zero 2 W.STEP"
+			(hide yes)
 			(offset
 				(xyz 0 11.5 10.65)
 			)
@@ -53385,6 +53386,7 @@
 			)
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x20_P2.54mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 24.15 -1.25 9.85)
 			)
