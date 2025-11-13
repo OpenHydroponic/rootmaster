@@ -1443,155 +1443,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal_Small"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Two pin crystal, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -0.762) (xy -1.27 0.762)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.762 -1.524)
-					(end 0.762 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.762) (xy 1.27 0.762)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -4616,12 +4467,6 @@
 		(uuid "8de5746a-63c1-4a1b-8c63-302dd47fc238")
 	)
 	(junction
-		(at 30.48 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90659e6b-3c96-46fd-ba9e-a3256ca641f6")
-	)
-	(junction
 		(at 265.43 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4644,12 +4489,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7c7a4b7-2ce3-48cf-b00d-c980445d6a8b")
-	)
-	(junction
-		(at 30.48 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7ca1d73-21e1-45b7-9bb5-0893a528b609")
 	)
 	(junction
 		(at 181.61 45.72)
@@ -4682,12 +4521,6 @@
 		(uuid "e6f2eaf1-8394-44ed-ade4-9bd371d1541b")
 	)
 	(junction
-		(at 20.32 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef8e12ee-55f0-4e80-b094-b2d5edac9bd8")
-	)
-	(junction
 		(at 175.26 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4708,6 +4541,10 @@
 	(no_connect
 		(at 251.46 101.6)
 		(uuid "04f6c262-dcd1-4108-a82b-47f529614538")
+	)
+	(no_connect
+		(at 39.37 41.91)
+		(uuid "0d080246-d9b8-40ca-aaa9-906d4039c419")
 	)
 	(no_connect
 		(at 251.46 99.06)
@@ -4736,6 +4573,10 @@
 	(no_connect
 		(at 39.37 87.63)
 		(uuid "7b91d290-f08b-4fdd-80d4-5542a720049c")
+	)
+	(no_connect
+		(at 39.37 39.37)
+		(uuid "b546ba40-4f4e-43d1-8942-6e67887b4eb0")
 	)
 	(no_connect
 		(at 234.95 55.88)
@@ -4788,16 +4629,6 @@
 			(type default)
 		)
 		(uuid "04748897-bd60-42bd-9c86-debd655d7737")
-	)
-	(wire
-		(pts
-			(xy 35.56 36.83) (xy 30.48 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "048156ca-61f4-4094-a73f-97a226f3fdae")
 	)
 	(wire
 		(pts
@@ -4898,16 +4729,6 @@
 			(type default)
 		)
 		(uuid "135019eb-d600-4b55-878e-2aef3bb765b9")
-	)
-	(wire
-		(pts
-			(xy 19.05 40.64) (xy 20.32 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1506f8f2-888c-43d5-aaad-c042cdaf481f")
 	)
 	(wire
 		(pts
@@ -5161,16 +4982,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 36.83) (xy 30.48 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3068d96a-13b4-469d-9919-cbbc5b8e52e7")
-	)
-	(wire
-		(pts
 			(xy 261.62 140.97) (xy 264.16 140.97)
 		)
 		(stroke
@@ -5301,16 +5112,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 36.83) (xy 30.48 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47eeb877-047f-4d8f-81b9-ab56c5bf885e")
-	)
-	(wire
-		(pts
 			(xy 251.46 129.54) (xy 251.46 132.08)
 		)
 		(stroke
@@ -5318,16 +5119,6 @@
 			(type default)
 		)
 		(uuid "4a2a2397-0906-4fe5-b3f7-3b3d8a67d7ad")
-	)
-	(wire
-		(pts
-			(xy 20.32 44.45) (xy 21.59 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4adad9bb-9491-4919-a2c1-898e9454092f")
 	)
 	(wire
 		(pts
@@ -5411,26 +5202,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 36.83) (xy 21.59 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5546dce2-5043-439f-8d68-dc1d31f606f7")
-	)
-	(wire
-		(pts
-			(xy 39.37 39.37) (xy 35.56 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "557321ba-cd21-45e2-89be-a9ca4d549b1b")
-	)
-	(wire
-		(pts
 			(xy 264.16 80.01) (xy 264.16 81.28)
 		)
 		(stroke
@@ -5468,16 +5239,6 @@
 			(type default)
 		)
 		(uuid "60f0fc74-266d-467e-9a92-bdfe6c4b616b")
-	)
-	(wire
-		(pts
-			(xy 35.56 41.91) (xy 35.56 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6123aca8-5018-4709-8bc6-4bf123a6590c")
 	)
 	(polyline
 		(pts
@@ -5618,16 +5379,6 @@
 			(type default)
 		)
 		(uuid "77be923d-5846-43c7-80ff-64453c4f9a7c")
-	)
-	(wire
-		(pts
-			(xy 19.05 40.64) (xy 19.05 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77f210dc-7da6-4d0d-ba3a-506b822580e1")
 	)
 	(wire
 		(pts
@@ -5808,16 +5559,6 @@
 			(type default)
 		)
 		(uuid "98a41281-5932-4034-b2a5-0dc11309936e")
-	)
-	(wire
-		(pts
-			(xy 39.37 41.91) (xy 35.56 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99c3067f-b193-4c47-b901-83100388e3f4")
 	)
 	(wire
 		(pts
@@ -6041,16 +5782,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 44.45) (xy 30.48 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba6193ee-e1be-4995-bbd3-42a8c484f711")
-	)
-	(wire
-		(pts
 			(xy 166.37 52.07) (xy 166.37 55.88)
 		)
 		(stroke
@@ -6201,16 +5932,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 36.83) (xy 20.32 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d58d7ac7-912d-4d94-9564-18cba23eb9c7")
-	)
-	(wire
-		(pts
 			(xy 193.04 45.72) (xy 195.58 45.72)
 		)
 		(stroke
@@ -6341,26 +6062,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 43.18) (xy 30.48 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e44e6dc8-74cb-45b7-8b29-c59cb4c97271")
-	)
-	(wire
-		(pts
-			(xy 35.56 39.37) (xy 35.56 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6ffe127-fb73-41c8-8c29-de02274cd9a8")
-	)
-	(wire
-		(pts
 			(xy 127 27.94) (xy 133.35 27.94)
 		)
 		(stroke
@@ -6368,16 +6069,6 @@
 			(type default)
 		)
 		(uuid "e8fbf130-faf7-4807-99af-169e378f44be")
-	)
-	(wire
-		(pts
-			(xy 26.67 44.45) (xy 30.48 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9bd04c3-1e18-421e-a8e6-5be78d58548b")
 	)
 	(wire
 		(pts
@@ -6458,16 +6149,6 @@
 			(type default)
 		)
 		(uuid "f53e8683-34ed-41d3-bd52-cc7a81cfce01")
-	)
-	(wire
-		(pts
-			(xy 20.32 40.64) (xy 20.32 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f62ca3da-76e3-46b7-bae0-85d9c7d2c172")
 	)
 	(wire
 		(pts
@@ -7453,91 +7134,6 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
 					(reference "#PWR0154")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 24.13 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "102440c5-df92-44b1-88fa-a5a892555711")
-		(property "Reference" "C55"
-			(at 23.749 47.752 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "30pF"
-			(at 24.257 49.784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 24.13 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1658"
-			(at 24.1363 37.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 24.13 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce4a6090-e2d0-47ad-8943-0a390035a6c0")
-		)
-		(pin "2"
-			(uuid "09dd0d20-7c0e-4c5a-a657-601a3e056b1b")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
-					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -8656,93 +8252,6 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
 					(reference "#PWR0132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_Small")
-		(at 30.48 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "46c1e51f-f159-4d06-93d9-cfd7a1d7607c")
-		(property "Reference" "Y1"
-			(at 28.702 38.354 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "8 MHz"
-			(at 31.242 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm"
-			(at 30.48 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C115962"
-			(at 30.48 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 30.48 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ca1f03d-a3b2-4ab2-92a8-759a22020375")
-		)
-		(pin "2"
-			(uuid "551444c4-3f6a-41e7-a39a-a2082090e22e")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -12228,91 +11737,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 24.13 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1abe21a-dc32-4142-a22a-71711c939c42")
-		(property "Reference" "C54"
-			(at 23.749 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "30pF"
-			(at 24.003 33.782 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 24.13 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1658"
-			(at 24.1363 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 24.13 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f14c9195-4cdd-4325-b564-a2d7b8a1d69c")
-		)
-		(pin "2"
-			(uuid "2429fb5a-190e-4f24-9002-00163a2ea5b2")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
-					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 265.43 114.3 0)
 		(unit 1)
@@ -12784,72 +12208,6 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
 					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 19.05 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fadac599-6069-498a-9fcd-d8e4441fb85e")
-		(property "Reference" "#PWR0128"
-			(at 19.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 19.05 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 19.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0573fa40-956b-49da-b470-a2909a846ae4")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
-					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
