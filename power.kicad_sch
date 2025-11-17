@@ -6895,7 +6895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA5040S"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA8040S"
 			(at 86.36 168.91 0)
 			(effects
 				(font
@@ -6922,17 +6922,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C68434"
+		(property "LCSC" "C334252"
 			(at 86.36 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 86.36 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
