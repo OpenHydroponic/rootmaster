@@ -860,6 +860,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 168.91) (xy 133.35 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d41367e-f047-4c01-881b-660a900fae0a")
+	)
+	(wire
+		(pts
 			(xy 49.53 127) (xy 58.42 127)
 		)
 		(stroke
@@ -887,6 +897,16 @@
 			(type default)
 		)
 		(uuid "1244a684-fa2d-454d-8212-5ad1b169df13")
+	)
+	(wire
+		(pts
+			(xy 116.84 77.47) (xy 116.84 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170ed833-2917-41c6-9bb6-81b607acedd2")
 	)
 	(wire
 		(pts
@@ -1237,6 +1257,16 @@
 			(type default)
 		)
 		(uuid "f2995d0d-e9c1-4ad8-92cb-0aa2830983e8")
+	)
+	(wire
+		(pts
+			(xy 49.53 77.47) (xy 116.84 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78bdc19-77ac-4ff0-90cc-5183680e7800")
 	)
 	(wire
 		(pts
@@ -2220,6 +2250,16 @@
 				(justify left)
 			)
 		)
+		(pin "IMON" output
+			(at 133.35 168.91 180)
+			(uuid "5b81e1b9-233d-43de-a282-fa1ed8c61b13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031"
@@ -2813,6 +2853,16 @@
 		(pin "D_IN1" input
 			(at 49.53 86.36 0)
 			(uuid "9f694889-604a-4edf-813a-4a0d4d978e04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMON" input
+			(at 49.53 77.47 0)
+			(uuid "43ea52ca-491e-4b3b-8b62-98e5f9d6f26e")
 			(effects
 				(font
 					(size 1.27 1.27)

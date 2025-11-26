@@ -60,6 +60,14 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|125625000|139641500|221ebb41-bba9-4ede-9ba6-6ada7afe78e9|8078ffca-d3ef-48a7-9cc8-4d7e095e5986",
+          "This is part of the chip package. The pins are this close."
+        ],
+        [
+          "silk_over_copper|109181000|123374000|d0fd6518-08cc-4577-b59c-d79fc2d1a026|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "silk_over_copper|139695883|68014000|9a2ff9a1-a988-4366-ad64-2ea293b64979|00000000-0000-0000-0000-000000000000",
           ""
         ]
