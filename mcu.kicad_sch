@@ -2988,7 +2988,6 @@
 					(alternate "ADC4_IN10" bidirectional line)
 					(alternate "DAC1_OUT2" bidirectional line)
 					(alternate "LPTIM2_ETR" bidirectional line)
-					(alternate "" input line)
 					(alternate "PSSI_D14" bidirectional line)
 					(alternate "PWR_CSLEEP" bidirectional line)
 					(alternate "PWR_WKUP6" bidirectional line)
@@ -3369,6 +3368,7 @@
 					(alternate "LPTIM1_CH1" bidirectional line)
 					(alternate "MDF1_CKI0" bidirectional line)
 					(alternate "OCTOSPIM_P1_DQS" bidirectional line)
+					(alternate "" input line)
 					(alternate "PWR_WKUP1" bidirectional line)
 					(alternate "RTC_OUT2" bidirectional line)
 					(alternate "SPI1_RDY" bidirectional line)
@@ -4691,6 +4691,19 @@
 		)
 		(uuid "68c83088-5a9c-4f5c-88e1-f92a75eb31cc")
 	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 15.494 19.558 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1e2c324-9ccd-447e-9515-43fdbf762b97")
+	)
 	(text "CAN"
 		(exclude_from_sim no)
 		(at 213.36 17.78 0)
@@ -5383,6 +5396,16 @@
 		)
 		(uuid "32ab2969-7631-43a5-bfc4-df0c1a2e3645")
 	)
+	(wire
+		(pts
+			(xy 43.18 109.22) (xy 43.18 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3327e3ca-8915-443f-a975-f13ff490108f")
+	)
 	(polyline
 		(pts
 			(xy 212.09 121.285) (xy 285.115 121.285)
@@ -5515,6 +5538,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 102.87) (xy 43.18 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467a9688-9f4e-4090-948b-d1ee32bfe317")
+	)
+	(wire
+		(pts
 			(xy 251.46 129.54) (xy 251.46 132.08)
 		)
 		(stroke
@@ -5552,6 +5585,16 @@
 			(type default)
 		)
 		(uuid "4d30e4b3-e21a-4f38-beff-ae7ca7130e18")
+	)
+	(wire
+		(pts
+			(xy 81.28 54.61) (xy 83.82 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d465a61-710b-409e-97bf-8d8520244185")
 	)
 	(wire
 		(pts
@@ -5742,6 +5785,16 @@
 			(type default)
 		)
 		(uuid "6804252b-428c-452b-b079-263f30025393")
+	)
+	(wire
+		(pts
+			(xy 81.28 85.09) (xy 83.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e466ee-1501-46e1-bc7d-11a7706c474d")
 	)
 	(wire
 		(pts
@@ -6525,6 +6578,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 102.87) (xy 43.18 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de852065-86fb-4058-b71a-80f45b2ebd1d")
+	)
+	(wire
+		(pts
 			(xy 66.04 29.21) (xy 66.04 31.75)
 		)
 		(stroke
@@ -6615,6 +6678,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 72.39) (xy 45.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee706c28-7e27-48f5-83d1-bac6d645f7b9")
+	)
+	(wire
+		(pts
 			(xy 266.7 111.76) (xy 266.7 113.03)
 		)
 		(stroke
@@ -6622,6 +6695,16 @@
 			(type default)
 		)
 		(uuid "ee7c9fcf-9409-4fb2-9b72-8589a0f29aef")
+	)
+	(wire
+		(pts
+			(xy 81.28 87.63) (xy 83.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7ec751-b620-424b-8335-bd8ff74819a9")
 	)
 	(wire
 		(pts
@@ -6662,6 +6745,16 @@
 			(type default)
 		)
 		(uuid "f3467f06-4227-4a14-b812-53dd2e7e0335")
+	)
+	(wire
+		(pts
+			(xy 41.91 69.85) (xy 45.72 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3bbb40f-3e45-4dd2-a613-65732b408a5d")
 	)
 	(wire
 		(pts
@@ -7399,6 +7492,17 @@
 		)
 		(uuid "3caab237-fca7-4c6b-a8bd-81efed2d3af3")
 	)
+	(hierarchical_label "HS2_SEL_H"
+		(shape output)
+		(at 83.82 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49b4552f-5056-4367-afb7-04ecae53f062")
+	)
 	(hierarchical_label "DM"
 		(shape bidirectional)
 		(at 83.82 67.31 0)
@@ -7409,6 +7513,39 @@
 			(justify left)
 		)
 		(uuid "55cf76a1-2691-4bfb-a6cb-854fbf316d40")
+	)
+	(hierarchical_label "~{HS2_FAULT}"
+		(shape input)
+		(at 41.91 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56698645-c5be-4b2d-84d8-76204c7e9d7b")
+	)
+	(hierarchical_label "DIAG2_EN"
+		(shape output)
+		(at 83.82 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60112e3f-46a6-4cd9-8bf9-1d6144360a77")
+	)
+	(hierarchical_label "Current_Sense"
+		(shape input)
+		(at 41.91 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "636352fa-0683-448e-95b4-8ca3a5fd52b4")
 	)
 	(hierarchical_label "CAN_L"
 		(shape input)
@@ -7486,6 +7623,17 @@
 			(justify left)
 		)
 		(uuid "c12d67d5-3552-4d9a-ab3f-0d5596e21804")
+	)
+	(hierarchical_label "HS2_SEL_L"
+		(shape output)
+		(at 83.82 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7a737a0-6728-44a5-b3c7-85e969be3a11")
 	)
 	(hierarchical_label "IMON"
 		(shape input)
@@ -8950,6 +9098,85 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
 					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 43.18 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60eb2d54-8a6c-44e8-bbc4-b76ad93457e5")
+		(property "Reference" "C68"
+			(at 40.64 105.4035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 40.64 107.9435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ced49779-e207-4d20-88c7-a010be0cafb9")
+		)
+		(pin "1"
+			(uuid "49a8bbb6-e857-49c8-b836-317e907eac49")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -11000,6 +11227,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 43.18 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cab080a7-5149-4332-88db-f696d345d460")
+		(property "Reference" "#PWR0166"
+			(at 43.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "079671c6-683a-4834-acf5-7fdfd47f0be6")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 251.46 38.1 0)
 		(unit 1)
@@ -11662,6 +11955,7 @@
 		)
 		(pin "28"
 			(uuid "5b816c95-bac3-45ee-b350-ed0c57f03909")
+			(alternate "PB2")
 		)
 		(pin "58"
 			(uuid "e873c32b-be4e-4d8c-969a-1770345e7aee")
@@ -11723,6 +12017,7 @@
 		)
 		(pin "24"
 			(uuid "e26e5125-09f9-40b1-9ff5-2124c98a8759")
+			(alternate "ADC1_IN13")
 		)
 		(pin "36"
 			(uuid "9f92381b-3a26-4e73-b882-6d50faee9138")
