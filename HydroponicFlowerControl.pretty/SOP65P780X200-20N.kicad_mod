@@ -1,0 +1,441 @@
+(footprint "SOP65P780X200-20N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RS-20 (SSOP)")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at -1.893 -4.917 0)
+		(layer "F.SilkS")
+		(uuid "a8aad8d5-8ab3-4a34-b3fb-963314983f62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ADM3260ARSZ-RL7"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d77192c8-4163-4f4e-9131-c0b696a2cd47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adm3260.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e292759-4914-4826-a5ec-577638493a95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Digital Isolators Isolated I2C  & Power"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31dc98c1-6ed0-4a51-977a-3e925ff13a15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ab7b13a-4b96-4e68-8e01-f53fa64c1879")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Analog Devices"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92441dcd-5f9b-4260-8c9b-bc24dcaca3d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "ADM3260ARSZ-RL7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07f9939a-a15e-42c7-b0c9-0e649eb848ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "584-ADM3260ARSZ-RL7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f966300-9af4-4cc0-9aaa-55a73cb8166a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADM3260ARSZ-RL7?qs=hpwIUhX6lWy5rzRvRSiwFQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e55ca33c-6287-482f-83d5-93685c01a9c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C658204"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22a7c4c8-3040-4a65-9249-053f275b8783")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB Rotation Offset" "270"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ab16c8c-201d-4bae-95f5-57a4d5c26297")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.45 -3.5)
+		(end -2.65 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42351ba2-7b26-41a7-908e-72b400ca5a36")
+	)
+	(fp_line
+		(start -2.3 -3.6)
+		(end 2.3 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e9fdf78-1c89-4a09-8635-d06ee6bd109c")
+	)
+	(fp_line
+		(start -2.3 3.6)
+		(end -2.3 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aca8705e-1697-4ed6-9915-9a82cef8c191")
+	)
+	(fp_line
+		(start 2.3 -3.6)
+		(end 2.3 3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6642eeb-b257-4290-819b-69cadc4e80aa")
+	)
+	(fp_line
+		(start 2.3 3.6)
+		(end -2.3 3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d83a2e25-e23a-482a-befa-8ce47ca41201")
+	)
+	(fp_line
+		(start -4.7 -4)
+		(end 4.7 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf2b945b-76ad-4113-a951-5b9e37bdecd3")
+	)
+	(fp_line
+		(start -4.7 4)
+		(end -4.7 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f70c891-96aa-4b65-9012-38ef9c6f021e")
+	)
+	(fp_line
+		(start 4.7 -4)
+		(end 4.7 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b442b58d-058f-41f8-958e-680118861244")
+	)
+	(fp_line
+		(start 4.7 4)
+		(end -4.7 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "90c6ba20-b0ab-4fdc-bca2-6206b71fa48a")
+	)
+	(fp_line
+		(start -2.65 -3.6)
+		(end 2.65 -3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55a4f54c-314f-44ca-bd1d-ed4e3b6d1853")
+	)
+	(fp_line
+		(start -2.65 -2.95)
+		(end -2 -3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81aa20b3-7e93-4fda-aa3c-3dab103c3409")
+	)
+	(fp_line
+		(start -2.65 3.6)
+		(end -2.65 -3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9e31900-5fcc-4b16-9e86-dec9979a9e1f")
+	)
+	(fp_line
+		(start 2.65 -3.6)
+		(end 2.65 3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe0b484d-eba8-412a-a99a-de160b0ef847")
+	)
+	(fp_line
+		(start 2.65 3.6)
+		(end -2.65 3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "868b8772-ae0f-40b2-b69b-9b70fb5f27df")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "72f4de5e-2cfc-4b54-b42d-73cd80dd13fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.55 -2.925 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "460dc0b1-64d5-4236-b24a-350f18048a3e")
+	)
+	(pad "2" smd rect
+		(at -3.55 -2.275 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "79465980-5a6e-46fd-8f71-c72aff7f5a65")
+	)
+	(pad "3" smd rect
+		(at -3.55 -1.625 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e46f9933-5e7a-474d-90ea-fcc2a76c052b")
+	)
+	(pad "4" smd rect
+		(at -3.55 -0.975 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2419a164-5f7a-4180-89e9-2dc2796f5b5c")
+	)
+	(pad "5" smd rect
+		(at -3.55 -0.325 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6306af63-17e7-4d83-9400-3fb49b87633a")
+	)
+	(pad "6" smd rect
+		(at -3.55 0.325 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bf6bf98e-3196-4d1e-9450-d134ebe6a6e6")
+	)
+	(pad "7" smd rect
+		(at -3.55 0.975 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "59d294b9-f002-4887-bc3c-c9db76746013")
+	)
+	(pad "8" smd rect
+		(at -3.55 1.625 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a480b982-1e08-4e7a-8981-6de28f2d6c87")
+	)
+	(pad "9" smd rect
+		(at -3.55 2.275 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e314ca25-ca64-40f0-825e-f25f42fe0568")
+	)
+	(pad "10" smd rect
+		(at -3.55 2.925 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "31c6a681-e98d-4b42-988c-45403f805625")
+	)
+	(pad "11" smd rect
+		(at 3.55 2.925 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c163c543-cd4a-4bbb-9211-74bc473d77f8")
+	)
+	(pad "12" smd rect
+		(at 3.55 2.275 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f4e4790d-014c-43e8-879c-b0706e43d30a")
+	)
+	(pad "13" smd rect
+		(at 3.55 1.625 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b1915a2e-6446-40c5-923e-f22f65fb0c01")
+	)
+	(pad "14" smd rect
+		(at 3.55 0.975 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b35fb125-d159-4e35-b463-790e82238343")
+	)
+	(pad "15" smd rect
+		(at 3.55 0.325 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "17f63920-64c9-484a-9842-4a95a5623fb9")
+	)
+	(pad "16" smd rect
+		(at 3.55 -0.325 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "36afdb36-aaa4-4ec0-8d62-6de7e5400806")
+	)
+	(pad "17" smd rect
+		(at 3.55 -0.975 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7e269913-f807-4c8d-b155-5e1f465045b4")
+	)
+	(pad "18" smd rect
+		(at 3.55 -1.625 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9580b279-a7c8-4374-8093-7f15e848a9ff")
+	)
+	(pad "19" smd rect
+		(at 3.55 -2.275 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "365f792a-0f4b-42cf-965c-c8ce0c1998b3")
+	)
+	(pad "20" smd rect
+		(at 3.55 -2.925 90)
+		(size 0.45 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2ef0d3e4-a359-4dd1-bc1e-f1d5d1d0021b")
+	)
+	(embedded_fonts no)
+	(model "ADM3260ARSZ-RL7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/3d/ADUM6010ARSZ.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
