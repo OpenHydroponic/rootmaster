@@ -9,391 +9,6 @@
 		(rev "3")
 	)
 	(lib_symbols
-		(symbol "Conn_ARM_JTAG_SWD_10_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J20"
-				(at -6.858 -14.732 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Conn_ARM_JTAG_SWD_10"
-				(at -12.065 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
-				(at -8.89 -31.75 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C2935458"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC alt." "C19191729"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB Rotation Offset" "90"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PinHeader?2x05?P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_ARM_JTAG_SWD_10_1_0_1"
-				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -2.794 -12.7)
-					(end -2.286 -11.684)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 12.7)
-					(end 0.254 11.684)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 -12.7)
-					(end 0.254 -11.684)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 9.144 2.286)
-					(end 10.16 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -0.254)
-					(end 9.144 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -2.794)
-					(end 9.144 -2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_ARM_JTAG_SWD_10_1_1_1"
-				(rectangle
-					(start 9.144 -5.334)
-					(end 10.16 -4.826)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "KEY"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 90)
-					(length 2.54)
-					(name "GNDDetect"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VTref"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "SWCLK/TCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "SWDIO/TMS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "SWO/TDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "NC/TDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -2340,7 +1955,6 @@
 					(alternate "" input line)
 					(alternate "DCMI_D0" bidirectional line)
 					(alternate "MDF1_CKI3" bidirectional line)
-					(alternate "" input line)
 					(alternate "PSSI_D0" bidirectional line)
 					(alternate "PWR_CSLEEP" bidirectional line)
 					(alternate "SDMMC1_D0DIR" bidirectional line)
@@ -2367,10 +1981,10 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "DCMI_D1" bidirectional line)
 					(alternate "LPTIM2_CH2" bidirectional line)
 					(alternate "MDF1_SDI3" bidirectional line)
-					(alternate "" input line)
 					(alternate "PSSI_D1" bidirectional line)
 					(alternate "PWR_CDSTOP" bidirectional line)
 					(alternate "SDMMC1_D123DIR" bidirectional line)
@@ -2400,7 +2014,6 @@
 					(alternate "" input line)
 					(alternate "DCMI_D2" bidirectional line)
 					(alternate "LPTIM3_CH1" bidirectional line)
-					(alternate "" input line)
 					(alternate "PSSI_D2" bidirectional line)
 					(alternate "PWR_SRDSTOP" bidirectional line)
 					(alternate "SDMMC1_D0" bidirectional line)
@@ -2430,7 +2043,6 @@
 					(alternate "DCMI_D3" bidirectional line)
 					(alternate "DEBUG_TRACED0" bidirectional line)
 					(alternate "LPTIM3_CH2" bidirectional line)
-					(alternate "" input line)
 					(alternate "PSSI_D3" bidirectional line)
 					(alternate "SDMMC1_D1" bidirectional line)
 					(alternate "TIM3_CH4" bidirectional line)
@@ -2829,7 +2441,6 @@
 					(alternate "AUDIOCLK" bidirectional line)
 					(alternate "OCTOSPIM_P2_NCS" bidirectional line)
 					(alternate "OPAMP1_VINP" bidirectional line)
-					(alternate "" input line)
 					(alternate "PWR_WKUP1" bidirectional line)
 					(alternate "SDMMC2_CMD" bidirectional line)
 					(alternate "SPI3_RDY" bidirectional line)
@@ -2865,7 +2476,6 @@
 					(alternate "LPTIM1_CH2" bidirectional line)
 					(alternate "OCTOSPIM_P1_DQS" bidirectional line)
 					(alternate "OPAMP1_VINM" bidirectional line)
-					(alternate "" input line)
 					(alternate "PWR_WKUP3" bidirectional line)
 					(alternate "SPI1_SCK" bidirectional line)
 					(alternate "TAMP_IN5" bidirectional line)
@@ -3022,7 +2632,6 @@
 					(alternate "LPUART1_CTS" bidirectional line)
 					(alternate "OCTOSPIM_P1_IO3" bidirectional line)
 					(alternate "OPAMP2_VINP" bidirectional line)
-					(alternate "" input line)
 					(alternate "PSSI_PDCK" bidirectional line)
 					(alternate "PWR_CDSTOP" bidirectional line)
 					(alternate "PWR_WKUP7" bidirectional line)
@@ -3083,9 +2692,9 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "DEBUG_TRACECLK" bidirectional line)
 					(alternate "LPTIM2_CH1" bidirectional line)
-					(alternate "" input line)
 					(alternate "RCC_MCO" bidirectional line)
 					(alternate "SAI1_CK2" bidirectional line)
 					(alternate "SAI1_SCK_A" bidirectional line)
@@ -3114,7 +2723,6 @@
 					(alternate "" input line)
 					(alternate "DAC1_EXTI9" bidirectional line)
 					(alternate "DCMI_D0" bidirectional line)
-					(alternate "" input line)
 					(alternate "PSSI_D0" bidirectional line)
 					(alternate "SAI1_FS_A" bidirectional line)
 					(alternate "SPI2_SCK" bidirectional line)
@@ -3144,7 +2752,6 @@
 					(alternate "CRS_SYNC" bidirectional line)
 					(alternate "DCMI_D1" bidirectional line)
 					(alternate "LPTIM2_IN2" bidirectional line)
-					(alternate "" input line)
 					(alternate "PSSI_D1" bidirectional line)
 					(alternate "SAI1_D1" bidirectional line)
 					(alternate "SAI1_SD_A" bidirectional line)
@@ -3270,7 +2877,6 @@
 					(alternate "ADC1_EXTI15" bidirectional line)
 					(alternate "ADC4_EXTI15" bidirectional line)
 					(alternate "DEBUG_JTDI" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI1_NSS" bidirectional line)
 					(alternate "SPI3_NSS" bidirectional line)
 					(alternate "TIM2_CH1" bidirectional line)
@@ -3339,7 +2945,6 @@
 					(alternate "LPUART1_RTS" bidirectional line)
 					(alternate "MDF1_SDI0" bidirectional line)
 					(alternate "OCTOSPIM_P1_IO0" bidirectional line)
-					(alternate "" input line)
 					(alternate "PWR_WKUP4" bidirectional line)
 					(alternate "TIM1_CH3N" bidirectional line)
 					(alternate "TIM3_CH4" bidirectional line)
@@ -3371,7 +2976,6 @@
 					(alternate "LPTIM1_CH1" bidirectional line)
 					(alternate "MDF1_CKI0" bidirectional line)
 					(alternate "OCTOSPIM_P1_DQS" bidirectional line)
-					(alternate "" input line)
 					(alternate "PWR_WKUP1" bidirectional line)
 					(alternate "RTC_OUT2" bidirectional line)
 					(alternate "SPI1_RDY" bidirectional line)
@@ -3402,7 +3006,6 @@
 					(alternate "DEBUG_JTDO-SWO" bidirectional line)
 					(alternate "I2C1_SDA" bidirectional line)
 					(alternate "LPTIM1_CH1" bidirectional line)
-					(alternate "" input line)
 					(alternate "SAI1_SCK_B" bidirectional line)
 					(alternate "SDMMC2_D2" bidirectional line)
 					(alternate "SPI1_SCK" bidirectional line)
@@ -3435,7 +3038,6 @@
 					(alternate "DEBUG_JTRST" bidirectional line)
 					(alternate "I2C3_SDA" bidirectional line)
 					(alternate "LPTIM1_CH2" bidirectional line)
-					(alternate "" input line)
 					(alternate "PSSI_D12" bidirectional line)
 					(alternate "SAI1_MCLK_B" bidirectional line)
 					(alternate "SDMMC2_D3" bidirectional line)
@@ -3471,7 +3073,6 @@
 					(alternate "I2C1_SMBA" bidirectional line)
 					(alternate "LPTIM1_IN1" bidirectional line)
 					(alternate "OCTOSPIM_P1_NCLK" bidirectional line)
-					(alternate "" input line)
 					(alternate "PSSI_D10" bidirectional line)
 					(alternate "PWR_WKUP6" bidirectional line)
 					(alternate "SAI1_SD_B" bidirectional line)
@@ -3508,7 +3109,6 @@
 					(alternate "I2C4_SCL" bidirectional line)
 					(alternate "LPTIM1_ETR" bidirectional line)
 					(alternate "MDF1_SDI5" bidirectional line)
-					(alternate "" input line)
 					(alternate "PSSI_D5" bidirectional line)
 					(alternate "PWR_WKUP3" bidirectional line)
 					(alternate "SAI1_FS_B" bidirectional line)
@@ -3542,7 +3142,6 @@
 					(alternate "I2C4_SDA" bidirectional line)
 					(alternate "LPTIM1_IN2" bidirectional line)
 					(alternate "MDF1_CKI5" bidirectional line)
-					(alternate "" input line)
 					(alternate "PSSI_RDY" bidirectional line)
 					(alternate "PWR_PVD_IN" bidirectional line)
 					(alternate "PWR_WKUP4" bidirectional line)
@@ -4744,22 +4343,10 @@
 		(uuid "044e60f4-1ef9-4f84-80ee-2993172f2542")
 	)
 	(junction
-		(at 228.6 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05fadd63-098f-4a5c-af34-3425fb8f5007")
-	)
-	(junction
 		(at 53.34 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08573e9d-ccff-484f-ab8e-ad2917ac3d5e")
-	)
-	(junction
-		(at 247.65 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b31ebc6-0bc5-4f96-b0d8-d48eae9867a5")
 	)
 	(junction
 		(at 245.11 41.91)
@@ -4778,18 +4365,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20f6fa91-bcd5-4c18-9607-ac3c911171ab")
-	)
-	(junction
-		(at 245.11 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2369ab2a-8419-4e2d-843e-3a964d1156b7")
-	)
-	(junction
-		(at 246.38 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "288c9c54-3e41-405c-897d-a2adcee3892c")
 	)
 	(junction
 		(at 36.83 39.37)
@@ -4864,6 +4439,12 @@
 		(uuid "83ccc1c9-798a-4d4b-96ba-19e5a7814e11")
 	)
 	(junction
+		(at 264.16 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86ecd55f-b884-43bc-9cca-14f900297a69")
+	)
+	(junction
 		(at 265.43 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4900,10 +4481,28 @@
 		(uuid "c38da6cb-86ed-43c3-bbd9-dd10acd2cdda")
 	)
 	(junction
+		(at 266.7 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d14cb480-3ab0-497d-8313-bc9dc31c700b")
+	)
+	(junction
+		(at 260.35 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d73367fa-157a-431e-a472-9697914ae582")
+	)
+	(junction
 		(at 60.96 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d92c4535-a5a6-4f1a-8e32-8426a6ca665e")
+	)
+	(junction
+		(at 269.24 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da10ebbb-582b-4245-8dc4-10ba96df825c")
 	)
 	(junction
 		(at 66.04 29.21)
@@ -4938,14 +4537,6 @@
 		(uuid "274d53da-3895-41d0-8d0c-9b85f5d1a117")
 	)
 	(no_connect
-		(at 242.57 101.6)
-		(uuid "286c6ce8-72ee-47db-9553-e34819669a81")
-	)
-	(no_connect
-		(at 242.57 99.06)
-		(uuid "5b867455-ff09-416d-89f5-9e73cac80c21")
-	)
-	(no_connect
 		(at 234.95 55.88)
 		(uuid "cf3a73ff-6e2e-4eca-afcd-d361a29263ff")
 	)
@@ -4971,7 +4562,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 93.98) (xy 251.46 93.98)
+			(xy 245.11 93.98) (xy 251.46 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5021,6 +4612,26 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 24.13) (xy 264.16 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb1d4aa-2a13-4ea7-8193-396b9cfa1847")
+	)
+	(wire
+		(pts
+			(xy 250.19 26.67) (xy 260.35 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edd7e54-e4d5-4775-8cb1-7b5981500e1f")
+	)
+	(wire
+		(pts
 			(xy 41.91 82.55) (xy 45.72 82.55)
 		)
 		(stroke
@@ -5038,16 +4649,6 @@
 			(type default)
 		)
 		(uuid "107d74a0-d411-4569-89c7-1fd7042e53a5")
-	)
-	(wire
-		(pts
-			(xy 246.38 86.36) (xy 246.38 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "114112c2-4861-4627-bf38-fbc90314c952")
 	)
 	(wire
 		(pts
@@ -5268,16 +4869,6 @@
 			(type default)
 		)
 		(uuid "246d8cb5-4b81-466d-b30b-6c1c35f0dd28")
-	)
-	(wire
-		(pts
-			(xy 227.33 113.03) (xy 228.6 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2589ae04-8150-4f15-a1ac-3011b42e38eb")
 	)
 	(wire
 		(pts
@@ -5581,16 +5172,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 97.79) (xy 245.11 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c758bd1-73e5-4206-bb3f-aad3cbc785fc")
-	)
-	(wire
-		(pts
 			(xy 242.57 132.08) (xy 251.46 132.08)
 		)
 		(stroke
@@ -5701,16 +5282,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 96.52) (xy 245.11 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ae0e382-049c-4a25-b3cc-3addd7879808")
-	)
-	(wire
-		(pts
 			(xy 181.61 34.29) (xy 181.61 38.1)
 		)
 		(stroke
@@ -5718,16 +5289,6 @@
 			(type default)
 		)
 		(uuid "5c6d700c-49bc-4275-8cfe-cbdf93b0aa42")
-	)
-	(wire
-		(pts
-			(xy 229.87 113.03) (xy 228.6 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60f0fc74-266d-467e-9a92-bdfe6c4b616b")
 	)
 	(polyline
 		(pts
@@ -5961,7 +5522,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 88.9) (xy 251.46 88.9)
+			(xy 245.11 88.9) (xy 251.46 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6018,26 +5579,6 @@
 			(type default)
 		)
 		(uuid "88d6c35c-128e-42b7-9ba8-161a871a3141")
-	)
-	(wire
-		(pts
-			(xy 229.87 80.01) (xy 229.87 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c58c8a9-8266-4263-b20a-5e4d1c3194d0")
-	)
-	(wire
-		(pts
-			(xy 229.87 111.76) (xy 229.87 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e3ffb25-9702-42d8-bb21-73262ae1214d")
 	)
 	(wire
 		(pts
@@ -6101,6 +5642,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 21.59) (xy 266.7 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a0a2b3-3303-409a-87b8-f763e5899c2a")
+	)
+	(wire
+		(pts
 			(xy 35.56 181.61) (xy 44.45 181.61)
 		)
 		(stroke
@@ -6131,16 +5682,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 93.98) (xy 247.65 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fc189b9-f11b-43df-9413-33c9d6822b5c")
-	)
-	(wire
-		(pts
 			(xy 207.01 151.13) (xy 207.01 160.02)
 		)
 		(stroke
@@ -6161,7 +5702,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 24.13) (xy 257.81 24.13)
+			(xy 269.24 24.13) (xy 264.16 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6271,7 +5812,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 24.13) (xy 257.81 25.4)
+			(xy 264.16 31.75) (xy 264.16 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6288,16 +5829,6 @@
 			(type default)
 		)
 		(uuid "b398546c-db9d-4bba-ac1e-c272853932b7")
-	)
-	(wire
-		(pts
-			(xy 227.33 111.76) (xy 227.33 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3acd2a8-d0c8-4746-8a91-2ffb0ee36c73")
 	)
 	(wire
 		(pts
@@ -6761,16 +6292,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 93.98) (xy 247.65 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0def8ae-e6cd-4802-ae65-3a20dc8e628c")
-	)
-	(wire
-		(pts
 			(xy 83.82 115.57) (xy 81.28 115.57)
 		)
 		(stroke
@@ -6811,16 +6332,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 113.03) (xy 228.6 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f48d5743-d02a-4a0b-b8e6-e823fbd6ce77")
-	)
-	(wire
-		(pts
 			(xy 181.61 52.07) (xy 181.61 55.88)
 		)
 		(stroke
@@ -6838,6 +6349,16 @@
 			(type default)
 		)
 		(uuid "f6916320-3b34-49ad-8d27-dab71c7fe01d")
+	)
+	(wire
+		(pts
+			(xy 250.19 29.21) (xy 269.24 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f088dc-7f5b-439c-a13c-2a66b4f83b08")
 	)
 	(wire
 		(pts
@@ -6878,16 +6399,6 @@
 			(type default)
 		)
 		(uuid "fa68463e-7464-4aef-9280-dd28272e1dd6")
-	)
-	(wire
-		(pts
-			(xy 242.57 88.9) (xy 246.38 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc30b056-673d-495e-803e-c85eef980af7")
 	)
 	(polyline
 		(pts
@@ -7000,7 +6511,7 @@
 		(uuid "571c8cc3-015f-48f3-9ea4-46a8b0aa8d97")
 	)
 	(label "~{RESET}"
-		(at 246.38 88.9 0)
+		(at 245.11 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7107,7 +6618,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 247.65 97.79 270)
+		(at 245.11 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7117,7 +6628,7 @@
 		)
 		(uuid "25f0a422-c33e-479e-b663-0668325b7272")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.65 106.35 90)
+			(at 236.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,22 +6662,22 @@
 	)
 	(global_label "~{RESET}"
 		(shape input)
-		(at 246.38 86.36 90)
+		(at 245.11 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "298fd9b9-f71a-40cc-8800-35d15ea6c3d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 78.2839 90)
+			(at 237.0339 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7327,7 +6838,7 @@
 	)
 	(global_label "SWDIO"
 		(shape input)
-		(at 245.11 97.79 270)
+		(at 245.11 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7337,7 +6848,7 @@
 		)
 		(uuid "760e93a1-c99c-454e-916e-24aeef40c5aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 105.9872 90)
+			(at 236.9128 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8204,72 +7715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 228.6 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "221f299a-5478-4162-9e53-b1e9e3623ed5")
-		(property "Reference" "#PWR010"
-			(at 228.6 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 228.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74d527d1-3d1a-4025-a816-3f805e24ae62")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 201.93 151.13 0)
 		(unit 1)
@@ -8841,7 +8286,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 25.4 0)
+		(at 264.16 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8850,7 +8295,7 @@
 		(fields_autoplaced yes)
 		(uuid "4297497c-97d8-499d-969b-6f50111f8424")
 		(property "Reference" "#PWR084"
-			(at 257.81 31.75 0)
+			(at 264.16 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8859,7 +8304,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 30.48 0)
+			(at 264.16 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +8312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 25.4 0)
+			(at 264.16 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 25.4 0)
+			(at 264.16 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,7 +8330,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 25.4 0)
+			(at 264.16 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9509,6 +8954,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 245.11 24.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64d8193e-6211-4b32-b7bd-7ed325756a42")
+		(property "Reference" "J23"
+			(at 242.57 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAN"
+			(at 242.57 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HydroponicFlowerControl:AMASS_XT30PW(2+2)"
+			(at 245.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401121133_Changzhou-Amass-Elec-XT30-2-2PW-M-G-B_C19268030.pdf"
+			(at 245.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "XT20PW(2+2)"
+			(at 245.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19268030"
+			(at 245.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 245.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0.5,3.5"
+			(at 245.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d01cd861-33dd-4094-987c-cf0a628dc741")
+		)
+		(pin "2"
+			(uuid "1619351b-d95c-496a-9c99-12baeb0df28b")
+		)
+		(pin "4"
+			(uuid "7b2fc53c-d825-4fb7-92f4-e8b916163efc")
+		)
+		(pin "1"
+			(uuid "49d367ad-a01f-4811-b722-15d485cca150")
+		)
+		(instances
+			(project "HydroponicFlowerControl"
+				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 35.56 175.26 180)
 		(unit 1)
@@ -9742,71 +9290,6 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
 					(reference "#PWR0158")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 229.87 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b2be663-c2ef-41f9-9f29-d12c803ff59c")
-		(property "Reference" "#PWR011"
-			(at 229.87 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 229.362 75.438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 229.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c4a5396-2c55-41ab-b3b1-71228216610c")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11472,9 +10955,9 @@
 		(at 160.02 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ccacc858-f6f1-4596-b9ca-a0fa947fc403")
 		(property "Reference" "J21"
@@ -12795,128 +12278,6 @@
 			(project "HydroponicFlowerControl"
 				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
 					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Conn_ARM_JTAG_SWD_10_1")
-		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
-		(at 229.87 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9b62287-4df6-43b6-ab90-950485d03e26")
-		(property "Reference" "J20"
-			(at 223.012 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_ARM_JTAG_SWD_10"
-			(at 217.805 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
-			(at 229.87 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
-			(at 220.98 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2935458"
-			(at 229.87 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt." "C19191729"
-			(at 229.87 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "90"
-			(at 229.87 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5dc0bc12-dfde-4011-a510-f6b2fe6c4b18")
-		)
-		(pin "10"
-			(uuid "72ab8ffb-8548-4b97-ad9a-d90eb12a83cb")
-		)
-		(pin "2"
-			(uuid "049e86ad-dd42-40cd-9832-f7cf46880fd1")
-		)
-		(pin "3"
-			(uuid "0825bb88-354d-4a8f-a689-05e25cd35a62")
-		)
-		(pin "4"
-			(uuid "67a7e9a4-d268-44d3-8124-08e65b9cbfe2")
-		)
-		(pin "5"
-			(uuid "cca5563a-c9cd-4211-b535-a9a4454303c4")
-		)
-		(pin "6"
-			(uuid "75f70f2a-b774-46c3-9b4b-ba594451aea1")
-		)
-		(pin "7"
-			(uuid "cf94fc77-cf6a-40c0-a5ce-0084ae649d51")
-		)
-		(pin "8"
-			(uuid "43eccb9b-1f8a-4ad2-914a-ae2cac7c1d9b")
-		)
-		(pin "9"
-			(uuid "d155577a-b4d4-4f8c-83b4-2e93c75f2923")
-		)
-		(instances
-			(project "HydroponicFlowerControl"
-				(path "/b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031/ed65d457-d819-4893-a974-b640bac4c870"
-					(reference "J20")
 					(unit 1)
 				)
 			)
