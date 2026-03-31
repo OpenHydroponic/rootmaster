@@ -28,3 +28,6 @@ fp-info-cache
 *.xml
 *.csv
 production/
+*.pdf
+*.stl
+*.step
