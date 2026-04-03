@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.4
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -62,15 +62,7 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|125625000|139641500|221ebb41-bba9-4ede-9ba6-6ada7afe78e9|8078ffca-d3ef-48a7-9cc8-4d7e095e5986",
-          "This is part of the chip package. The pins are this close."
-        ],
-        [
           "silk_over_copper|121500000|68014000|5f430480-02d8-4e12-ac5d-3d7e125b8f82|0a5f3e55-38d5-42ab-ba27-b9aa3771ef63",
-          ""
-        ],
-        [
-          "silk_over_copper|122620000|139179909|68c5fa65-875e-4187-ad79-40b8f1922167|b8af24ab-e6d7-4e0c-b093-e51452bd407a",
           ""
         ],
         [
@@ -870,7 +862,7 @@
         "uuid": "b3c8a28b-9ce1-4002-b8e8-ef8cb73fe031"
       }
     ],
-    "used_designators": "#PWR72,#PWR104,#PWR118-120,C76-82,R117-120,L15,U21",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
