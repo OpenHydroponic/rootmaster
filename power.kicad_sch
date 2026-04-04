@@ -11577,7 +11577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal"
+		(property "Footprint" "HydroponicFlowerControl:BarrelJack_XKB_DC_005_5A_2.5_SMT_Horizontal"
 			(at 144.78 36.576 0)
 			(hide yes)
 			(show_name no)
@@ -11610,7 +11610,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C431534"
+		(property "LCSC" "C319133"
 			(at 143.51 35.56 0)
 			(hide yes)
 			(show_name no)
