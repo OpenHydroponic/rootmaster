@@ -5866,6 +5866,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 77.47) (xy 45.72 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3028e3-3da1-44f5-95ee-4d44eafdd086")
+	)
+	(wire
+		(pts
 			(xy 83.82 105.41) (xy 81.28 105.41)
 		)
 		(stroke
@@ -7904,12 +7914,12 @@
 	)
 	(hierarchical_label "SEL1_L"
 		(shape output)
-		(at 83.82 59.69 0)
+		(at 41.91 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "398a11c1-7722-4755-a738-b6880958a53b")
 	)
@@ -7937,7 +7947,7 @@
 	)
 	(hierarchical_label "DIAG1_EN"
 		(shape output)
-		(at 41.91 80.01 180)
+		(at 41.91 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8047,7 +8057,7 @@
 	)
 	(hierarchical_label "~{FAULT1}"
 		(shape input)
-		(at 41.91 82.55 180)
+		(at 41.91 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8168,7 +8178,7 @@
 	)
 	(hierarchical_label "Valve3"
 		(shape output)
-		(at 83.82 118.11 0)
+		(at 83.82 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13888,6 +13898,7 @@
 		)
 		(pin "41"
 			(uuid "97a67a5f-49b1-496a-af6b-4ca2228c8967")
+			(alternate "TIM1_CH1")
 		)
 		(pin "26"
 			(uuid "e3dfc2f0-d9ad-409f-b8f8-fdbcb07cd7ee")
@@ -13977,7 +13988,6 @@
 		)
 		(pin "36"
 			(uuid "9f92381b-3a26-4e73-b882-6d50faee9138")
-			(alternate "TIM15_CH2")
 		)
 		(pin "19"
 			(uuid "439ed888-b62c-468d-bcd6-8be7bf668557")
