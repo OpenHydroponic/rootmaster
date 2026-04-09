@@ -1772,10 +1772,11 @@
 				)
 			)
 		)
-		(property "Value" "Valve 3"
+		(property "Value" "S3B-XH-A(LF)(SN)"
 			(at -3.85 2.502 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6f6a755a-b1f9-498f-ae42-1e077c5b1467")
 			(effects
 				(font
@@ -1798,16 +1799,15 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 90)
+		(property "Description" "Valve 3"
+			(at -3.85 2.502 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "96be7d1f-1c3a-4196-933b-2e673fc9faa0")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 1.25 1.25)
+					(thickness 0.3)
 				)
 			)
 		)
@@ -3309,7 +3309,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23022"
+		(property "LCSC" "C2930090"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5004,10 +5004,11 @@
 				)
 			)
 		)
-		(property "Value" "Pump 2"
+		(property "Value" "PhoenixContact_MC_1,5_2-G-3.81"
 			(at -4.246 1.332 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7a3f9c99-bf20-4e58-8eee-bf0e35645826")
 			(effects
 				(font
@@ -5030,16 +5031,15 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 90)
+		(property "Description" "Pump 2"
+			(at -4.246 1.332 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "242987d7-cf66-47e7-9fa0-aeb2d8bf0b64")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 1.25 1.25)
+					(thickness 0.3)
 				)
 			)
 		)
@@ -6659,7 +6659,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -7808,10 +7808,11 @@
 				)
 			)
 		)
-		(property "Value" "Valve 1"
+		(property "Value" "S2B-XH-A(LF)(SN)"
 			(at -3.794 2.502 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7ca8fdbf-aa3a-45a3-9342-fb5f480c98bc")
 			(effects
 				(font
@@ -7834,16 +7835,15 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 90)
+		(property "Description" "Valve 1"
+			(at -3.794 2.502 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "2bc74cbd-f248-484a-89e9-30e7b76708bc")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 1.25 1.25)
+					(thickness 0.3)
 				)
 			)
 		)
@@ -8635,7 +8635,7 @@
 				)
 			)
 		)
-		(property "Value" "D IN3"
+		(property "Value" "S3B-PH-K-S(LF)(SN)"
 			(at 2 7.45 180)
 			(layer "F.Fab")
 			(uuid "1cc79aa1-ac4c-473b-a5f4-e819bbec5e7a")
@@ -8659,7 +8659,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "D IN3"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12035,7 +12035,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -12657,7 +12657,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25076"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15551,10 +15551,11 @@
 				)
 			)
 		)
-		(property "Value" "Temperature"
+		(property "Value" "S2B-XH-A(LF)(SN)"
 			(at 6.818 -0.546 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f7fc7345-4381-4cc0-9673-3cf97c9fd388")
 			(effects
 				(font
@@ -15577,21 +15578,20 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 270)
+		(property "Description" "Temperature"
+			(at 6.818 -0.546 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "88f5b20b-0259-4641-af16-f9cbb99953eb")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 1.5 1.5)
+					(thickness 0.3)
 				)
 			)
 		)
 		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "45b03d66-6ba0-4734-94f7-984b43c58bba")
@@ -18384,10 +18384,11 @@
 				)
 			)
 		)
-		(property "Value" "Valve 2"
+		(property "Value" "S2B-XH-A(LF)(SN)"
 			(at -3.83 2.502 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e7c8e5a0-ba64-45f8-a0d7-42f3fb70ce96")
 			(effects
 				(font
@@ -18410,16 +18411,15 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 90)
+		(property "Description" "Valve 2"
+			(at -3.83 2.502 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "39def3e9-0b8a-432b-a70c-699e5fdba722")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 1.25 1.25)
+					(thickness 0.3)
 				)
 			)
 		)
@@ -20570,10 +20570,11 @@
 				)
 			)
 		)
-		(property "Value" "Pump 3"
+		(property "Value" "PhoenixContact_MC_1,5_2-G-3.81"
 			(at -4.5 1.332 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9966e462-4448-4e9d-b48c-dfa7f57d8a11")
 			(effects
 				(font
@@ -20596,16 +20597,15 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 90)
+		(property "Description" "Pump 3"
+			(at -4.5 1.332 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "b3b425c3-58b5-4543-bdf0-148e68b8f279")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 1.25 1.25)
+					(thickness 0.3)
 				)
 			)
 		)
@@ -21493,7 +21493,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -22170,7 +22170,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -22972,10 +22972,11 @@
 				)
 			)
 		)
-		(property "Value" "EC"
+		(property "Value" "S2B-XH-A(LF)(SN)"
 			(at 6.638 6.566 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "de0d12f1-6ce4-40d5-b9d9-c1f2e15390d7")
 			(effects
 				(font
@@ -22999,21 +23000,21 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 270)
+		(property "Description" "EC"
+			(at 6.638 6.566 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "8d64788d-1fdf-4e06-aad6-803672067b60")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 1.5 1.5)
+					(thickness 0.3)
 				)
+				(justify left)
 			)
 		)
 		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "23ffae4f-6d55-48fb-9314-f41ba4aaef1b")
@@ -24221,7 +24222,7 @@
 				)
 			)
 		)
-		(property "Value" "HB"
+		(property "Value" "100mW 120° 2.6V~3.1V 360mcd 5mA Yellow"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "39d99bb7-7cb3-4350-b053-ed9b9267eb1f")
@@ -24245,7 +24246,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "HB"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24284,12 +24285,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2290"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b8dbb727-a74f-4b53-b1b8-e253c1e8f0da")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "LED" "HB"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f6ff294-2436-4d27-8a43-85953f9d248a")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -28252,7 +28266,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -28532,7 +28546,7 @@
 				)
 			)
 		)
-		(property "Value" "CAN"
+		(property "Value" "100mW 120° 2.6V~3.1V 360mcd 5mA Yellow"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f9d20347-1497-4355-b613-053c31c98a81")
@@ -28556,7 +28570,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAN"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28595,12 +28609,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2290"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "405c0d9d-188f-4ba8-a06b-476d3e724e87")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Led" "CAN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03c86352-a999-4709-bdef-88970008e985")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -32542,7 +32569,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -33490,7 +33517,7 @@
 				)
 			)
 		)
-		(property "Value" "D IN1"
+		(property "Value" "S3B-PH-K-S(LF)(SN)"
 			(at 2 7.45 180)
 			(layer "F.Fab")
 			(uuid "a87fb10b-3778-4ad7-baae-7ca212d71e47")
@@ -33514,7 +33541,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "D IN1"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35402,7 +35429,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 7.5 -12.7)
@@ -36802,7 +36829,7 @@
 				(pins "7" "9" "1" "3" "5" "10" "4" "2" "6" "8")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.175 1.27)
@@ -37615,10 +37642,11 @@
 				)
 			)
 		)
-		(property "Value" "Temp"
+		(property "Value" "S2B-XH-A(LF)(SN)"
 			(at 6.477 6.312 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ce29e5a7-afcd-480a-8930-e748c3b36ae5")
 			(effects
 				(font
@@ -37642,21 +37670,21 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 270)
+		(property "Description" "Temp"
+			(at 6.477 6.312 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "1c30e931-57d5-4344-aad6-513a26e79854")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 1.5 1.5)
+					(thickness 0.3)
 				)
+				(justify left)
 			)
 		)
 		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f7442800-53ae-4d1e-8b4f-71d9ac57726e")
@@ -38527,7 +38555,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -40091,10 +40119,11 @@
 				)
 			)
 		)
-		(property "Value" "Pump 1"
+		(property "Value" "PhoenixContact_MC_1,5_2-G-3.81"
 			(at -4.064 1.332 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7ae3e576-3eb7-4dd5-b8b0-d8d06162fe2d")
 			(effects
 				(font
@@ -40117,16 +40146,15 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 90)
+		(property "Description" "Pump 1"
+			(at -4.064 1.332 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "c5e1ec80-f50d-4c13-b911-230b04436274")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 1.25 1.25)
+					(thickness 0.3)
 				)
 			)
 		)
@@ -41961,10 +41989,11 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "TS-1187A-B-A-B"
 			(at 4.953 -1.397 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c08cfb7a-acf8-4e42-bd76-9163900d0e89")
 			(effects
 				(font
@@ -41986,16 +42015,15 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 270)
+		(property "Description" "RESET"
+			(at 4.826 -1.397 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "1d0bf4f2-3d78-4ec3-afdc-f3c6f24f096b")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 0.65 0.65)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -46429,10 +46457,11 @@
 				)
 			)
 		)
-		(property "Value" "Flow"
+		(property "Value" "S3B-XH-A(LF)(SN)"
 			(at 8.89 3.772 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "61e0acb6-7078-4bc1-89c9-8eff3ec19519")
 			(effects
 				(font
@@ -46455,21 +46484,20 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 270)
+		(property "Description" "Flow"
+			(at 8.89 3.772 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "a7f013bc-a786-4458-93dc-916be918312e")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 1.5 1.5)
+					(thickness 0.3)
 				)
 			)
 		)
 		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5012a897-15f9-46c7-811f-d75279943ba4")
@@ -47876,9 +47904,10 @@
 				)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "TS-1187A-B-A-B"
 			(at -4.826 1.651 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "248b6930-0524-44f6-b189-525377d5cdc2")
 			(effects
 				(font
@@ -47900,16 +47929,15 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 90)
+		(property "Description" "BOOT"
+			(at -4.826 1.651 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "357628f2-fb6f-4ad7-a425-857ce7016381")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 0.65 0.65)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -50104,7 +50132,7 @@
 				)
 			)
 		)
-		(property "Value" "D IN2"
+		(property "Value" "S3B-PH-K-S(LF)(SN)"
 			(at 2 7.45 180)
 			(layer "F.Fab")
 			(uuid "492ba2ec-d19a-44cb-af16-1e8e926ae3c5")
@@ -50128,7 +50156,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "D IN2"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -53268,7 +53296,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -56781,7 +56809,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -59468,7 +59496,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23022"
+		(property "LCSC" "C2930090"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -60901,7 +60929,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -61016,7 +61044,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -61132,7 +61160,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -61364,7 +61392,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -61494,7 +61522,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -81602,23 +81630,20 @@
 			(layer "F.Cu")
 			(pts
 				(xy 102.138497 132.285685) (xy 102.184252 132.338489) (xy 102.195142 132.398842) (xy 102.1945 132.407816)
-				(xy 102.1945 136.598462) (xy 102.195027 136.61487) (xy 102.196051 136.63077) (xy 102.196052 136.630778)
-				(xy 102.217119 136.717166) (xy 102.245232 136.781124) (xy 102.245237 136.781135) (xy 102.257147 136.802763)
-				(xy 102.267207 136.82103) (xy 102.286365 136.840051) (xy 102.32007 136.901251) (xy 102.323 136.928046)
-				(xy 102.323 137.393699) (xy 102.318604 137.426423) (xy 102.316592 137.433775) (xy 102.304858 137.462338)
-				(xy 102.302512 137.484743) (xy 102.301432 137.488426) (xy 102.301202 137.490026) (xy 102.291085 137.560397)
-				(xy 102.291085 137.561855) (xy 102.291508 137.576549) (xy 102.292333 137.590832) (xy 102.293535 137.60468)
-				(xy 102.293999 137.6154) (xy 102.293999 137.7145) (xy 102.274314 137.781539) (xy 102.22151 137.827294)
-				(xy 102.169999 137.8385) (xy 101.634143 137.8385) (xy 101.634131 137.8385) (xy 101.63411 137.838502)
-				(xy 101.602887 137.842123) (xy 101.590361 137.846402) (xy 101.567009 137.851329) (xy 101.54141 137.854)
-				(xy 101.400285 137.854) (xy 101.365349 137.848977) (xy 101.348968 137.844167) (xy 101.291949 137.808378)
-				(xy 101.283021 137.798509) (xy 101.264493 137.771618) (xy 101.230974 137.705835) (xy 101.230859 137.705609)
-				(xy 101.230857 137.705607) (xy 101.230856 137.705605) (xy 101.228926 137.703675) (xy 101.207774 137.675419)
-				(xy 101.195167 137.65233) (xy 101.18 137.592905) (xy 101.18 137.346) (xy 99.03583 137.346) (xy 99.000889 137.340975)
-				(xy 98.98589 137.33657) (xy 98.927144 137.298827) (xy 98.925957 137.297458) (xy 98.898477 137.242583)
-				(xy 98.896832 137.235021) (xy 98.894 137.208668) (xy 98.894 132.407829) (xy 98.899023 132.372893)
-				(xy 98.899442 132.371468) (xy 98.903427 132.357894) (xy 98.941172 132.299144) (xy 98.942541 132.297957)
-				(xy 98.99742 132.270477) (xy 99.004979 132.268833) (xy 99.031332 132.266) (xy 102.071458 132.266)
+				(xy 102.1945 132.407829) (xy 102.1945 137.353185) (xy 102.199261 137.391096) (xy 102.202436 137.416375)
+				(xy 102.217602 137.475795) (xy 102.217605 137.475805) (xy 102.240918 137.535054) (xy 102.253526 137.558146)
+				(xy 102.274315 137.590495) (xy 102.293999 137.657533) (xy 102.293999 137.7145) (xy 102.274314 137.781539)
+				(xy 102.22151 137.827294) (xy 102.169999 137.8385) (xy 101.634143 137.8385) (xy 101.634131 137.8385)
+				(xy 101.63411 137.838502) (xy 101.602887 137.842123) (xy 101.590361 137.846402) (xy 101.567009 137.851329)
+				(xy 101.54141 137.854) (xy 101.400285 137.854) (xy 101.365349 137.848977) (xy 101.348968 137.844167)
+				(xy 101.291949 137.808378) (xy 101.283021 137.798509) (xy 101.264493 137.771618) (xy 101.230974 137.705835)
+				(xy 101.230859 137.705609) (xy 101.230857 137.705607) (xy 101.230856 137.705605) (xy 101.228926 137.703675)
+				(xy 101.207774 137.675419) (xy 101.195167 137.65233) (xy 101.18 137.592905) (xy 101.18 137.346)
+				(xy 99.03583 137.346) (xy 99.000889 137.340975) (xy 98.98589 137.33657) (xy 98.927144 137.298827)
+				(xy 98.925957 137.297458) (xy 98.898477 137.242583) (xy 98.896832 137.235021) (xy 98.894 137.208668)
+				(xy 98.894 132.407829) (xy 98.899023 132.372893) (xy 98.899442 132.371468) (xy 98.903427 132.357894)
+				(xy 98.941172 132.299144) (xy 98.942541 132.297957) (xy 98.99742 132.270477) (xy 99.004979 132.268833)
+				(xy 99.031332 132.266) (xy 102.071458 132.266)
 			)
 		)
 	)

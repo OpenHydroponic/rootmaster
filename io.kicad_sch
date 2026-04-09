@@ -1958,7 +1958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D IN2"
+		(property "Value" "S3B-PH-K-S(LF)(SN)"
 			(at 264.16 68.5799 0)
 			(hide yes)
 			(show_name no)
@@ -1992,7 +1992,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "D IN2"
 			(at 261.62 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2532,7 +2532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D IN1"
+		(property "Value" "S3B-PH-K-S(LF)(SN)"
 			(at 264.16 39.3699 0)
 			(hide yes)
 			(show_name no)
@@ -2566,7 +2566,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "D IN1"
 			(at 261.62 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3245,7 +3245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D IN3"
+		(property "Value" "S3B-PH-K-S(LF)(SN)"
 			(at 264.16 99.0599 0)
 			(hide yes)
 			(show_name no)
@@ -3279,7 +3279,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "D IN3"
 			(at 261.62 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3682,10 +3682,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ad6fe65b-f986-4875-8a91-ceca790b5ea1")
 		(property "Reference" "J22"

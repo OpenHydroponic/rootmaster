@@ -3309,10 +3309,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "025dd9a8-ab75-41c2-a712-da0c32d0770c")
 		(property "Reference" "J4"
 			(at 140.462 56.388 0)
@@ -3472,18 +3472,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23022"
-			(at 87.63 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC alt" ""
+		(property "LCSC" "C2930090"
 			(at 87.63 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4555,7 +4544,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "871021dc-5d92-45e6-a68c-20e04fa25bd5")
 		(property "Reference" "TP6"

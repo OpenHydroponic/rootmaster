@@ -5687,7 +5687,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Pump 2"
+		(property "Value" "PhoenixContact_MC_1,5_2-G-3.81"
 			(at 179.07 148.5899 0)
 			(hide yes)
 			(show_name no)
@@ -5721,7 +5721,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Pump 2"
 			(at 176.53 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5907,7 +5907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Pump 3"
+		(property "Value" "PhoenixContact_MC_1,5_2-G-3.81"
 			(at 203.2 139.6999 0)
 			(hide yes)
 			(show_name no)
@@ -5941,7 +5941,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Pump 3"
 			(at 200.66 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6023,7 +6023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Valve 2"
+		(property "Value" "S2B-XH-A(LF)(SN)"
 			(at 147.32 58.4199 0)
 			(hide yes)
 			(show_name no)
@@ -6057,7 +6057,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Valve 2"
 			(at 144.78 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10992,7 +10992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Valve 1"
+		(property "Value" "S2B-XH-A(LF)(SN)"
 			(at 147.32 49.5299 0)
 			(hide yes)
 			(show_name no)
@@ -11026,7 +11026,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Valve 1"
 			(at 144.78 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11965,7 +11965,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Temperature"
+		(property "Value" "S2B-XH-A(LF)(SN)"
 			(at 270.51 82.5499 0)
 			(hide yes)
 			(show_name no)
@@ -11999,7 +11999,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Temperature"
 			(at 267.97 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12589,7 +12589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Flow"
+		(property "Value" "S3B-XH-A(LF)(SN)"
 			(at 270.51 36.8299 0)
 			(hide yes)
 			(show_name no)
@@ -12623,7 +12623,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Flow"
 			(at 267.97 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13069,7 +13069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Pump 1"
+		(property "Value" "PhoenixContact_MC_1,5_2-G-3.81"
 			(at 153.67 157.4799 0)
 			(hide yes)
 			(show_name no)
@@ -13103,7 +13103,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Pump 1"
 			(at 151.13 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -13185,7 +13185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Valve 3"
+		(property "Value" "S3B-XH-A(LF)(SN)"
 			(at 152.4 86.3599 0)
 			(hide yes)
 			(show_name no)
@@ -13219,7 +13219,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Valve 3"
 			(at 149.86 85.09 0)
 			(hide yes)
 			(show_name no)

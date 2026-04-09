@@ -9014,9 +9014,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "232a5d07-1ba6-492c-8de3-756c3b61d205")
 		(property "Reference" "D9"
-			(at 201.9935 146.05 0)
+			(at 201.9935 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9025,8 +9026,9 @@
 				)
 			)
 		)
-		(property "Value" "HB"
+		(property "Value" "100mW 120° 2.6V~3.1V 360mcd 5mA Yellow"
 			(at 201.9935 148.59 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9057,9 +9059,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 201.93 151.13 0)
-			(hide yes)
+		(property "Description" "HB"
+			(at 201.9935 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9068,18 +9069,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
-			(at 201.93 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC alt" ""
+		(property "LCSC" "C2290"
 			(at 201.93 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10133,7 +10123,7 @@
 		(fields_autoplaced yes)
 		(uuid "46d756d0-1db1-4d30-b7b0-b2e01f5519c1")
 		(property "Reference" "SW1"
-			(at 168.275 96.5199 90)
+			(at 167.64 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10143,8 +10133,9 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "TS-1187A-B-A-B"
 			(at 168.275 99.0599 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10176,30 +10167,19 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 166.37 97.79 0)
-			(hide yes)
+		(property "Description" "RESET"
+			(at 167.64 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "LCSC" "C318884"
 			(at 166.37 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 166.37 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12083,7 +12063,7 @@
 		(fields_autoplaced yes)
 		(uuid "9932d49d-de93-4479-958a-19f39173aacf")
 		(property "Reference" "SW2"
-			(at 196.85 88.265 90)
+			(at 196.85 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12093,8 +12073,9 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "TS-1187A-B-A-B"
 			(at 196.85 90.805 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12126,15 +12107,15 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 195.58 88.9 0)
-			(hide yes)
+		(property "Description" "BOOT"
+			(at 196.85 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "LCSC" "C318884"
@@ -12395,7 +12376,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "ae0a34d5-2950-4892-8da9-4c2e81b812a5")
 		(property "Reference" "J19"
@@ -14260,9 +14241,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f0473d9f-80b5-4658-a47a-78fc9736f551")
 		(property "Reference" "D10"
-			(at 201.9935 154.94 0)
+			(at 201.9935 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14271,8 +14253,9 @@
 				)
 			)
 		)
-		(property "Value" "CAN"
+		(property "Value" "100mW 120° 2.6V~3.1V 360mcd 5mA Yellow"
 			(at 201.9935 157.48 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14303,9 +14286,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 201.93 160.02 0)
-			(hide yes)
+		(property "Description" "CAN"
+			(at 201.9935 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14314,18 +14296,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
-			(at 201.93 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC alt" ""
+		(property "LCSC" "C2290"
 			(at 201.93 160.02 0)
 			(hide yes)
 			(show_name no)
