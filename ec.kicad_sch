@@ -7792,7 +7792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ADS1115IDGS"
+		(property "Value" "ADS1115IRUGR"
 			(at 153.3241 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7803,7 +7803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:Texas_UQFN-10_1.5x2mm_P0.5mm"
 			(at 151.13 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7836,7 +7836,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C37593"
+		(property "LCSC" "C2651328"
 			(at 151.13 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12959,7 +12959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.7 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -12992,7 +12992,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 139.7 88.9 0)
 			(hide yes)
 			(show_name no)
