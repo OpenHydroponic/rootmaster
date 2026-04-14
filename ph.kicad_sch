@@ -4506,7 +4506,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
+		(property "FT Rotation Offset" "270"
 			(at 165.1 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4971,7 +4971,7 @@
 				(justify left top)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "270"
+		(property "FT Rotation Offset" "270"
 			(at 40.64 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5727,7 +5727,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
+		(property "FT Rotation Offset" "270"
 			(at 152.4 43.18 0)
 			(hide yes)
 			(show_name no)

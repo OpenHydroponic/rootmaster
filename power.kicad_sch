@@ -8633,6 +8633,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 96.52 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af1a2091-952c-461f-b0b1-e96dc11cdeca")
 		)
@@ -9041,7 +9052,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "FT Rotation Offset" "180"
 			(at 63.5 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11128,17 +11139,6 @@
 				)
 			)
 		)
-		(property "LCSC alt" ""
-			(at 143.51 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C6186"
 			(at 143.51 86.36 0)
 			(hide yes)
@@ -11429,6 +11429,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 232.41 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "a5d6cb76-fcca-47bd-8dec-17b9257cf287")
 		)
@@ -11610,7 +11621,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Position Offset" "-0.1,0.5"
+		(property "FT Position Offset" "-0.1,0.5"
 			(at 143.51 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13103,18 +13114,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Position Offset" "0,1.4"
-			(at 38.1 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC alt" ""
+		(property "FT Position Offset" "0,1.4"
 			(at 38.1 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -13338,6 +13338,17 @@
 			)
 		)
 		(property "LCSC" "C2941042"
+			(at 260.35 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 260.35 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -13923,18 +13934,7 @@
 				)
 			)
 		)
-		(property "LCSC alt" ""
-			(at 73.66 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "270"
+		(property "FT Rotation Offset" "270"
 			(at 73.66 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14732,6 +14732,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 205.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "cc308f1b-6205-44bf-a861-8d096a2f9f1c")
 		)
@@ -15337,6 +15348,17 @@
 			)
 		)
 		(property "LCSC" "C3200405"
+			(at 201.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 201.93 144.78 0)
 			(hide yes)
 			(show_name no)

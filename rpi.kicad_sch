@@ -4505,18 +4505,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "0"
-			(at 257.81 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC alt" ""
+		(property "FT Rotation Offset" "0"
 			(at 257.81 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5061,7 +5050,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "0"
+		(property "FT Rotation Offset" "0"
 			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6165,17 +6154,6 @@
 			)
 		)
 		(property "LCSC" "C626758"
-			(at 209.55 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC alt" ""
 			(at 209.55 137.16 0)
 			(hide yes)
 			(show_name no)

@@ -2014,18 +2014,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
-			(at 261.62 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,2"
+		(property "FT Rotation Offset" "180"
 			(at 261.62 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2588,18 +2577,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
-			(at 261.62 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,2"
+		(property "FT Rotation Offset" "180"
 			(at 261.62 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3301,18 +3279,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
-			(at 261.62 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,2"
+		(property "FT Rotation Offset" "180"
 			(at 261.62 96.52 0)
 			(hide yes)
 			(show_name no)

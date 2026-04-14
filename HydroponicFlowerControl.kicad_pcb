@@ -214,18 +214,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "07383750-4836-45ed-a913-57a88a7c5cbc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 180)
 			(unlocked yes)
@@ -398,18 +386,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5a444396-9e31-41fb-bea4-15d63268d5b5")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -734,19 +710,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C23184"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ed951273-8328-48a8-a1c2-55af4bb8ed4a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -921,19 +884,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e51592cb-3240-4dbb-8249-941631e4f0c7")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(unlocked yes)
@@ -1091,18 +1041,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9c80cf9c-5018-481d-9dd1-a4757a148bc3")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1267,19 +1205,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C1525"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6cd7a685-b788-4512-9b00-d15488221d92")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1458,19 +1383,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2af3f382-de8e-45cf-9d19-2ae9ed7094bb")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(unlocked yes)
@@ -1629,19 +1541,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C1525"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "73721aa7-00c3-4792-862f-8326afa4a02b")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -1811,19 +1710,7 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "2c115b4a-e9ae-4464-9adf-d19941101888")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
+		(property "LCSC" "C157928"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1836,38 +1723,12 @@
 				)
 			)
 		)
-		(property "LCSC" "C157928"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bfcb17b6-1320-413c-a9cc-f126b5c5153c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,3.5"
+		(property "FT Rotation Offset" "180"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1c9c42a8-7333-4030-adc6-dbca337ddddb")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "180"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aa12c7a7-c0da-44e1-b1f8-2a4cc8cde42f")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -2627,18 +2488,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a3569efe-4f88-4256-8dac-92f47e16c31c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
@@ -2812,18 +2661,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "adbb0e73-b51b-4333-a89b-ebc9bb7c666b")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3017,12 +2854,12 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "FT Rotation Offset" "180"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c672ae50-3d52-4bd8-a70e-e0913b1bf75f")
+			(uuid "b3a79e33-0aef-4fd5-8c71-33e98f31f165")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -3283,32 +3120,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C23022"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2251bdae-072f-4896-859d-37b4f122a247")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "814e6e43-2d54-46dd-a917-b652eb763002")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C2930090"
 			(at 0 0 270)
 			(unlocked yes)
@@ -3468,24 +3279,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "74304f5b-526b-4b26-9516-bb087d3a4fc7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C2941042"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "299f7a22-0ba5-4ba2-b11a-4a6dac7a6acb")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30038c29-a3c0-4c30-a0d3-d42ee48b2ace")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -3843,18 +3655,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "04ca9e47-9268-42db-b4f9-97d3384e6199")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
@@ -4013,19 +3813,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25117"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f7c476bb-dbf4-49b9-bbfa-7fba34bac9e0")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -4497,19 +4284,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25768"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6a3a8b95-2c9d-4c8f-92d4-c247b794a423")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25768"
 			(at 0 0 270)
 			(unlocked yes)
@@ -4670,18 +4444,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b237a4da-179c-41e9-8159-40cc97f2a48a")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4847,19 +4609,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25804"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "443da679-6191-4b99-9cc4-be4d271f1ffb")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5043,18 +4792,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/PhoenixContact"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9379dc4e-5462-48bb-8ebf-1e6e6847d56a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C5188157"
 			(at 0 0 90)
 			(unlocked yes)
@@ -5065,32 +4802,6 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eab6744d-18a7-4461-8dfd-c03a090ca1e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,3"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a2718a41-c3de-4a60-9991-5bc58c1e3440")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -5350,19 +5061,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C21189"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fde490b0-a58d-49a4-99ba-23ce3619a2b4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -5535,18 +5233,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7ca128ec-e133-43e3-9057-d0ed267a092d")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5938,19 +5624,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C23018"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a81bf9b5-3abe-4e56-b118-0b5503a7fd37")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C23018"
 			(at 0 0 0)
 			(unlocked yes)
@@ -6108,18 +5781,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5d72c566-fd90-43f9-abde-a2c26544515a")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6285,19 +5946,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C50254"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4e44d783-970e-4df6-b836-5e7484d40181")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C50254"
 			(at 0 0 270)
 			(unlocked yes)
@@ -6456,19 +6104,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b22bfba4-3c48-4f83-8643-b1f4cc56e66c")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -6760,19 +6395,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C1002"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ec830d5e-08ac-449c-b711-c84568c13261")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -6950,19 +6572,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C1002"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6adcd7d9-b06f-4c0e-b5dd-c19882ae382c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -7135,18 +6744,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7dd9de2b-2772-407a-a19a-c5a2e0bb902f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C21117"
 			(at 0 0 180)
 			(unlocked yes)
@@ -7307,19 +6904,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C21189"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cb228f49-fae0-4e11-9571-3ef12a0a9201")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7498,18 +7082,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "29b73a5d-14cc-4dde-95a6-36ffa9844e9e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C17168"
 			(at 0 0 90)
 			(unlocked yes)
@@ -7666,18 +7238,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "79421744-56af-4ffc-b8ba-65834cebeb80")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -7847,18 +7407,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3f58e14f-527a-4e67-9b70-c25096af2980")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C157931"
 			(at 0 0 90)
 			(unlocked yes)
@@ -7872,38 +7420,12 @@
 				)
 			)
 		)
-		(property "LCSC alt" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d5a7feb4-7436-4e85-b0d7-1ad48b585274")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,3.5"
+		(property "FT Rotation Offset" "180"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f82ca643-fa4e-4bc8-a6fb-9eb7ef0b799b")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "180"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c607c415-b94e-4f06-a5da-18d4339e4d94")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -8307,19 +7829,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25744"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e8cd5c48-5b00-4b0c-b5cb-48045d7d0fdb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 0 0 180)
 			(unlocked yes)
@@ -8480,18 +7989,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "af9d8563-ad19-4fb8-b732-cbbf6980cc3a")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8672,18 +8169,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1b3842d1-ea48-4820-81f0-d7fc60fc0ade")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C157929"
 			(at 0 0 180)
 			(unlocked yes)
@@ -8697,25 +8182,12 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "FT Rotation Offset" "180"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f800dc3b-caa7-4ca2-b1c0-17dcfce95acd")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,2"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24e87a03-150a-4c61-89a2-a8ce7b2f907a")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -9161,18 +8633,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "590e3aac-0815-4f80-a5e6-c5d3af9971b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
@@ -9458,18 +8918,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "55c06065-b60f-4c93-a054-ce7f6fba23fd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C42379196"
 			(at 0 0 180)
 			(unlocked yes)
@@ -9483,12 +8931,12 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
+		(property "FT Rotation Offset" "270"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e98aa333-26bb-45cd-8f08-b7a3532b9788")
+			(uuid "56a51d9a-c3fc-45b4-a3da-1ad7ff8b85d7")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -9875,18 +9323,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c961bf42-536e-4a5c-9a2c-eaaf315039ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C15849"
 			(at 0 0 180)
 			(unlocked yes)
@@ -10060,19 +9496,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C23162"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f01d156d-e5bc-4009-b00e-480a116b04e1")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10251,19 +9674,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25783"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "df51b839-58cf-477b-93a0-4d8911108b83")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25783"
 			(at 0 0 90)
 			(unlocked yes)
@@ -10422,19 +9832,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d4a2717-11b7-49a0-baf5-edfcc3f42944")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -10600,18 +9997,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "db3a2c96-c265-429e-8984-1abb42fc99d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -10772,19 +10157,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25804"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4355c6ec-29b9-4a9c-aae4-db03d8e61f03")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10962,18 +10334,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4d319cc9-d9ff-4de0-b9c8-bc96f5c1a655")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11462,18 +10822,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "05d78d1d-fa8d-4952-b588-1508402b3550")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C19702"
 			(at 0 0 270)
 			(unlocked yes)
@@ -11646,18 +10994,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f9838884-21ed-48e8-a15e-44962e3ffcd3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C22797"
 			(at 0 0 270)
 			(unlocked yes)
@@ -11818,19 +11154,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25804"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f557981-d7b0-4a61-b252-a781c53c6d5a")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12212,7 +11535,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "270"
+		(property "FT Rotation Offset" "270"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12645,18 +11968,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4b465ec3-7e0a-4402-9cdb-bb1cf5742446")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C25076"
 			(at 0 0 270)
 			(unlocked yes)
@@ -12817,19 +12128,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C23162"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a1722195-370a-4841-bb34-6f85b740b8e9")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13008,19 +12306,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C50254"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1c26dae2-3560-4d91-bf8b-7e308a87e6f7")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C50254"
 			(at 0 0 270)
 			(unlocked yes)
@@ -13181,19 +12466,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C21190"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c6113955-3797-4ccf-aac0-f289fb16152f")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13372,19 +12644,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25117"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "26fbc440-aeb5-432f-8c22-1297150a6748")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25117"
 			(at 0 0 180)
 			(unlocked yes)
@@ -13542,18 +12801,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "dcf08672-0e31-4e84-8329-5bcd634568a2")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13718,19 +12965,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C23162"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9376cf28-9700-4478-a200-ece6f8f9129c")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14252,18 +13486,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0cca9fb3-c8b3-4b85-811b-e8c6925cd64a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C15849"
 			(at 0 0 270)
 			(unlocked yes)
@@ -14441,18 +13663,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e1faf2a1-272f-4984-ad84-589fc055bd3b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C511303"
 			(at 0 0 90)
 			(unlocked yes)
@@ -14479,16 +13689,16 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
+		(property "FT Rotation Offset" "90"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da0fb302-ea5b-42f4-8bde-dbc2ce72aec5")
+			(uuid "ddba2868-98f0-4f6a-addf-d8f2d3fa9b30")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.65 0.65)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -14847,32 +14057,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25804"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "03c3fdf8-212f-40f7-8edf-5a734c4ec08a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "29bd05e0-6643-4ad4-bd4d-943d23c40101")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C25804"
 			(at 0 0 270)
 			(unlocked yes)
@@ -15033,19 +14217,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C1002"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d00fa21b-e94a-4f77-b1a5-260045b2f09e")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15222,18 +14393,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "31eb1c26-4e0f-4a23-becd-9ce7f6bc841a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C22809"
 			(at 0 0 90)
 			(unlocked yes)
@@ -15395,18 +14554,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5f7998d6-57f0-40e5-b591-ea850b56e8a8")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15590,18 +14737,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "45b03d66-6ba0-4734-94f7-984b43c58bba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" "C493111"
 			(at 0 0 270)
 			(unlocked yes)
@@ -15628,20 +14763,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Position Offset" "0,3.5"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2363da88-8064-42c0-8339-604a256f18d0")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "FT Rotation Offset" "180"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16051,18 +15173,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c42523aa-3aa1-4127-bccf-19dd2f1e7354")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
@@ -16353,18 +15463,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1838ba99-f917-4624-bd07-bcd6e59f4c7d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
@@ -16541,19 +15639,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25804"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "849c8216-fc18-450d-96d7-bb88c5eed668")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
@@ -16713,19 +15798,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25744"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6f817462-efa1-48d0-9d8d-a9f63e913299")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16890,18 +15962,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "523fbaaa-278c-4f45-a9f1-1c942b8cf351")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17079,18 +16139,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f308bef8-29b6-4aad-bd25-f642323909f3")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17501,19 +16549,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C23162"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e6e047b5-18b1-4c7a-b5fd-5a9fc83dd129")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C23162"
 			(at 0 0 90)
 			(unlocked yes)
@@ -17674,19 +16709,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C1002"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1fc07fa5-e6e7-43cf-8c33-0b50bdfea639")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17868,19 +16890,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C1002"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ba3b3177-2dd8-41ed-8e71-b3d8ba76cc95")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -18055,19 +17064,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "77c206e4-c1c2-45f9-9da1-3e66e84e426f")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(unlocked yes)
@@ -18228,18 +17224,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5dd00785-c4df-457b-a529-5aa4ef1b2ae7")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18423,18 +17407,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4d184482-d878-42d5-993f-f086cf67fb32")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C157931"
 			(at 0 0 90)
 			(unlocked yes)
@@ -18448,38 +17420,12 @@
 				)
 			)
 		)
-		(property "LCSC alt" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "860c8d15-c13b-4d4b-9a89-7a8fa473c956")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,3.5"
+		(property "FT Rotation Offset" "180"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f6225d0d-b213-44b2-b408-108c488377ff")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "180"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "874507aa-a5f1-4d50-94d8-00027c24aa91")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -18884,19 +17830,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C21190"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4a4edecd-983e-4321-a03b-de4331f95b90")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -19074,19 +18007,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C23162"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "963d8e37-84c2-4ffe-ad72-c8de2e37c4eb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -19260,18 +18180,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "045128b4-5e9c-4f65-94e5-8a19b8cc3b73")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19749,19 +18657,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C23162"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "13ba2c1a-d49a-4965-bf2d-20fd7438ead1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -19936,18 +18831,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a09f043d-91d7-4b96-b607-58837f90d6fa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C15849"
 			(at 0 0 180)
 			(unlocked yes)
@@ -20108,18 +18991,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3322a2d0-bdc8-4821-b9b8-3f34a8a2e4e6")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20609,18 +19480,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/PhoenixContact"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "20eff1b3-c7d7-4b5e-be87-23726fdb0bb7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C5188157"
 			(at 0 0 90)
 			(unlocked yes)
@@ -20631,32 +19490,6 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e43a9f38-7009-4376-930d-4f7906f0a28c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,3"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f6b1ea02-5c3f-4f7c-a642-967b4b90c0e6")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -20916,19 +19749,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C23352"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "15f92e1f-f1f2-4ba9-8020-41b2337601d3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -21106,19 +19926,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C1525"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0bdd642f-d328-4bdf-951e-28276ed378fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -21290,19 +20097,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a2ed99a0-f45f-4088-ab2c-aa3ae141b3f8")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -21594,19 +20388,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C1525"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75bd12d3-d2e1-44f4-9992-8cbcf1af10ef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -21781,18 +20562,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3da003eb-a89d-495b-922b-b72b9ae3761d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C1554"
 			(at 0 0 90)
 			(unlocked yes)
@@ -21953,19 +20722,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C21190"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "95d64d73-5215-4c8e-a0dc-1e875313c575")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -22283,25 +21039,12 @@
 				)
 			)
 		)
-		(property "LCSC alt" ""
+		(property "FT Position Offset" "0.5,-0.5"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e2dd1cce-724d-4c24-9663-295d5d591e0e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0.5,3.5"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c30a7e2-7cc2-4029-a092-c7a63d4ae378")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -22452,19 +21195,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C1002"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3b8c0ebd-15f0-4553-a085-89944591638a")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -22646,19 +21376,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25804"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "944e3f79-927d-468f-889d-229c77318f33")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -22833,18 +21550,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0111da0d-d291-4158-8889-9d9a91b65684")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C15849"
 			(at 0 0 0)
 			(unlocked yes)
@@ -23013,18 +21718,6 @@
 				(justify left)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "23ffae4f-6d55-48fb-9314-f41ba4aaef1b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C157931"
 			(at 0 0 270)
 			(unlocked yes)
@@ -23038,33 +21731,7 @@
 				)
 			)
 		)
-		(property "LCSC alt" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0502db5d-f482-48f0-b5b7-5c20389af73d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,3.5"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac3fe88c-7cf4-4e3f-87b0-58f1be517919")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "FT Rotation Offset" "180"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23473,18 +22140,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "aa7d5e5c-3341-473c-b5cb-08fa08ace68f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 180)
 			(unlocked yes)
@@ -23755,29 +22410,16 @@
 				)
 			)
 		)
-		(property "LCSC alt" ""
+		(property "FT Rotation Offset" "270"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6281a508-dcf4-41ec-a4d1-33ece97d54b6")
+			(uuid "b8574ad7-33f5-4df3-adaa-74eb899ccd84")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "270"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "199a7105-a9ae-4d7d-ad00-3716cfb7c572")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.65 0.65)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -24066,18 +22708,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "36e3d0d4-5b1c-4d80-ae1b-cade82d65d6d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C1525"
 			(at 0 0 0)
 			(unlocked yes)
@@ -24255,51 +22885,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C72038"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a1a1efb2-650a-4d81-a778-d2de0b8a827b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9640663c-b3f2-420f-b4d6-bc6ffa9431e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C2290"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b8dbb727-a74f-4b53-b1b8-e253c1e8f0da")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "LED" "HB"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2f6ff294-2436-4d27-8a43-85953f9d248a")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -24516,6 +23107,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bf0eaa89-1bfb-489b-989c-31ae749933b4")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7efb323-1155-44bf-9a5e-9dc7cfe99597")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -25132,19 +23736,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C23162"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fef3438d-f1bb-4783-a8d5-97cb838df957")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -25317,18 +23908,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c5d5ec00-c0b9-4ac3-a4bf-00b81747145a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
@@ -25490,19 +24069,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C12447"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "26c97cad-80c0-45c1-a6b1-77ca1c153e9f")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C12447"
 			(at 0 0 90)
 			(unlocked yes)
@@ -25659,18 +24225,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ccc30213-829b-4727-8f16-052deda5f30b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -26062,18 +24616,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "bf465a3c-4e81-43c6-adc2-c4c470a2c8d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
@@ -26248,19 +24790,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C4260"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "af47d85d-783e-430f-91e7-b5f0e01ede51")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C4260"
 			(at 0 0 90)
 			(unlocked yes)
@@ -26421,18 +24950,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fec9df09-d477-45b9-b1a1-d55eaa88dff6")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26611,19 +25128,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C23221"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5de2cebd-7535-46c2-8e60-cbc0144b4ab0")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C23221"
 			(at 0 0 270)
 			(unlocked yes)
@@ -26784,19 +25288,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C4216"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f6ec803a-fae4-4771-8bec-555d6ce486b6")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -26977,19 +25468,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C1002"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d6f51c4a-e1ee-486d-b80e-1da64b2cc290")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -27162,18 +25640,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a7505231-a4a4-453e-905a-a16845d961c0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C23231"
 			(at 0 0 90)
 			(unlocked yes)
@@ -27337,19 +25803,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25810"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4cf28fb4-153b-4d76-9368-a6d373d57884")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25810"
 			(at 0 0 90)
 			(unlocked yes)
@@ -27506,18 +25959,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "cac66790-9d33-4aa2-9a1a-051f4ba4ac0a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -27681,19 +26122,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C1002"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96503c29-8d95-4955-a186-6d6fc26e44a9")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27875,19 +26303,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C1525"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f9f1b6ea-07ce-4c32-8ab2-7cd3995d5065")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -28059,19 +26474,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C23212"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a9f6a13-0b60-4d97-930f-be6644b9c51b")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -28363,19 +26765,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "Capacitance"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c4ec41a-658e-4f8c-9fa0-e3ea782d93cb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C1525"
 			(at 0 0 270)
 			(unlocked yes)
@@ -28395,32 +26784,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "320af57f-f177-4a60-b381-99ade8ffa85b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Var(Low)" "1"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a74f7ea6-b7d5-451f-a446-1afa1ba26baa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Var(High)" "5"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52fa69c1-9953-427c-ba78-c9c94de95291")
 			(effects
 				(font
 					(size 1 1)
@@ -28579,51 +26942,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C72038"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a0984191-bdd9-4416-ab9a-cfa2f3223605")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c7032d5e-c46e-46d8-90a5-0eed1ba56a04")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C2290"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "405c0d9d-188f-4ba8-a06b-476d3e724e87")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Led" "CAN"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "03c86352-a999-4709-bdef-88970008e985")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -28833,19 +27157,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25804"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a19485cf-a369-4da9-a665-b81a49a7f94f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -29019,18 +27330,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6d4d7b2b-33f0-4f8e-b17b-307482454628")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29453,19 +27752,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "66c5706b-e7e4-4019-9e66-0bdf0b2caaa0")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(unlocked yes)
@@ -29626,18 +27912,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e8ec5ba3-0128-4167-b390-b9b600079a3c")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29814,18 +28088,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "296138c4-0196-4eae-8ecd-c96b0c1a092e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C42379196"
 			(at 0 0 0)
 			(unlocked yes)
@@ -29839,12 +28101,12 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
+		(property "FT Rotation Offset" "270"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7268e72-e292-4018-b184-e8883832a0f1")
+			(uuid "2e92f08b-14b3-4c00-bb8e-69d4b1bc3a16")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -30227,19 +28489,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3197030c-c737-464a-b5a9-555b5c680e65")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(unlocked yes)
@@ -30400,19 +28649,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25804"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c99ccc37-eb30-4391-a4d5-a27d88b2fc8e")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -30587,18 +28823,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7cdedaa1-8630-4407-860d-ea4b54907bc8")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -31333,19 +29557,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C4216"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ff5c7e95-d7d5-449a-b2e9-0188ffa20844")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -31517,19 +29728,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C1525"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd087163-109d-4b1d-904d-acbe28d2a448")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -32001,19 +30199,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25744"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a1952507-5b69-479e-b11d-18cf5b9e4a11")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 0 0 0)
 			(unlocked yes)
@@ -32174,18 +30359,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1d2cd365-ded6-460e-a631-8c206b4fd1cf")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -32362,19 +30535,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C23018"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ab5e8334-78ba-4840-9b51-07ba3d726a92")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -32731,18 +30891,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b59005b1-bb77-43c4-b6c2-9f353eeaf0e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C31850"
 			(at 0 0 270)
 			(unlocked yes)
@@ -33025,19 +31173,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C1525"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "58f78536-f068-4952-94e5-d0fda385d8ad")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -33550,18 +31685,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "510c66a1-a14d-4f80-b17d-a55a230c6b35")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C157929"
 			(at 0 0 180)
 			(unlocked yes)
@@ -33575,25 +31698,12 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "FT Rotation Offset" "180"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1b267f0d-2cba-4de5-93d0-0c38b550a432")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,2"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d65ab89c-a257-4080-bd93-161ed63d2770")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -34039,18 +32149,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "eae8b0b0-ba27-4aa5-9730-0a2064818520")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
@@ -34224,19 +32322,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25804"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4c72148d-2b15-4d07-b28a-769b5c61f55e")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -34415,24 +32500,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9b9096ae-34f5-4233-bdc8-ed6540289b77")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C7465500"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "32455ff1-6a82-455a-aba9-a858c8b9c94d")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c85f1e5-84bd-4df1-a2d1-a2e00ba18e86")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -35196,19 +33282,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C1002"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5c4ba1ab-11a7-4b23-8348-230c135d7095")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -36266,18 +34339,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e17597b1-eb50-4ccc-82d0-edca4844a2eb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C1648"
 			(at 0 0 90)
 			(unlocked yes)
@@ -36452,19 +34513,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0905aa9-44a5-4856-b231-e1a2e32bd2ba")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(unlocked yes)
@@ -36622,18 +34670,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "bee995d8-5528-4aa9-b526-3ee1e849a0a7")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -37134,19 +35170,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25744"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a18dc84-3d19-4b1d-b0ab-463ba7682fc1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 0 0 0)
 			(unlocked yes)
@@ -37307,19 +35330,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C23184"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "43a729ee-1a92-4c96-b926-0fa3b4bcf6ac")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -37498,19 +35508,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c258ec1b-dc23-492f-b3a3-6b355d25a25f")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(unlocked yes)
@@ -37679,18 +35676,6 @@
 				(justify left)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f7442800-53ae-4d1e-8b4f-71d9ac57726e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C157931"
 			(at 0 0 270)
 			(unlocked yes)
@@ -37717,25 +35702,12 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "FT Rotation Offset" "180"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a7534a03-8580-4635-b1f8-6cdf223d5d1b")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,3.5"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4602abab-3491-46ad-9a7d-d02b29c5bfb8")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -38140,19 +36112,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C1002"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d7246df-6468-4003-9a63-5eec00abbe54")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -38327,18 +36286,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c6e62fde-9e4f-4a9a-9063-43cd4c308be9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -38500,45 +36447,6 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-			)
-		)
-		(property "KiLib_Generator" "Data"
-			(at 1.81 2.667 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "ed48da84-806a-4fa0-9b72-cb6b19d028b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "3V3" "3.3V"
-			(at 1.81 0 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "c74f0974-ac83-4ca7-9997-ce9596274b3a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "GND" "GND"
-			(at 1.81 5.2324 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "7cfe9d78-e258-460f-ac17-ff2389c8a2d5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify left)
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
@@ -38783,19 +36691,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "28918ebf-caf3-413b-bf9a-c811d51f0255")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(unlocked yes)
@@ -38955,24 +36850,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "53f5d4b6-a0b7-478d-9382-66045e09dbc6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C2941042"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c8d5fcde-47af-4bcb-a2c5-d8f77479a954")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65e2579a-3dca-4b3f-a5d3-c23a4bd4b5c4")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -39332,24 +37228,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "2d10ff80-380b-4a07-9e9b-4acb4bcc71c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C1850279"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "37e021e7-fc99-4567-ac97-7e92e6e3ae19")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fa63a01-b7f7-43bf-a364-92aa9a75b84e")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -40154,18 +38051,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/PhoenixContact"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3bc7118e-b463-423d-8b71-ae78e288608e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C5188157"
 			(at 0 0 90)
 			(unlocked yes)
@@ -40176,32 +38061,6 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4b4361a5-f723-4cb2-aba1-b630767bdbde")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,3"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "02016057-80fd-466e-a17f-3d4e2a021bbf")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -40458,19 +38317,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ae160a17-cf97-49fd-b800-71121fa714d3")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(unlocked yes)
@@ -40631,18 +38477,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "75e4b2d1-677f-4702-a7b5-4cde7183a96d")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -40823,19 +38657,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25744"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d225a7a1-6bcd-4ded-aa12-1d3a3c460d6d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 0 0 0)
 			(unlocked yes)
@@ -41012,25 +38833,12 @@
 				)
 			)
 		)
-		(property "LCSC alt" ""
+		(property "FT Position Offset" "0.5,-0.5"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eeff5d63-ed9c-4b73-a343-f76ff9d5a5fb")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0.5,3.5"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "238c4e2c-f7ce-42ff-9be0-e0f6bc833f4f")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -41185,37 +38993,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c5cd9ce0-98ac-4055-92e9-521c283e8fcd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C626758"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d7bf7a1c-586a-4832-87d5-507ca4c72e25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d87f94b6-e3e2-43ba-b509-3d96fe498ff3")
 			(effects
 				(font
 					(size 1 1)
@@ -41658,18 +39441,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "79081e2a-2276-4f4d-95e9-5d8abc1c290e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
@@ -41841,19 +39612,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "16e0e5bf-77c1-47dc-bc18-ac9cf8e5f9b9")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -42029,19 +39787,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa8a8c81-237d-46fe-82e8-e002eedd17d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b1b5b11c-fb95-4620-b0b1-4ee133fc8d6c")
 			(effects
 				(font
 					(size 1 1)
@@ -42626,18 +40371,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9b59873d-6bbf-495e-a629-4e907aeaaaba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C19702"
 			(at 0 0 0)
 			(unlocked yes)
@@ -42810,18 +40543,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ead43e47-1c91-4a17-84f4-827c6ef1b032")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
@@ -42983,18 +40704,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8aed119a-cb10-4158-bde0-f88b1608a06e")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -43172,19 +40881,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C23162"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1d701457-588c-4a14-b748-e7c9801ef573")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -43442,7 +41138,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "270"
+		(property "FT Rotation Offset" "270"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43878,19 +41574,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25804"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "926dfb28-036c-419b-aef4-c45666b92336")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -44063,18 +41746,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "crystal_resonator_oscillator"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "17d91b09-ea5e-4150-a51d-2df63972170b")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -44279,18 +41950,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7aecec09-640a-4ab8-905f-a461d5ae5f58")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
@@ -44468,19 +42127,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C1002"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "efd2551d-2905-4b17-91ec-ba2481112254")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -44654,32 +42300,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25810"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de654a16-bcc9-43b4-9863-d1665a3cdfc4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "926d231f-7efc-481f-8ef7-f54527f74259")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -45155,18 +42775,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fe706870-f514-4cd2-ba8e-721b1a3d9623")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C17909"
 			(at 0 0 0)
 			(unlocked yes)
@@ -45339,18 +42947,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0e6892cb-84cc-4a58-9f1e-566c7912896b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C12891"
 			(at 0 0 270)
 			(unlocked yes)
@@ -45509,19 +43105,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25744"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7f3ad658-68d4-4fab-a62b-460821afd373")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -45689,18 +43272,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8b494448-2b31-4a00-941a-c04eb3861524")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C12084"
 			(at 0 0 0)
 			(unlocked yes)
@@ -45714,29 +43285,16 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "0"
+		(property "FT Rotation Offset" "0"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21a6faa4-18da-4b67-be1c-7206a0af770e")
+			(uuid "7d0a03ec-bb9d-48c5-8b43-64f0d5e4d721")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "86d6744b-75a8-4425-968a-2e6c9d78ce75")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.65 0.65)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -46112,18 +43670,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b0009cfe-bf1d-4756-9c09-6a33c86fe60a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C19702"
 			(at 0 0 180)
 			(unlocked yes)
@@ -46297,19 +43843,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C21190"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "93effacb-97f6-4c69-a63f-19266b5dd8aa")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -46493,18 +44026,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5012a897-15f9-46c7-811f-d75279943ba4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -46531,20 +44052,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Position Offset" "0,3.5"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e662693a-63f8-4998-b19f-d82280b29e6f")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "FT Rotation Offset" "180"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46976,19 +44484,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C21190"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0b58f2d8-f606-4db4-8b90-5900af0c3466")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -47166,19 +44661,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25804"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68361a74-ac45-4074-ab7b-d86202a3ee1d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -47351,18 +44833,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "573a3733-60a5-4b62-9afd-5377705bc575")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
@@ -47523,19 +44993,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C23162"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2a0d8374-6083-47dc-942f-81b1205bfea9")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -48528,18 +45985,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ff0b407d-4a54-4390-b43c-da1b5148a0d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C1648"
 			(at 0 0 270)
 			(unlocked yes)
@@ -48714,19 +46159,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C23733"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a982c8f8-f134-48f1-8854-d2627009f37b")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C23733"
 			(at 0 0 90)
 			(unlocked yes)
@@ -48884,18 +46316,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "34926fd0-978e-4ae7-8fe1-99bf94dcc0b0")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -49627,19 +47047,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "50a0c6b1-babd-482d-afb2-0d7421f4a233")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(unlocked yes)
@@ -49798,19 +47205,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7dd1458a-6cb5-4f22-b810-d690531fee11")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -49974,18 +47368,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c616edc6-a79d-4d77-825d-e7ac515444e2")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -50166,18 +47548,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5e7238cd-adef-43a7-84ed-b8b9e01c4b26")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C157929"
 			(at 0 0 180)
 			(unlocked yes)
@@ -50191,25 +47561,12 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "180"
+		(property "FT Rotation Offset" "180"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ea4de7a5-0b08-4666-9d03-257021207aea")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0,2"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cfd9541c-35ba-4958-9d29-06788d2bd52a")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -50652,19 +48009,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25879"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a2fc62e9-2ac0-4d5c-b0cf-a890e61e934d")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25879"
 			(at 0 0 270)
 			(unlocked yes)
@@ -50821,18 +48165,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ffc60fa3-7143-46b4-b85e-fab0d25cfa7b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -50997,19 +48329,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22fc307d-c560-425e-a4e6-a7d15b8d0802")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25900"
 			(at 0 0 0)
 			(unlocked yes)
@@ -51169,12 +48488,12 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "0"
+		(property "LCSC" "C2685092"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c8b3cedd-c56c-4475-98c3-11c3b814a421")
+			(uuid "48706215-ddc1-4067-b49a-bb73496e9b87")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -51182,12 +48501,12 @@
 				)
 			)
 		)
-		(property "LCSC" "C2685092"
+		(property "FT Rotation Offset" "0"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48706215-ddc1-4067-b49a-bb73496e9b87")
+			(uuid "8da484e8-a189-436f-b782-21a0a6322824")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -52159,19 +49478,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25744"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "94d33dda-c313-4506-b17c-254b69cf344e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 0 0 0)
 			(unlocked yes)
@@ -52332,18 +49638,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c37e4da2-d4bc-499a-9c12-a3db0aebac79")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -52517,18 +49811,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "inductor/SMD"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c522a8cd-cea8-47c7-90ad-235b7a1b4581")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -52845,18 +50127,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4e355913-9df5-46cb-904f-cb356bf8c11b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C12084"
 			(at 0 0 0)
 			(unlocked yes)
@@ -52870,29 +50140,16 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "0"
+		(property "FT Rotation Offset" "0"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a463ebd0-4885-44a7-b998-692dc978d824")
+			(uuid "a0df8d5b-bb30-4e27-a369-7d84b058ad3b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "553c90f9-dcd8-433c-b502-7d954f428355")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.65 0.65)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -53458,18 +50715,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "495b6ce3-6d3b-4e3a-b220-f597db767922")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
@@ -53646,19 +50891,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25744"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6bf3a44c-5bcb-484b-801d-39ce074ed3b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 0 0 180)
 			(unlocked yes)
@@ -53820,18 +51052,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b02eead8-d10a-4dca-9064-4f7d03ae89ef")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -54010,18 +51230,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3e9e9a57-b3cb-4b16-9f38-54cc3e04f12a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -54180,19 +51388,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "841c5687-1698-4b38-a71a-7fb4a6d77725")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -54356,19 +51551,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C1002"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "899d9a83-83a6-4f12-8a69-aa492597af3b")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -54543,18 +51725,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3d4c850b-1160-4812-bbd1-44a9e1371c48")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -55623,12 +52793,12 @@
 				)
 			)
 		)
-		(property "JLCPCB Position Offset" "-0.1,0.5"
+		(property "FT Position Offset" "-0.1,0.5"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2189b44-0837-4df3-bb6f-8fbbdf2ac3fe")
+			(uuid "410b0d27-3f09-4bbf-a696-f7d44b7c2192")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -56024,19 +53194,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C1002"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74289be6-8462-4b27-9903-13088ce02469")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC alt" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -56210,19 +53367,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C23162"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f5f77b51-1276-4afd-81e8-9cf166c1f0a6")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -56404,18 +53548,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0eb96143-c18f-484a-978b-bb9e61942e92")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
@@ -56589,19 +53721,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25804"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8f415007-dd76-415c-aef8-12470bef4935")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -56972,18 +54091,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "afcd1b2e-6891-4321-91f0-c8b4a6066aad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C19702"
 			(at 0 0 270)
 			(unlocked yes)
@@ -57157,19 +54264,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C23162"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0d224387-550a-49b9-8e89-15fd69162390")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -57364,29 +54458,16 @@
 				)
 			)
 		)
-		(property "JLCPCB Position Offset" "0,1.4"
+		(property "FT Position Offset" "0,1.4"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff025d96-6923-43df-bc89-26fd7b956f64")
+			(uuid "da9ffef9-1eea-4a4f-8d6f-3c2542ad7bd7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6aab6ab8-152e-4deb-a06b-0fcf1bfa3dca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.65 0.65)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -57823,18 +54904,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f25d19f6-251d-496a-ae50-3cf98296ddca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C307331"
 			(at 0 0 90)
 			(unlocked yes)
@@ -57993,19 +55062,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "C25900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9141878-af7f-466b-8bb1-17d1daa7d824")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
 				)
 			)
 		)
@@ -58185,12 +55241,12 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "270"
+		(property "FT Rotation Offset" "270"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f03d936-d3b2-40ab-93b8-a79af5f752f1")
+			(uuid "33b67c21-ee75-403f-89eb-99ba2acd9c0e")
 			(effects
 				(font
 					(size 0.65 0.65)
@@ -58529,18 +55585,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "bcde9f09-3d55-47ed-b56b-574c0dfcc644")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -59029,18 +56073,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "82fe1536-4a3c-44b3-9633-944dd5ff58ef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
@@ -59215,19 +56247,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C23240"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c18b1720-8d63-471e-b9d3-d3ff7af4c3da")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C23240"
 			(at 0 0 90)
 			(unlocked yes)
@@ -59392,32 +56411,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C23022"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f67e7bda-4794-4ea5-b33a-40dd72c46098")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f47a448f-9e1f-4178-9362-42bf411ebb22")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C2930090"
 			(at 0 0 180)
 			(unlocked yes)
@@ -59578,18 +56571,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1ebd3596-40bf-4561-8cd8-cef9e67ae20b")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -59771,18 +56752,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "97024836-f1b3-4591-8892-23cd1a8772ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
@@ -59952,18 +56921,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "34c2cf9c-dd4c-4d9b-be54-1aa42d56c312")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -60352,19 +57309,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25819"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "29b38918-8f93-4997-9589-ed256cee8a2f")
-			(effects
-				(font
-					(size 0.65 0.65)
-					(thickness 0.1)
-				)
-			)
-		)
 		(property "LCSC" "C25819"
 			(at 0 0 180)
 			(unlocked yes)
@@ -60525,19 +57469,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1e5404ca-163a-4d7b-b2bd-9f37a207a528")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)

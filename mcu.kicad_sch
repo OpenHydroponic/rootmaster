@@ -10866,18 +10866,7 @@
 				)
 			)
 		)
-		(property "LCSC alt" ""
-			(at 245.11 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0.5,3.5"
+		(property "FT Position Offset" "0.5,-0.5"
 			(at 245.11 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11917,18 +11906,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "0"
-			(at 245.11 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC alt" ""
+		(property "FT Rotation Offset" "0"
 			(at 245.11 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12324,18 +12302,7 @@
 				)
 			)
 		)
-		(property "LCSC alt" ""
-			(at 274.32 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Position Offset" "0.5,3.5"
+		(property "FT Position Offset" "0.5,-0.5"
 			(at 274.32 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -13299,6 +13266,50 @@
 			)
 		)
 		(property "LCSC" "C6332197"
+			(at 160.02 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "3V3" "3.3V"
+			(at 160.02 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SWDIO" "SWDIO"
+			(at 160.02 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SWCLK" "SWCLK"
+			(at 160.02 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "GND" "GND"
 			(at 160.02 146.05 0)
 			(hide yes)
 			(show_name no)
