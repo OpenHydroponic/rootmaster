@@ -9,7 +9,7 @@ jobs:
     name: Export release files
     runs-on: ubuntu-latest
     container:
-      image: kicad/kicad:8.0
+      image: kicad/kicad:10.0-full
       options: --user root
 
     steps:
@@ -36,6 +36,7 @@ jobs:
           --no-dnp \
           --include-tracks \
           --include-zones \
+          --subst-models \
           HydroponicFlowerControl.kicad_pcb
 
     - name: Archive schematics
